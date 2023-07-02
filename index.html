@@ -1,599 +1,608 @@
 
 <!DOCTYPE HTML>
 <html>
-<head>
-	<link rel="icon" type="image/png" href="images/favicon.png" />
-	<title>UtahDB Lab at the University of Utah</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-	<!-- Custom Theme files -->
-	<link href="css/style.css" rel='stylesheet' type='text/css' />	
-	<link rel="stylesheet" type="text/css" href="css/style3.css" />
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<!--/script-->
-<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
-				});
-			});
-</script>
-<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-				<script type="text/javascript">
-					$(document).ready(function () {
-						$('#horizontalTab').easyResponsiveTabs({
-							type: 'default', //Types: default, vertical, accordion           
-							width: 'auto', //auto or any width like 600px
-							fit: true   // 100% fit in a container
-						});
-					});
-				   </script>
+  <head>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <title>UtahDB Lab at the University of Utah</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />	
+    <link rel="stylesheet" type="text/css" href="css/style3.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <!--/script-->
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $(".scroll").click(function(event){		
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+      });
+    });
+    </script>
+    <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+      $('#horizontalTab').easyResponsiveTabs({
+        type: 'default', //Types: default, vertical, accordion           
+        width: 'auto', //auto or any width like 600px
+        fit: true   // 100% fit in a container
+      });
+    });
+    </script>
 
 
-	<!--script-->
-	<script src="js/modernizr.custom.97074.js"></script>
-	<script src="js/jquery.chocolat.js"></script>
-		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
-		<!--light-box-files-->
-		<script type="text/javascript">
-		$(function() {
-			$('.gallery-grids a').Chocolat();
-		});
-		</script>
+    <!--script-->
+    <script src="js/modernizr.custom.97074.js"></script>
+    <script src="js/jquery.chocolat.js"></script>
+    <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+    <!--light-box-files-->
+    <script type="text/javascript">
+    $(function() {
+      $('.gallery-grids a').Chocolat();
+    });
+    </script>
 
-</head>
-<body>
-	<!--header-->
-	<div class="header-section" id="home">
-		<div class="header-top">
-			<!--logo-->
-			   <div class="logo">
-                  <a href="index.html"><h1>UtahDB</h1></a>
-				</div>
-				<div class="header-right">
-						 <p class="col-md-12 location" style="color: #ff1010; font-size: 1.5em; width: 100%">Data Management Research Center for Human-centered, Efficient, and Scalable Systems</p>
-				    <div class="clearfix"> </div>
-				       <div class="top-nav">
-					     <span class="menu"> </span>
-					        <ul class="cl-effect-16">
-								<li><a class="scroll" href="#home" data-hover="Home">Home</a></li>
-								<li><a class="scroll" href="#faculty" data-hover="Faculty">Faculty</a></li>
-								<li><a class="scroll" href="#research" data-hover="Research">Research</a></li>
-								<li><a class="scroll" href="#students" data-hover="Students">Students</a></li>
-								<li><a class="scroll" href="#publications" data-hover="Publications">Publications</a></li>
-								<li><a class="scroll" href="#recent-news" data-hover="Recent News">Recent News</a></li>
-					      </ul>
-					
-				 </div>
-			</div>
-			<!--top-nav-->
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-				<div class="clearfix"> </div>
-		<!-- script-for-menu -->
-				<script>
-					$(document).ready(function(){
-						$("span.menu").click(function(){
-							$(".top-nav ul").slideToggle(200);
-						});
-					});
-				</script>
-			<div class="clearfix"> </div>
-		<!--banner-->
-	    <div class="banner">
-			 <!-- Slider-starts-Here -->
-			  <script src="js/responsiveslides.min.js"></script>
-				<script>
-				    // You can also use "$(window).load(function() {"
-				    $(function () {
-				      // Slideshow 4
-				      $("#slider4").responsiveSlides({
-				        auto: true,
-				        pager:true,
-				        nav:false,
-				        speed: 500,
-				        namespace: "callbacks",
-				        before: function () {
-				          $('.events').append("<li>before event fired.</li>");
-				        },
-				        after: function () {
-				          $('.events').append("<li>after event fired.</li>");
-				        }
-				      });
-				
-				    });
-				  </script>
-			<!--//End-slider-script -->
-				<div class="callbacks_container">
-					<ul class="rslides" id="slider4">
-						<li>
-						  <div class="banner-img">
-						     <img src="images/1.png" style="width:100%;" class="img-responsive" alt="" />
-						  </div>
+  </head>
+  <body>
+    <!--header-->
+    <div class="header-section" id="home">
+      <div class="header-top">
+        <!--logo-->
+        <div class="logo">
+          <a href="index.html"><h1>UtahDB</h1></a>
+        </div>
+        <div class="header-right">
+          <p class="col-md-12 location" style="color: #ff1010; font-size: 1.5em; width: 100%">Data Management Research Center for Human-centered, Efficient, and Scalable Systems</p>
+          <div class="clearfix"> </div>
+          <div class="top-nav">
+            <span class="menu"> </span>
+            <ul class="cl-effect-16">
+              <li><a class="scroll" href="#home" data-hover="Home">Home</a></li>
+              <li><a class="scroll" href="#faculty" data-hover="Faculty">Faculty</a></li>
+              <li><a class="scroll" href="#research" data-hover="Research">Research</a></li>
+              <li><a class="scroll" href="#students" data-hover="Students">Students</a></li>
+              <li><a class="scroll" href="#publications" data-hover="Publications">Publications</a></li>
+              <li><a class="scroll" href="#recent-news" data-hover="Recent News">Recent News</a></li>
+            </ul>
 
-						</li>
-						<li>
-						    <div class="banner-img">
-						     <img src="images/2.jpg" style="width:100%;" class="img-responsive" alt="" />
-							 </div>
+          </div>
+        </div>
+        <!--top-nav-->
+        <div class="clearfix"> </div>
+      </div>
+    </div>
+    <div class="clearfix"> </div>
+    <!-- script-for-menu -->
+    <script>
+    $(document).ready(function(){
+      $("span.menu").click(function(){
+        $(".top-nav ul").slideToggle(200);
+      });
+    });
+    </script>
+    <div class="clearfix"> </div>
+    <!--banner-->
+    <div class="banner">
+      <!-- Slider-starts-Here -->
+      <script src="js/responsiveslides.min.js"></script>
+      <script>
+      // You can also use "$(window).load(function() {"
+      $(function () {
+        // Slideshow 4
+        $("#slider4").responsiveSlides({
+          auto: true,
+          pager:true,
+          nav:false,
+          speed: 500,
+          namespace: "callbacks",
+          before: function () {
+            $('.events').append("<li>before event fired.</li>");
+          },
+          after: function () {
+            $('.events').append("<li>after event fired.</li>");
+          }
+        });
 
-						</li>
-						<li>
-						 <div class="banner-img">
-						     <img src="images/3.jpeg" style="width:100%;" class="img-responsive" alt="" />
-						  </div>
+      });
+      </script>
+      <!--//End-slider-script -->
+      <div class="callbacks_container">
+        <ul class="rslides" id="slider4">
+          <li>
+            <div class="banner-img">
+              <img src="images/1.png" style="width:100%;" class="img-responsive" alt="" />
+            </div>
 
-						</li>
-					</ul>
-				</div>
-			
-			</div>
-   <div class="clearfix"> </div>
-   <!--start-about-->
-			<div class="about" id="home">
-				<div class="container">
-					<div class="about-bottom">
+          </li>
+          <li>
+            <div class="banner-img">
+              <img src="images/2.jpg" style="width:100%;" class="img-responsive" alt="" />
+            </div>
 
-						<p style="color:#87430E; font-size:1.2em">Welcome to UtahDB, the Data Management Lab at 
-							the <a style="font-weight:bold; color:red" href="https://www.cs.utah.edu/" target="_blank">Kahlert School of Computing, the University of Utah</a>. 
-							We are situated in the beautiful Salt Lake City. 
-							Our research focus is on designing and developing human-centered, efficient, and scalable data-management systems. 
-							Check out this <a style="font-weight:bold; color:red"  target="_blank" href="documents/utahdb_overview.pdf">overview presentation</a> to know more about our lab's current projects and vision.
-							Our lab consists of an amazing group of people 
-							and we are <a style="font-weight:bold; color:red" href="https://csrankings.org/#/index?all&us" target="_blank">growing</a>!
-						</p>
-						
-						<p style="color:#87430E; font-size:1.6em; font-weight:bold">We are looking for a number of motivated PhD students for Fall 2024. 
-							<a style="font-weight:bold; color:red" href="https://www.cs.utah.edu/graduate/admissions/" target="_blank">Apply today!</a> 
-						</p>
+          </li>
+          <li>
+            <div class="banner-img">
+              <img src="images/3.jpeg" style="width:100%;" class="img-responsive" alt="" />
+            </div>
 
-					</div>
-				</div>
-			</div>
-	<!--end-about-->
- 		<!-- team -->
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="clearfix"> </div>
+    <!--start-about-->
+    <div class="about" id="home">
+      <div class="container">
+        <div class="about-bottom">
+
+          <p style="color:#87430E; font-size:1.2em">Welcome to UtahDB, the Data Management Lab at 
+            the <a style="font-weight:bold; color:red" href="https://www.cs.utah.edu/" target="_blank">Kahlert School of Computing, the University of Utah</a>. 
+            We are situated in the beautiful Salt Lake City. 
+            Our research focus is on designing and developing human-centered, efficient, and scalable data-management systems. 
+            Check out this <a style="font-weight:bold; color:red"  target="_blank" href="documents/utahdb_overview.pdf">overview presentation</a> to know more about our lab's current projects and vision.
+            Our lab consists of an amazing group of people 
+            and we are <a style="font-weight:bold; color:red" href="https://csrankings.org/#/index?all&us" target="_blank">growing</a>!
+          </p>
+
+          <p style="color:#87430E; font-size:1.6em; font-weight:bold">We are looking for a number of motivated PhD students for Fall 2024. 
+            <a style="font-weight:bold; color:red" href="https://www.cs.utah.edu/graduate/admissions/" target="_blank">Apply today!</a> 
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <!--end-about-->
+    <!-- team -->
     <div class="team" id="faculty">
- 	  <div class="container">
- 			<h3 class="tittle">Faculty</h3>
- 		<div class="team-grids">
- 			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/jeff.jpeg" alt=""/>
- 					<h3 style="font-weight:bold"><a href="https://www.cs.utah.edu/~jeffp/"
-              target="_blank">Jeff M Phillips</a></h3>
- 					<p style="display:block">
-						Algorithms for Big Data Analytics: Geometric Data Analysis, Computational Geometry, 
-						Coresets and Sketches, Handling Uncertainty, Data Mining, Databases, Machine Learning, Spatial Statistics.
- 				</p>
- 				</div>
- 			</div>
- 			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/prashant.jpeg" alt=""/>
- 					<h3 style="font-weight:bold"><a href="https://prashantpandey.github.io/" target = "_blank">Prashant Pandey</a></h3>
- 					<p style="display:block">
-						Uncertain, probabilistic, and approximate databases,
-            Storage, indexing, and physical database design, 
-						Streams and complex event processing, 
-						Data platforms for emerging hardware,
-            Computational biology, High-performance computing
-						</p>
- 				</div>
- 			</div>
- 			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 				<img src="images/elkindi.jpeg" alt=""/>
- 					<h3 style="font-weight:bold"><a href="https://elkindi.github.io/" target="_blank">El Kindi Rezig</a></h3>
- 					<p style="display:block">
-						Data preparation, data discovery, data debugging, data integration, 
-						user interfaces, information extraction, 
-						data quality, data cleaning, and database usability</p>
- 				</div>
- 			</div>
- 			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 				<img src="images/annafariha.jpg" alt=""/>
- 					<h3 style="font-weight:bold"><a href="https://afariha.github.io/" target="blank">Anna Fariha</a></h3>
- 					<p style="display:block">
-					Data systems usability, Data summarization,
-					Trusted machine learning, Explainable AI,
-					Data exploration and user interfaces, Data quality, Data cleaning, Data debugging
-					Responsible data management, Data fairness
-					</p>
- 					</div>
-				</div>
- 				<div class="clearfix"></div>
- 			</div>
- 		</div>
- 	</div>
- 	<!-- team -->
-	<!--/research-->
-	  <div class="services" id="research">
-	      <div class="container">
-		   <h3 class="tittle">Research</h3>
-		      <div class="serve-top">
-				  
-				 <div class="col-md-6 serve-icons">	
-					<div class="s-sub">
-						<div class="col-md-2 icon">
-						  <i class="glyphicon glyphicon-user"></i>
-						</div>
-						<div class="col-md-10 serve-text">
-						 <p> <strong style="color:#87430E">Democratizing data-driven systems: </strong>
-						 This project focuses on three key aspects of data system democratization: enhancing usability of data systems for 
-						 non-experts and experts, providing explanation frameworks to enable understanding of system behavior, and achieving 
-						 trust and fairness in machine learning.
-						</div>
-					    <div class="clearfix"> </div>	
-					 </div>
-					 
-					 <div class="s-sub">
-						<div class="col-md-2 icon">
-						  <i class="glyphicon glyphicon-cog"></i>
-						</div>
-						<div class="col-md-10 serve-text">
-						 <p> <strong style="color:#87430E">Data structures for scalable computing: </strong>
-             				This project focuses on advancing the theory and practice of
-             				compact, dynamic, and scalable data structures to tackle the
-             				challenges of modern data analyses pipelines. We work on filters,
-             				hash tables, trees,  succinct, and write-optimized data structures.</p>
-						</div>
-					     <div class="clearfix"> </div>	
-					 </div>
-					 
-					 <div class="s-sub">
-						<div class="col-md-2 icon">
-						  <i class="glyphicon glyphicon-fire"></i>
-						</div>
-						<div class="col-md-10 serve-text">
-             				<p> <strong style="color:#87430E">Large-scale indexing raw genomics data: </strong>
-             				This project focuses on building scalable data processing pipelines
-             				for quickly indexing and searching through tera-bytes of raw
-             				genomic, transcriptomic, and metagenomics data.</p>
-						</div>
-					     <div class="clearfix"> </div>	
-					 </div>
-				 </div>
-				 
-				 <div class="col-md-6 serve-icons">
-					 
-					<div class="s-sub">
-						<div class="col-md-2 icon">
-						  <i class="glyphicon glyphicon-wrench"></i>
-						</div>
-						<div class="col-md-10 serve-text">
-             				<p> <strong style="color:#87430E">Efficient parallel graph processing: </strong>
-             				This project focuses on building highly parallel data structures
-             				and algorithms for efficiently processing static, streaming, and
-             				dynamic graphs. This project further explores using hardware
-             				accelerators such as GPUs for massively parallel processing of
-             				dynamic graphs.</p>
-						</div>
-					     <div class="clearfix"> </div>	
-					 </div>
-					 
-					 <div class="s-sub">
-						<div class="col-md-2 icon">
-						  <i class="glyphicon glyphicon-stats"></i>
-						</div>
-						<div class="col-md-10 serve-text">
-              				 <p> <strong style="color:#87430E">Persistent Data Summaries: </strong>
-              				This project builds summaries for massive data arriving over time,
-              				which are small space, efficient to build and query, and amenable
-              				to data analysis. Moreover, they can be queried with respect to a
-              				time window for retrospective analysis. 
-              				 </p>
-						</div>
-					     <div class="clearfix"> </div>	
-					 </div>
-					 
-					 <div class="s-sub">
-						<div class="col-md-2 icon">
-						  <i class="glyphicon glyphicon-hdd"></i>
-						</div>
-						<div class="col-md-10 serve-text">
-               				<p> <strong style="color:#87430E">Data Sketching: </strong>
-               				 We design and implement sketch data structures which are compressed
-               				 representations of data with guaranteed trade-offs between the space
-               				 and the accuracy of queries. Our group has designs sketches for
-               				 quantiles, multi-dimensional data, frequent items, shape-fitting, 
-			   					trajectories data, and many more. 
-               				</p>
-						</div>
-					     <div class="clearfix"> </div>	
-					 </div>
-				 </div>
-				 
-				 <div class="col-md-6 serve-icons">
-					 
-					<div class="s-sub">
-						<div class="col-md-2 icon">
-						  <i class="glyphicon glyphicon-globe"></i>
-						</div>
-						<div class="col-md-10 serve-text">
-               				<p> <strong style="color:#87430E">Spatial Exposome Data: </strong>
-							 CEDaR is be an open exposomic data resource that can be used by researchers across 
-							 disciplines to increase understanding of the environment and health. Sources of environmental 
-							 exposure data are sparse, inconsistent, and rarely linked to individuals, making research 
-							 complicated and difficult. Through CEDaR, we provide a single platform containing cleaned and 
-							 standardized environmental exposure measures that can be used independently or to create holistic 
-							 measures of the exposome.
-               				 
-               				</p>
-						</div>
-					     <div class="clearfix"> </div>	
-					 </div>
-				 </div>
-				 
-				 <div class="col-md-6 serve-icons">
-					 
-					<div class="s-sub">
-						<div class="col-md-2 icon">
-						  <i class="glyphicon glyphicon-cog"></i>
-						</div>
-						<div class="col-md-10 serve-text">
-               				<p> <strong style="color:#87430E">Data Systems on Modern
-                        Hardware: </strong>
-               				 This project exploits modern compute hardware
-                       such as GPUs, FPGAs and storage hardware such as PMEMs,
-                       HBMs for accelerating data systems. Our group designs
-                       new algorithmic techniques to model the performance of
-                       new hardware and then analyzes data systems in the light
-                       of the new algorithmic models to accelerate them.
-               				</p>
-						</div>
-					     <div class="clearfix"> </div>	
-					 </div>
-				 </div>
-				 
-				 <div class="col-md-6 serve-icons">
-				 </div>
-				 
-				 <div class="clearfix"> </div>		
-	          </div>	
-	      </div>	
-	  </div>
+      <div class="container">
+        <h3 class="tittle">Faculty</h3>
+        <div class="team-grids">
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/jeff.jpeg" alt=""/>
+              <h3 style="font-weight:bold"><a href="https://www.cs.utah.edu/~jeffp/"
+                target="_blank">Jeff M Phillips</a></h3>
+              <p style="display:block">
+                Algorithms for Big Data Analytics: Geometric Data Analysis, Computational Geometry, 
+                Coresets and Sketches, Handling Uncertainty, Data Mining, Databases, Machine Learning, Spatial Statistics.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/prashant.jpeg" alt=""/>
+              <h3 style="font-weight:bold"><a href="https://prashantpandey.github.io/" target = "_blank">Prashant Pandey</a></h3>
+              <p style="display:block">
+                Uncertain, probabilistic, and approximate databases,
+                Storage, indexing, and physical database design, 
+                Streams and complex event processing, 
+                Data platforms for emerging hardware,
+                Computational biology, High-performance computing
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/elkindi.jpeg" alt=""/>
+              <h3 style="font-weight:bold"><a href="https://elkindi.github.io/" target="_blank">El Kindi Rezig</a></h3>
+              <p style="display:block">
+                Data preparation, data discovery, data debugging, data integration, 
+                user interfaces, information extraction, 
+                data quality, data cleaning, and database usability</p>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/annafariha.jpg" alt=""/>
+              <h3 style="font-weight:bold"><a href="https://afariha.github.io/" target="blank">Anna Fariha</a></h3>
+              <p style="display:block">
+                Data systems usability, Data summarization,
+                Trusted machine learning, Explainable AI,
+                Data exploration and user interfaces, Data quality, Data cleaning, Data debugging
+                Responsible data management, Data fairness
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- team -->
+    <!--/research-->
+    <div class="services" id="research">
+      <div class="container">
+        <h3 class="tittle">Research</h3>
+        <div class="serve-top">
+
+          <div class="col-md-6 serve-icons">	
+            <div class="s-sub">
+              <div class="col-md-2 icon">
+                <i class="glyphicon glyphicon-user"></i>
+              </div>
+              <div class="col-md-10 serve-text">
+                <p> <strong style="color:#87430E">Democratizing data-driven systems: </strong>
+                  This project focuses on three key aspects of data system democratization: enhancing usability of data systems for 
+                  non-experts and experts, providing explanation frameworks to enable understanding of system behavior, and achieving 
+                  trust and fairness in machine learning.
+              </div>
+              <div class="clearfix"> </div>	
+            </div>
+
+            <div class="s-sub">
+              <div class="col-md-2 icon">
+                <i class="glyphicon glyphicon-cog"></i>
+              </div>
+              <div class="col-md-10 serve-text">
+                <p> <strong style="color:#87430E">Data structures for scalable computing: </strong>
+                  This project focuses on advancing the theory and practice of
+                  compact, dynamic, and scalable data structures to tackle the
+                  challenges of modern data analyses pipelines. We work on filters,
+                  hash tables, trees,  succinct, and write-optimized data structures.</p>
+              </div>
+              <div class="clearfix"> </div>	
+            </div>
+
+            <div class="s-sub">
+              <div class="col-md-2 icon">
+                <i class="glyphicon glyphicon-fire"></i>
+              </div>
+              <div class="col-md-10 serve-text">
+                <p> <strong style="color:#87430E">Large-scale indexing raw genomics data: </strong>
+                  This project focuses on building scalable data processing pipelines
+                  for quickly indexing and searching through tera-bytes of raw
+                  genomic, transcriptomic, and metagenomics data.</p>
+              </div>
+              <div class="clearfix"> </div>	
+            </div>
+          </div>
+
+          <div class="col-md-6 serve-icons">
+
+            <div class="s-sub">
+              <div class="col-md-2 icon">
+                <i class="glyphicon glyphicon-wrench"></i>
+              </div>
+              <div class="col-md-10 serve-text">
+                <p> <strong style="color:#87430E">Efficient parallel graph processing: </strong>
+                  This project focuses on building highly parallel data structures
+                  and algorithms for efficiently processing static, streaming, and
+                  dynamic graphs. This project further explores using hardware
+                  accelerators such as GPUs for massively parallel processing of
+                  dynamic graphs.</p>
+              </div>
+              <div class="clearfix"> </div>	
+            </div>
+
+            <div class="s-sub">
+              <div class="col-md-2 icon">
+                <i class="glyphicon glyphicon-stats"></i>
+              </div>
+              <div class="col-md-10 serve-text">
+                <p> <strong style="color:#87430E">Persistent Data Summaries: </strong>
+                  This project builds summaries for massive data arriving over time,
+                  which are small space, efficient to build and query, and amenable
+                  to data analysis. Moreover, they can be queried with respect to a
+                  time window for retrospective analysis. 
+                </p>
+              </div>
+              <div class="clearfix"> </div>	
+            </div>
+
+            <div class="s-sub">
+              <div class="col-md-2 icon">
+                <i class="glyphicon glyphicon-hdd"></i>
+              </div>
+              <div class="col-md-10 serve-text">
+                <p> <strong style="color:#87430E">Data Sketching: </strong>
+                  We design and implement sketch data structures which are compressed
+                  representations of data with guaranteed trade-offs between the space
+                  and the accuracy of queries. Our group has designs sketches for
+                  quantiles, multi-dimensional data, frequent items, shape-fitting, 
+                  trajectories data, and many more. 
+                </p>
+              </div>
+              <div class="clearfix"> </div>	
+            </div>
+          </div>
+
+          <div class="col-md-6 serve-icons">
+
+            <div class="s-sub">
+              <div class="col-md-2 icon">
+                <i class="glyphicon glyphicon-globe"></i>
+              </div>
+              <div class="col-md-10 serve-text">
+                <p> <strong style="color:#87430E">Spatial Exposome Data: </strong>
+                  CEDaR is be an open exposomic data resource that can be used by researchers across 
+                  disciplines to increase understanding of the environment and health. Sources of environmental 
+                  exposure data are sparse, inconsistent, and rarely linked to individuals, making research 
+                  complicated and difficult. Through CEDaR, we provide a single platform containing cleaned and 
+                  standardized environmental exposure measures that can be used independently or to create holistic 
+                  measures of the exposome.
+
+                </p>
+              </div>
+              <div class="clearfix"> </div>	
+            </div>
+          </div>
+
+          <div class="col-md-6 serve-icons">
+
+            <div class="s-sub">
+              <div class="col-md-2 icon">
+                <i class="glyphicon glyphicon-cog"></i>
+              </div>
+              <div class="col-md-10 serve-text">
+                <p> <strong style="color:#87430E">Data Systems on Modern
+                  Hardware: </strong>
+                  This project exploits modern compute hardware
+                  such as GPUs, FPGAs and storage hardware such as PMEMs,
+                  HBMs for accelerating data systems. Our group designs
+                  new algorithmic techniques to model the performance of
+                  new hardware and then analyzes data systems in the light
+                  of the new algorithmic models to accelerate them.
+                </p>
+              </div>
+              <div class="clearfix"> </div>	
+            </div>
+          </div>
+
+          <div class="col-md-6 serve-icons">
+          </div>
+
+          <div class="clearfix"> </div>		
+        </div>	
+      </div>	
+    </div>
 
 
- 	<!-- Publications -->
+    <!-- Publications -->
     <div class="services" id="publications">
- 	  <div class="container">
- 			<h3 class="tittle">Publications</h3>
-				<div style="
-				    font-size: x-large;
-				    padding-bottom: 20px;">
-					2023
-				</div>
-                <ul>
-					
-                    <li> <span style="background-color: lightpink; padding: 4px;">VLDB</span>
-						Helen Xu, Amanda Li, Brian Wheatman, Manoj Marneni, Prashant Pandey:<br/>
-						<span style="color:darkolivegreen">BP-tree: Overcoming the Point-Range Operation Tradeoff for In-Memory B-trees.</span>
-					</li>
-					
-                    <li> <span style="background-color: lightpink; padding: 4px;">SIGMOD</span>
-						Bhavya Chopra, Anna Fariha, Sumit Gulwani, Austin Z. Henley, Daniel Perelman, Mohammad Raza, Sherry Shi, Danny Simmons, Ashish Tiwari:<br/>
-						<span style="color:darkolivegreen">CoWrangler: Recommender System for Data-Wrangling Scripts.</span>
-					</li>
-					
-                    <li> <span style="background-color: lightpink; padding: 4px;">SIGMOD</span> 
-						Prashant Pandey, Michael A. Bender, Alex Conway, Martin Farach-Colton, William Kuszmaul, Guido Tagliavini, Rob Johnson:<br/>
-						<span style="color:darkolivegreen">IcebergHT: High Performance Hash Tables Through Stability and Low Associativity.</span>
-					</li>						
-					
-                	<li> <span style="background-color: lightblue; padding: 4px;">Knowledge and Information Systems</span> 
-						Hasan Pourmahmood Aghababa, Jeff M. Phillips:<br/>
-						<span style="color:darkolivegreen">An experimental study on classifying spatial trajectories.</span>
-					</li>					 
-				</ul>
-				
-				<div style="
-				    font-size: x-large;
-				    padding-bottom: 20px;
-					padding-top:30px">
-					2022
-				</div>
-                <ul>
-                    <li> <span style="background-color: lightblue; padding: 4px;">Bioinformatics</span>
-						Fatemeh Almodaresi, Jamshed Khan, Sergey Madaminov, Michael Ferdman, Rob Johnson, Prashant Pandey, Rob Patro:<br/>
-						<span style="color:darkolivegreen">An incrementally updatable and scalable system for large-scale sequence search using the Bentley-Saxe transformation.</span>
-					</li>
-					
-                    <li> <span style="background-color: lightpink; padding: 4px;">CIDR</span>
-						El Kindi Rezig, Anshul Bhandari, Anna Fariha, Benjamin Price, Allan Vanterpool, Andrew Bowne, Lindsey McEvoy, Vijay Gadepally:<br/>
-						<span style="color:darkolivegreen">Examples are All You Need: Iterative Data Discovery by Example in Data Lakes.</span>
-					</li>
-					
-                    <li> <span style="background-color: lightpink; padding: 4px;">Poly/DMAH@VLDB</span>
-						Andrew Bowne, Lindsey McEvoy, Dhruv Gupta, Cameron Brown, Vijay Gadepally, El Kindi Rezig:<br/>
-						<span style="color:darkolivegreen">A Survey of Data Challenges Across a Modernizing Bureaucracy: A New Perspective on Examining Old Government Problems.</span>
-					</li>
-					
-                	<li> <span style="background-color: lightpink; padding: 4px;">SIGMOD</span> 
-						Sainyam Galhotra, Anna Fariha, Raoni Lourenço, Juliana Freire, Alexandra Meliou, Divesh Srivastava:<br/>
-						<span style="color:darkolivegreen">DataPrism: Exposing Disconnect between Data and Systems.</span>
-					</li>	
-					
-                	<li> <span style="background-color: lightpink; padding: 4px;">SIGMOD</span> 
-							Maliha Tashfia Islam, Anna Fariha, Alexandra Meliou, Babak Salimi:<br/>
-						<span style="color:darkolivegreen">Through the Data Management Lens: Experimental Analysis and Evaluation of Fair Classification.</span>
-					</li>
-					
-                	<li> <span style="background-color: lightpink; padding: 4px;">TKDE</span> 
-							Zhao Chang, Dong Xie, Feifei Li, Jeff M. Phillips, Rajeev Balasubramonian:<br/>
-						<span style="color:darkolivegreen">Efficient Oblivious Query Processing for Range and kNN Queries.</span>
-					</li>
-				</ul>
-		</div>
-	</div>
-	
- 	<!-- Recent news -->
+      <div class="container">
+        <h3 class="tittle">Publications</h3>
+        <div style="
+          font-size: x-large;
+          padding-bottom: 20px;">
+          2023
+        </div>
+        <ul>
+          <li> <span style="background-color: lightpink; padding: 4px;">VLDB</span>
+            Helen Xu, Amanda Li, Brian Wheatman, Manoj Marneni, Prashant Pandey:<br/>
+            <span style="color:darkolivegreen">BP-tree: Overcoming the Point-Range Operation Tradeoff for In-Memory B-trees.</span>
+          </li>
+
+          <li> <span style="background-color: lightpink; padding: 4px;">SIGMOD</span>
+            Bhavya Chopra, Anna Fariha, Sumit Gulwani, Austin Z. Henley, Daniel Perelman, Mohammad Raza, Sherry Shi, Danny Simmons, Ashish Tiwari:<br/>
+            <span style="color:darkolivegreen">CoWrangler: Recommender System for Data-Wrangling Scripts.</span>
+          </li>
+
+          <li> <span style="background-color: lightpink; padding: 4px;">SIGMOD</span> 
+            Prashant Pandey, Michael A. Bender, Alex Conway, Martin Farach-Colton, William Kuszmaul, Guido Tagliavini, Rob Johnson:<br/>
+            <span style="color:darkolivegreen">IcebergHT: High Performance Hash Tables Through Stability and Low Associativity.</span>
+          </li>						
+
+          <li> <span style="background-color: lightblue; padding: 4px;">ACM SIGPLAN PPoPP</span> 
+            Hunter McCoy, Steven Hofmeyr, Katherine Yelick, Prashant Pandey:<br/>
+            <span style="color:darkolivegreen">High-Performance Filters for GPUs.</span>
+          </li>					 
+
+          <li> <span style="background-color: lightblue; padding: 4px;">Knowledge and Information Systems</span> 
+            Hasan Pourmahmood Aghababa, Jeff M. Phillips:<br/>
+            <span style="color:darkolivegreen">An experimental study on classifying spatial trajectories.</span>
+          </li>					 
+
+          <li> <span style="background-color: lightblue; padding: 4px;">IPDPS</span> 
+            Süreyya Emre Kurt, Jinghua Yan, Aravind Sukumaran-Rajam, Prashant Pandey, P. Sadayappan:<br/>
+            <span style="color:darkolivegreen">Communication Optimization for Distributed Execution of Graph Neural Networks.</span>
+          </li>
+        </ul>
+
+        <div style="
+          font-size: x-large;
+          padding-bottom: 20px;
+          padding-top:30px">
+          2022
+        </div>
+        <ul>
+          <li> <span style="background-color: lightblue; padding: 4px;">Bioinformatics</span>
+            Fatemeh Almodaresi, Jamshed Khan, Sergey Madaminov, Michael Ferdman, Rob Johnson, Prashant Pandey, Rob Patro:<br/>
+            <span style="color:darkolivegreen">An incrementally updatable and scalable system for large-scale sequence search using the Bentley-Saxe transformation.</span>
+          </li>
+
+          <li> <span style="background-color: lightpink; padding: 4px;">CIDR</span>
+            El Kindi Rezig, Anshul Bhandari, Anna Fariha, Benjamin Price, Allan Vanterpool, Andrew Bowne, Lindsey McEvoy, Vijay Gadepally:<br/>
+            <span style="color:darkolivegreen">Examples are All You Need: Iterative Data Discovery by Example in Data Lakes.</span>
+          </li>
+
+          <li> <span style="background-color: lightpink; padding: 4px;">Poly/DMAH@VLDB</span>
+            Andrew Bowne, Lindsey McEvoy, Dhruv Gupta, Cameron Brown, Vijay Gadepally, El Kindi Rezig:<br/>
+            <span style="color:darkolivegreen">A Survey of Data Challenges Across a Modernizing Bureaucracy: A New Perspective on Examining Old Government Problems.</span>
+          </li>
+
+          <li> <span style="background-color: lightpink; padding: 4px;">SIGMOD</span> 
+            Sainyam Galhotra, Anna Fariha, Raoni Lourenço, Juliana Freire, Alexandra Meliou, Divesh Srivastava:<br/>
+            <span style="color:darkolivegreen">DataPrism: Exposing Disconnect between Data and Systems.</span>
+          </li>	
+
+          <li> <span style="background-color: lightpink; padding: 4px;">SIGMOD</span> 
+            Maliha Tashfia Islam, Anna Fariha, Alexandra Meliou, Babak Salimi:<br/>
+            <span style="color:darkolivegreen">Through the Data Management Lens: Experimental Analysis and Evaluation of Fair Classification.</span>
+          </li>
+
+          <li> <span style="background-color: lightpink; padding: 4px;">TKDE</span> 
+            Zhao Chang, Dong Xie, Feifei Li, Jeff M. Phillips, Rajeev Balasubramonian:<br/>
+            <span style="color:darkolivegreen">Efficient Oblivious Query Processing for Range and kNN Queries.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Recent news -->
     <div class="team" id="recent-news">
- 	  <div class="container">
- 			<h3 class="tittle">Recent News</h3>
-			<ul>
+      <div class="container">
+        <h3 class="tittle">Recent News</h3>
+        <ul>
           <li> Prof. Anna Fariha was recognized as one of the distinguished PC members at SIGMOD 2023.
-				</li>
+          </li>
           <li> Workshop proposal led by Prof. El Kindi Rezig has been accepted to VLDB 2023. The workshop (Poly) focuses on recent advances in polystore and data lake management systems. The workshop will take place on September 1st, 2023 at VLDB in Vancouver, Canada.
-				</li>
+          </li>
           <li> Prof. Pandey organized a <a href="https://prashantpandey.github.io/workshop/">Workshop on Filter Data Structures</a> at SPAA 2023 part of FCRC 2023.
-				</li>
-			</ul>
-	  </div>
-	</div>
-	
-	
- 	<!-- students -->
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- students -->
     <div class="team" id="students">
- 	  <div class="container">
- 			<h3 class="tittle">Current Students</h3>
- 		<div class="team-grids">
- 			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/Benwei.jpeg" alt=""/>
- 					<h3><a href="https://www.cs.utah.edu/~benwei/" target="_blank">Benwei Shi (PhD)</h3>
- 				</div>
- 			</div>
- 			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/Mingxuan.png" alt=""/>
- 					<h3><a href="https://www.linkedin.com/in/han-mingxuan-111a462b" target="_blank">Mingxuan Han (PhD)</h3>
- 				</div>
- 			</div>
- 			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/Tao.jpeg" alt=""/>
- 					<h3><a href="https://www.cs.utah.edu/~taoyang/" target="_blank">Tao Yang (PhD)</h3>
- 				</div>
- 			</div>
-			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/Hasan.jpeg" alt=""/>
- 					<h3><a href="https://scholar.google.com/citations?user=O_6yB00AAAAJ" target="_blank">Hasan Pourmahmood (PhD)</h3>
- 				</div>
- 			</div>
- 			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/Prince.png" alt=""/>
- 					<h3><a href="https://scholar.google.com/citations?user=T2ZJ6xYAAAAJ&hl=en" target="_blank">Prince Aboagye (PhD)</h3>
- 				</div>
- 			</div>
-			 			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/Peter.png" alt=""/>
- 					<h3><a href="https://www.linkedin.com/in/peter-jacobs-857a1a138" target="_blank">Peter Jacobs (PhD)</h3>
- 				</div>
- 			</div>
-			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/Meysam.png" alt=""/>
- 					<h3><a href="https://scholar.google.com/citations?user=U2kMt0sAAAAJ" target="_blank">Meysam Alishahi (PhD)</h3>
- 				</div>
- 			</div>
-			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/Hunter.jpg" alt=""/>
- 					<h3><a href="" target="_blank">Hunter McCoy (PhD)</h3>
- 				</div>
- 			</div>
-			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/Yuvaraj.png" alt=""/>
- 					<h3><a href="" target="_blank">Yuvaraj Chesetti (PhD)</h3>
- 				</div>
- 			</div>
-      <div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/Susmitha.jpg" alt=""/>
- 					<h3><a href="" target="_blank">Susmitha Raja (MS)</h3>
- 				</div>
- 			</div>
-      
-			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/Jack.jpeg" alt=""/>
- 					<h3><a href="https://www.linkedin.com/in/jack-shunn-a26997209" target="_blank">Jack Shunn (BS)</h3>
- 				</div>
- 			</div>
-			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/Anna.jpeg" alt=""/>
- 					<h3><a href="https://www.linkedin.com/in/abell-ds/" target="_blank">Anna Bell (BS)</h3>
- 				</div>
- 			</div>
- 				<div class="clearfix"></div>
- 			</div>
- 		</div>
- 	</div>
- 	<!-- students -->
+      <div class="container">
+        <h3 class="tittle">Current Students</h3>
+        <div class="team-grids">
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/Benwei.jpeg" alt=""/>
+              <h3><a href="https://www.cs.utah.edu/~benwei/" target="_blank">Benwei Shi (PhD)</h3>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/Mingxuan.png" alt=""/>
+              <h3><a href="https://www.linkedin.com/in/han-mingxuan-111a462b" target="_blank">Mingxuan Han (PhD)</h3>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/Tao.jpeg" alt=""/>
+              <h3><a href="https://www.cs.utah.edu/~taoyang/" target="_blank">Tao Yang (PhD)</h3>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/Hasan.jpeg" alt=""/>
+              <h3><a href="https://scholar.google.com/citations?user=O_6yB00AAAAJ" target="_blank">Hasan Pourmahmood (PhD)</h3>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/Prince.png" alt=""/>
+              <h3><a href="https://scholar.google.com/citations?user=T2ZJ6xYAAAAJ&hl=en" target="_blank">Prince Aboagye (PhD)</h3>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/Peter.png" alt=""/>
+              <h3><a href="https://www.linkedin.com/in/peter-jacobs-857a1a138" target="_blank">Peter Jacobs (PhD)</h3>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/Meysam.png" alt=""/>
+              <h3><a href="https://scholar.google.com/citations?user=U2kMt0sAAAAJ" target="_blank">Meysam Alishahi (PhD)</h3>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/Hunter.jpg" alt=""/>
+              <h3><a href="" target="_blank">Hunter McCoy (PhD)</h3>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/Yuvaraj.png" alt=""/>
+              <h3><a href="" target="_blank">Yuvaraj Chesetti (PhD)</h3>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/Susmitha.jpg" alt=""/>
+              <h3><a href="" target="_blank">Susmitha Raja (MS)</h3>
+            </div>
+          </div>
 
- 	<!-- students -->
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/Jack.jpeg" alt=""/>
+              <h3><a href="https://www.linkedin.com/in/jack-shunn-a26997209" target="_blank">Jack Shunn (BS)</h3>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/Anna.jpeg" alt=""/>
+              <h3><a href="https://www.linkedin.com/in/abell-ds/" target="_blank">Anna Bell (BS)</h3>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- students -->
+
+    <!-- students -->
     <div class="team">
- 	  <div class="container">
- 			<h3 class="tittle">Past Students</h3>
- 		<div class="team-grids">
- 			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/ManojM.jpg" alt=""/>
- 					<h3><a href="https://www.linkedin.com/in/manoj-marneni/" target="_blank">Manoj Marneni (MS)</h3>
- 				</div>
- 			</div>
-      <div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/Medha.jpg" alt=""/>
- 					<h3><a href="" target="_blank">Medha Kalkur (MS)</h3>
- 				</div>
- 			</div>
-			<div class="col-md-3 team-grid text-center">
- 				<div class="team-img">
- 					<img src="images/AlexT.jpeg" alt=""/>
- 					<h3><a href="https://www.linkedin.com/in/alex-tokita-a072b9231/" target="_blank">Alex Tokita (BS)</h3>
- 				</div>
- 			</div>
-		 	</div>
- 				<div class="clearfix"></div>
- 			</div>
- 		</div>
- 	</div>
- 	<!-- students -->
+      <div class="container">
+        <h3 class="tittle">Past Students</h3>
+        <div class="team-grids">
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/ManojM.jpg" alt=""/>
+              <h3><a href="https://www.linkedin.com/in/manoj-marneni/" target="_blank">Manoj Marneni (MS)</h3>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/Medha.jpg" alt=""/>
+              <h3><a href="" target="_blank">Medha Kalkur (MS)</h3>
+            </div>
+          </div>
+          <div class="col-md-3 team-grid text-center">
+            <div class="team-img">
+              <img src="images/AlexT.jpeg" alt=""/>
+              <h3><a href="https://www.linkedin.com/in/alex-tokita-a072b9231/" target="_blank">Alex Tokita (BS)</h3>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    </div>
+    <!-- students -->
 
 
 
-	   <div class="copy">
-		   <p>&copy; 2023 University of Utah. All Rights Reserved</p>
-	   </div>
-	<!--start-smooth-scrolling-->
-			<script type="text/javascript">
-								jQuery(document).ready(function($) {
-									$(".scroll").click(function(event){		
-										event.preventDefault();
-										$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-									});
-								});
-								</script>
-							<!--start-smoth-scrolling-->
-						<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    <div class="copy">
+      <p>&copy; 2023 University of Utah. All Rights Reserved</p>
+    </div>
+    <!--start-smooth-scrolling-->
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $(".scroll").click(function(event){		
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+      });
+    });
+    </script>
+    <!--start-smoth-scrolling-->
+    <script type="text/javascript">
+    $(document).ready(function() {
+      /*
+                    var defaults = {
+                        containerID: 'toTop', // fading element id
+                      containerHoverID: 'toTopHover', // fading element hover id
+                      scrollSpeed: 1200,
+                      easingType: 'linear' 
+                    };
+      */
 
-</body>
+      $().UItoTop({ easingType: 'easeOutQuart' });
+
+    });
+    </script>
+    <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+  </body>
 </html>
