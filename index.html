@@ -45,9 +45,9 @@
       $('.gallery-grids a').Chocolat();
     });
     </script>
-
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
   </head>
-  <body>
+  <body id="app">
     <!--header-->
     <div class="header-section" style="position: sticky; z-index: 1000; top: 0;">
       <div class="header-top">
@@ -928,112 +928,12 @@
       <div class="container">
         <h3 class="tittle">Current Students</h3>
         <div class="team-grids">
-
-          <div class="col-md-3 team-grid text-center">
+          <div class="col-md-3 team-grid text-center" v-for="student in currentStudents">
             <div class="team-img">
-              <img src="images/Meysam.png" alt=""/>
-              <h3><a href="https://scholar.google.com/citations?user=U2kMt0sAAAAJ" target="_blank">Meysam Alishahi (PhD)</a></h3>
-            </div>
-          </div>    
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Arman.jpg" alt=""/>
-              <h3><a href="https://armanashkari.github.io/" target="_blank">Arman Ashkari (PhD)</a></h3>
+              <img :src="student.image" alt=""/>
+              <h3><a :href="student.url" target="_blank">{{student.firstName}} {{student.lastName}} ({{student.study}})</a></h3>
             </div>
           </div>
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Anna.jpeg" alt=""/>
-              <h3><a href="https://www.linkedin.com/in/abell-ds/" target="_blank">Anna Bell (BS)</a></h3>
-            </div>
-          </div>
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Yuvaraj.png" alt=""/>
-              <h3><a href="" target="_blank">Yuvaraj Chesetti (PhD)</a></h3>
-            </div>
-          </div>
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Whanhee.jpg" alt=""/>
-              <h3><a href="https://www.linkedin.com/in/whanhee-cho-139818282" target="_blank">Whanhee Cho (PhD)</a></h3>
-            </div>
-          </div>
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Mingxuan.png" alt=""/>
-              <h3><a href="https://www.linkedin.com/in/han-mingxuan-111a462b" target="_blank">Mingxuan Han (PhD)</a></h3>
-            </div>
-          </div>
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Shiyi.jpg" alt=""/>
-              <h3><a href="https://www.linkedin.com/in/shiyi-he-b64931233" target="_blank">Shiyi He (PhD)</a></h3>
-            </div>
-          </div>
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Peter.png" alt=""/>
-              <h3><a href="https://www.linkedin.com/in/peter-jacobs-857a1a138" target="_blank">Peter Jacobs (PhD)</a></h3>
-            </div>
-          </div>
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Hunter.jpg" alt=""/>
-              <h3><a href="" target="_blank">Hunter McCoy (PhD)</a></h3>
-            </div>
-          </div>
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Mir.jpg" alt=""/>
-              <h3><a href="https://www.linkedin.com/in/mir-mahathir-mohammad-59bb671a5/" target="_blank">Mir Mahathir Mohammad (PhD)</a></h3>
-            </div>
-          </div>
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Hasan.jpeg" alt=""/>
-              <h3><a href="https://scholar.google.com/citations?user=O_6yB00AAAAJ" target="_blank">Hasan Pourmahmood (PhD)</a></h3>
-            </div>
-          </div>
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Susmitha.jpg" alt=""/>
-              <h3><a href="" target="_blank">Susmitha Raja (MS)</a></h3>
-            </div>
-          </div>
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Benwei.jpg" alt=""/>
-              <h3><a href="https://www.cs.utah.edu/~benwei/" target="_blank">Benwei Shi (PhD)</a></h3>
-            </div>
-          </div>
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Jack.jpg" alt=""/>
-              <h3><a href="https://www.linkedin.com/in/jack-shunn-a26997209" target="_blank">Jack Shunn (BS)</a></h3>
-            </div>
-          </div>
-
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/Tao.jpeg" alt=""/>
-              <h3><a href="https://www.cs.utah.edu/~taoyang/" target="_blank">Tao Yang (PhD)</a></h3>
-            </div>
-          </div>
-
           <div class="clearfix"></div>
         </div>
       </div>
@@ -1089,50 +989,13 @@
       <div class="container" >
         <h3 class="tittle">Videos</h3>
         <div class="row">
-         <div class="col-md-4">
-            <iframe width="300" height="150" style="display:block; margin:auto;" src="https://player.vimeo.com/video/829865998?h=5dca57aca6" 
+          <div class="col-md-4" v-for="video in videos">
+            <iframe width="300" height="150" style="display:block; margin:auto;" :src="video.src" 
             title="YouTube video player" frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div style="text-align: center; font-size: 15px; padding: 10px">[2023] Prashant Pandey: IcebergHT: High Performance Hash Tables Through Stability and Low Associativity | SIGMOD23</div>
+            <div style="text-align: center; font-size: 15px; padding: 10px">{{video.title}}</div>
           </div>
-          <div class="col-md-4">
-            <iframe width="300" height="150" style="display:block; margin:auto;" src="https://www.youtube.com/embed/j7MG0PrdGGk" 
-            title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div style="text-align: center; font-size: 15px; padding: 10px">[2023] Anna Fariha: Research in Computer Science with a focus on Databases/Data-management research</div>
-          </div>
-          <div class="col-md-4">
-            <iframe  width="300" height="150" style="display:block; margin:auto;" src="https://player.vimeo.com/video/519247627?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-					 frameborder="0" 
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div style="text-align: center; font-size: 15px; padding: 10px">[2021] Anna Fariha: Enhancing Usability and Explainability of Data Systems | University of Pennsylvania</div>
-          </div>
-          <div class="col-md-4">
-            <iframe  width="300" height="150" style="display:block; margin:auto;" src="https://www.youtube.com/embed/ksguJdInfRY" 
-						title="YouTube video player" frameborder="0" 
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div style="text-align: center; font-size: 15px; padding: 10px">[2021] Anna Fariha: NWDS Talk - Blame the Data, Not the System | University of Washington</div>
-          </div>
-          <div class="col-md-4">
-            <iframe  width="300" height="150" style="display:block; margin:auto;" src="https://www.youtube.com/embed/O_affhnP_5Q?list=PL3xUNnH4TdbsfndCMn02BqAAgGB0z7cwq" 
-						title="YouTube video player" frameborder="0" 
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div style="text-align: center; font-size: 15px; padding: 10px">[2021] Prashant Pandey: Terrace: A Hierarchical Graph Container for Skewed Dynamic Graphs | SIGMOD21</div>
-          </div>
-          <div class="col-md-4">
-            <iframe  width="300" height="150" style="display:block; margin:auto;" src="https://www.youtube.com/embed/97aFst6I16o?list=PL3xUNnH4TdbsfndCMn02BqAAgGB0z7cwq" 
-						title="YouTube video player" frameborder="0" 
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div style="text-align: center; font-size: 15px; padding: 10px">[2021] Prashant Pandey: Vector Quotient Filters: Overcoming the Time Space Trade Off in Filter Design | SIGMOD21</div>
-          </div>
-          </div>
-          <div class="col-md-4">
-            <iframe  width="300" height="150" style="display:block; margin:auto;" src="https://www.youtube.com/embed/I1hCXFpLlYE" 
-						title="YouTube video player" frameborder="0" 
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div style="text-align: center; font-size: 15px; padding: 10px">[2021] Prashant Pandey: Applying Graph Neural Networks to Metagenomics</div>
-          </div>
-    </div>
+        </div>
       <div class="clearfix"></div>
       </div>
     </div>
@@ -1166,6 +1029,39 @@
     });
     </script>
     <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-
+    <script>
+      Vue.createApp({
+        data() {
+          return {
+            currentStudents: [
+              { firstName: 'Meysam', lastName: 'Alishahi', image: 'images/Meysam.png', study: 'PhD', url: "https://scholar.google.com/citations?user=U2kMt0sAAAAJ"},
+              { firstName: 'Arman', lastName: 'Ashkari', image: 'images/Arman.jpg', study: 'PhD', url: 'https://armanashkari.github.io/'},
+              { firstName: 'Anna', lastName: 'Bell', image: 'images/Anna.jpeg', study: 'BS', url: 'https://www.linkedin.com/in/abell-ds/'},
+              { firstName: 'Yuvaraj', lastName: 'Chesetti', image: 'images/Yuvaraj.png', study: 'PhD', url: ''},
+              { firstName: 'Whanhee', lastName: 'Cho', image: 'images/Whanhee.jpg', study: 'PhD', url: 'https://www.linkedin.com/in/whanhee-cho-139818282'},
+              { firstName: 'Mingxuan', lastName: 'Han', image: 'images/Mingxuan.png', study: 'PhD', url: 'https://www.linkedin.com/in/han-mingxuan-111a462b'},
+              { firstName: 'Shiyi', lastName: 'He', image: 'images/Shiyi.jpg', study: 'PhD', url: 'https://www.linkedin.com/in/shiyi-he-b64931233'},
+              { firstName: 'Peter', lastName: 'Jacobs', image: 'images/Peter.png', study: 'PhD', url: 'https://www.linkedin.com/in/peter-jacobs-857a1a138'},
+              { firstName: 'Hunter', lastName: 'McCoy', image: 'images/Hunter.jpg', study: 'PhD', url: ''},
+              { firstName: 'Mir Mahathir', lastName: 'Mohammad', image: 'images/Mir.jpg', study: 'PhD', url: 'https://www.linkedin.com/in/mir-mahathir-mohammad-59bb671a5/'},
+              { firstName: 'Hasan', lastName: 'Pourmahmood', image: 'images/Hasan.jpeg', study: 'PhD', url: 'https://scholar.google.com/citations?user=O_6yB00AAAAJ'},
+              { firstName: 'Susmitha', lastName: 'Raja', image: 'images/Susmitha.jpg', study: 'MS', url: ''},
+              { firstName: 'Benwei', lastName: 'Shi', image: 'images/Benwei.jpg', study: 'PhD', url: 'https://www.cs.utah.edu/~benwei/'},
+              { firstName: 'Jack', lastName: 'Shunn', image: 'images/Jack.jpg', study: 'BS', url: 'https://www.linkedin.com/in/jack-shunn-a26997209'},
+              { firstName: 'Tao', lastName: 'Yang', image: 'images/Tao.jpeg', study: 'PhD', url: 'https://www.cs.utah.edu/~taoyang/'}
+            ].sort((student1, student2)=> student1.lastName.localeCompare(student2.lastName)),
+            videos: [
+              { title: '[2023] Prashant Pandey: IcebergHT: High Performance Hash Tables Through Stability and Low Associativity | SIGMOD23', src: 'https://player.vimeo.com/video/829865998?h=5dca57aca6'},
+              { title: '[2023] Anna Fariha: Research in Computer Science with a focus on Databases/Data-management research', src: 'https://www.youtube.com/embed/j7MG0PrdGGk'},
+              { title: '[2021] Anna Fariha: Enhancing Usability and Explainability of Data Systems | University of Pennsylvania', src: 'https://player.vimeo.com/video/519247627?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'},
+              { title: '[2021] Anna Fariha: NWDS Talk - Blame the Data, Not the System | University of Washington', src: 'https://www.youtube.com/embed/ksguJdInfRY'},
+              { title: '[2021] Prashant Pandey: Terrace: A Hierarchical Graph Container for Skewed Dynamic Graphs | SIGMOD21', src: 'https://www.youtube.com/embed/O_affhnP_5Q?list=PL3xUNnH4TdbsfndCMn02BqAAgGB0z7cwq'},
+              { title: '[2021] Prashant Pandey: Vector Quotient Filters: Overcoming the Time Space Trade Off in Filter Design', src: 'https://www.youtube.com/embed/97aFst6I16o?list=PL3xUNnH4TdbsfndCMn02BqAAgGB0z7cwq'},
+              { title: '[2021] Prashant Pandey: Applying Graph Neural Networks to Metagenomics', src: 'https://www.youtube.com/embed/I1hCXFpLlYE'},
+            ]
+          }
+        }
+      }).mount('#app')
+    </script>
   </body>
 </html>
