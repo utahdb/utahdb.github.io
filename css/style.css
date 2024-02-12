@@ -55,7 +55,7 @@ label{
 }
 .logo {
     float: left;
-    background-color: #fff;
+    background-color: #414359;
     padding: 2em 1em;
 	width:34%;
 }
@@ -65,7 +65,7 @@ label{
 .logo a h1{
 	    font-weight: 300;
     font-size: 4em;
-    color: #404359;
+    color: #FF1010;
     text-align: center
 }
 .logo a:hover{
