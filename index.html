@@ -165,49 +165,13 @@
       <div class="container">
         <h3 class="tittle">Faculty</h3>
         <div class="team-grids">
-          <div class="col-md-3 team-grid text-center">
+          <div v-for="faculty in activeFaculties" class="col-md-3 team-grid text-center">
             <div class="team-img">
-              <img src="images/jeff.jpeg" alt=""/>
-              <h3 style="font-weight:bold"><a href="https://www.cs.utah.edu/~jeffp/"
-                target="_blank">Jeff M Phillips</a></h3>
+              <img :src="faculty.picture" alt=""/>
+              <h3 style="font-weight:bold"><a :href="faculty.profileLink"
+                target="_blank">{{faculty.name}}</a></h3>
               <p style="display:block">
-                Algorithms for Big Data Analytics: Geometric Data Analysis, Computational Geometry, 
-                Coresets and Sketches, Handling Uncertainty, Data Mining, Databases, Machine Learning, Spatial Statistics.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/prashant.jpeg" alt=""/>
-              <h3 style="font-weight:bold"><a href="https://prashantpandey.github.io/" target = "_blank">Prashant Pandey</a></h3>
-              <p style="display:block">
-                Uncertain, probabilistic, and approximate databases,
-                Storage, indexing, and physical database design, 
-                Streams and complex event processing, 
-                Data platforms for emerging hardware,
-                Computational biology, High-performance computing
-              </p>
-            </div>
-          </div>
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/elkindi.jpeg" alt=""/>
-              <h3 style="font-weight:bold"><a href="https://elkindi.github.io/" target="_blank">El Kindi Rezig</a></h3>
-              <p style="display:block">
-                Data preparation, data discovery, data debugging, data integration, 
-                user interfaces, information extraction, 
-                data quality, data cleaning, and database usability</p>
-            </div>
-          </div>
-          <div class="col-md-3 team-grid text-center">
-            <div class="team-img">
-              <img src="images/annafariha.jpg" alt=""/>
-              <h3 style="font-weight:bold"><a href="https://afariha.github.io/" target="blank">Anna Fariha</a></h3>
-              <p style="display:block">
-                Data systems usability, Data summarization,
-                Trusted machine learning, Explainable AI,
-                Data exploration and user interfaces, Data quality, Data cleaning, Data debugging,
-                Responsible data management, Data fairness
+                {{faculty.field}}
               </p>
             </div>
           </div>
@@ -1080,10 +1044,44 @@
           this.title = title
         }
       }
+      class ActiveFaculty {
+        constructor(name, field, picture, profileLink){
+          this.name = name;
+          this.field = field;
+          this.picture = picture;
+          this.profileLink = profileLink;
+        }
+      }
       // We are using Vue.js to render the dynamic elements in the webpage. We use for loops to iterate the elements of the following arrays to render the html to reduce code repeatition
       Vue.createApp({
         data() {
           return {
+            activeFaculties:[
+              new ActiveFaculty(
+                "Jeff M Phillips",
+                "Algorithms for Big Data Analytics: Geometric Data Analysis, Computational Geometry, Coresets and Sketches, Handling Uncertainty, Data Mining, Databases, Machine Learning, Spatial Statistics.",
+                "images/jeff.jpeg",
+                "https://www.cs.utah.edu/~jeffp/"
+              ),
+              new ActiveFaculty(
+                "Prashant Pandey",
+                "Uncertain, probabilistic, and approximate databases, Storage, indexing, and physical database design, Streams and complex event processing, Data platforms for emerging hardware,Computational biology, High-performance computing",
+                "images/prashant.jpeg",
+                "https://prashantpandey.github.io/"
+              ),
+              new ActiveFaculty(
+                "El Kindi Rezig",
+                "Data preparation, data discovery, data debugging, data integration, user interfaces, information extraction, data quality, data cleaning, and database usability",
+                "images/elkindi.jpeg",
+                "https://elkindi.github.io/"
+              ),
+              new ActiveFaculty(
+                "Anna Fariha",
+                "Data systems usability, Data summarization,Trusted machine learning, Explainable AI,Data exploration and user interfaces, Data quality, Data cleaning, Data debugging,Responsible data management, Data fairness",
+                "images/annafariha.jpg",
+                "https://afariha.github.io/"
+              )
+            ],
             currentStudents: [
               { firstName: 'Meysam', lastName: 'Alishahi', image: 'images/Meysam.png', study: 'PhD', url: "https://scholar.google.com/citations?user=U2kMt0sAAAAJ"},
               { firstName: 'Arman', lastName: 'Ashkari', image: 'images/Arman.jpg', study: 'PhD', url: 'https://armanashkari.github.io/'},
