@@ -61,17 +61,8 @@
           <div class="top-nav">
             <span class="menu"> </span>
             <ul class="cl-effect-16">
-              <li><a class="scroll" href="#home" data-hover="Home">Home</a></li>
-              <li><a class="scroll" href="#faculty" data-hover="Faculty">Faculty</a></li>
-              <li><a class="scroll" href="#research" data-hover="Research">Research</a></li>
-              <li><a class="scroll" href="#publications" data-hover="Publications">Publications</a></li>
-              <li><a class="scroll" href="#recent-news" data-hover="Recent News">Recent News</a></li>
-              <li><a class="scroll" href="#students" data-hover="Students">Students</a></li>
-              <li><a class="scroll" href="#alumni" data-hover="Alumni">Alumni</a></li>
-              <li><a class="scroll" href="#activities" data-hover="Activities">Activities</a></li>
-              <li><a class="scroll" href="#videos" data-hover="Videos">Videos</a></li>
+              <li v-for="topMenuItem in topMenuItems"><a class="scroll" :href="topMenuItem.href" :data-hover="topMenuItem.dataHover">{{topMenuItem.text}}</a></li>
             </ul>
-
           </div>
         </div>
         <!--top-nav-->
@@ -115,27 +106,13 @@
       <!--//End-slider-script -->
       <div class="callbacks_container">
         <ul class="rslides" id="slider4">
-          <li>
+          <li v-for="bannerImage in bannerImages">
             <div class="banner-img">
-              <img src="images/1.png" style="width:100%;" class="img-responsive" alt="" />
+              <img :src="bannerImage" style="width:100%;" class="img-responsive" alt="" />
             </div>
-
-          </li>
-          <li>
-            <div class="banner-img">
-              <img src="images/2.jpg" style="width:100%;" class="img-responsive" alt="" />
-            </div>
-
-          </li>
-          <li>
-            <div class="banner-img">
-              <img src="images/3.jpeg" style="width:100%;" class="img-responsive" alt="" />
-            </div>
-
           </li>
         </ul>
       </div>
-
     </div>
     <div class="clearfix"> </div>
     <!--start-about-->
@@ -184,149 +161,19 @@
     <div class="services" id="research">
       <div class="container">
         <h3 class="tittle">Research</h3>
-        <div class="serve-top">
-
-          <div class="col-md-6 serve-icons">	
-            <div class="s-sub">
+        <div class="serve-top row">
+            <div v-for="topic in researchTopics" class="s-sub col-md-6">
               <div class="col-md-2 icon">
-                <i class="glyphicon glyphicon-user"></i>
+                <i :class="topic.icon"></i>
               </div>
               <div class="col-md-10 serve-text">
-                <p> <strong style="color:#87430E">Democratizing data-driven systems: </strong>
-                  This project focuses on three key aspects of data system democratization: enhancing usability of data systems for 
-                  non-experts and experts, providing explanation frameworks to enable understanding of system behavior, and achieving 
-                  trust and fairness in machine learning.
+                <p> <strong style="color:#87430E">{{topic.title}}: </strong>
+                {{topic.details}}
               </div>
-              <div class="clearfix"> </div>	
             </div>
-
-            <div class="s-sub">
-              <div class="col-md-2 icon">
-                <i class="glyphicon glyphicon-cog"></i>
-              </div>
-              <div class="col-md-10 serve-text">
-                <p> <strong style="color:#87430E">Data structures for scalable computing: </strong>
-                  This project focuses on advancing the theory and practice of
-                  compact, dynamic, and scalable data structures to tackle the
-                  challenges of modern data analyses pipelines. We work on filters,
-                  hash tables, trees,  succinct, and write-optimized data structures.</p>
-              </div>
-              <div class="clearfix"> </div>	
-            </div>
-
-            <div class="s-sub">
-              <div class="col-md-2 icon">
-                <i class="glyphicon glyphicon-fire"></i>
-              </div>
-              <div class="col-md-10 serve-text">
-                <p> <strong style="color:#87430E">Large-scale indexing raw genomics data: </strong>
-                  This project focuses on building scalable data processing pipelines
-                  for quickly indexing and searching through tera-bytes of raw
-                  genomic, transcriptomic, and metagenomics data.</p>
-              </div>
-              <div class="clearfix"> </div>	
-            </div>
-          </div>
-
-          <div class="col-md-6 serve-icons">
-
-            <div class="s-sub">
-              <div class="col-md-2 icon">
-                <i class="glyphicon glyphicon-wrench"></i>
-              </div>
-              <div class="col-md-10 serve-text">
-                <p> <strong style="color:#87430E">Efficient parallel graph processing: </strong>
-                  This project focuses on building highly parallel data structures
-                  and algorithms for efficiently processing static, streaming, and
-                  dynamic graphs. This project further explores using hardware
-                  accelerators such as GPUs for massively parallel processing of
-                  dynamic graphs.</p>
-              </div>
-              <div class="clearfix"> </div>	
-            </div>
-
-            <div class="s-sub">
-              <div class="col-md-2 icon">
-                <i class="glyphicon glyphicon-stats"></i>
-              </div>
-              <div class="col-md-10 serve-text">
-                <p> <strong style="color:#87430E">Persistent Data Summaries: </strong>
-                  This project builds summaries for massive data arriving over time,
-                  which are small space, efficient to build and query, and amenable
-                  to data analysis. Moreover, they can be queried with respect to a
-                  time window for retrospective analysis. 
-                </p>
-              </div>
-              <div class="clearfix"> </div>	
-            </div>
-
-            <div class="s-sub">
-              <div class="col-md-2 icon">
-                <i class="glyphicon glyphicon-hdd"></i>
-              </div>
-              <div class="col-md-10 serve-text">
-                <p> <strong style="color:#87430E">Data Sketching: </strong>
-                  We design and implement sketch data structures which are compressed
-                  representations of data with guaranteed trade-offs between the space
-                  and the accuracy of queries. Our group has designs sketches for
-                  quantiles, multi-dimensional data, frequent items, shape-fitting, 
-                  trajectories data, and many more. 
-                </p>
-              </div>
-              <div class="clearfix"> </div>	
-            </div>
-          </div>
-
-          <div class="col-md-6 serve-icons">
-
-            <div class="s-sub">
-              <div class="col-md-2 icon">
-                <i class="glyphicon glyphicon-globe"></i>
-              </div>
-              <div class="col-md-10 serve-text">
-                <p> <strong style="color:#87430E">Spatial Exposome Data: </strong>
-                  CEDaR is be an open exposomic data resource that can be used by researchers across 
-                  disciplines to increase understanding of the environment and health. Sources of environmental 
-                  exposure data are sparse, inconsistent, and rarely linked to individuals, making research 
-                  complicated and difficult. Through CEDaR, we provide a single platform containing cleaned and 
-                  standardized environmental exposure measures that can be used independently or to create holistic 
-                  measures of the exposome.
-
-                </p>
-              </div>
-              <div class="clearfix"> </div>	
-            </div>
-          </div>
-
-          <div class="col-md-6 serve-icons">
-
-            <div class="s-sub">
-              <div class="col-md-2 icon">
-                <i class="glyphicon glyphicon-cog"></i>
-              </div>
-              <div class="col-md-10 serve-text">
-                <p> <strong style="color:#87430E">Data Systems on Modern
-                  Hardware: </strong>
-                  This project exploits modern compute hardware
-                  such as GPUs, FPGAs and storage hardware such as PMEMs,
-                  HBMs for accelerating data systems. Our group designs
-                  new algorithmic techniques to model the performance of
-                  new hardware and then analyzes data systems in the light
-                  of the new algorithmic models to accelerate them.
-                </p>
-              </div>
-              <div class="clearfix"> </div>	
-            </div>
-          </div>
-
-          <div class="col-md-6 serve-icons">
-          </div>
-
-          <div class="clearfix"> </div>		
-        </div>	
+        </div>
       </div>	
     </div>
-
 
     <!-- Publications -->
     <div class="services" id="publications">
@@ -1052,10 +899,29 @@
           this.profileLink = profileLink;
         }
       }
+      class TopMenuItem{
+        constructor(href, text, dataHover){
+          this.href = href;
+          this.text = text;
+          this.dataHover = dataHover;
+        }
+      }
+      class ResearchTopic {
+        constructor(title, details, icon){
+          this.title = title;
+          this.details = details;
+          this.icon = icon;
+        }
+      }
       // We are using Vue.js to render the dynamic elements in the webpage. We use for loops to iterate the elements of the following arrays to render the html to reduce code repeatition
       Vue.createApp({
         data() {
           return {
+            bannerImages:[
+              "images/1.png",
+              "images/2.jpg",
+              "images/3.jpeg"
+            ],
             activeFaculties:[
               new ActiveFaculty(
                 "Jeff M Phillips",
@@ -1080,6 +946,59 @@
                 "Data systems usability, Data summarization,Trusted machine learning, Explainable AI,Data exploration and user interfaces, Data quality, Data cleaning, Data debugging,Responsible data management, Data fairness",
                 "images/annafariha.jpg",
                 "https://afariha.github.io/"
+              )
+            ],
+            topMenuItems: [
+              new TopMenuItem("#home", "Home", "Home"),
+              new TopMenuItem("#faculty", "Faculty", "Faculty"),
+              new TopMenuItem("#research", "Research", "Research"),
+              new TopMenuItem("#publications", "Publications", "Publications"),
+              new TopMenuItem("#recent-news", "Recent News", "Recent News"),
+              new TopMenuItem("#students", "Students", "Students"),
+              new TopMenuItem("#alumni", "Alumni", "Alumni"),
+              new TopMenuItem("#activities", "Activities", "Activities"),
+              new TopMenuItem("#videos", "Videos", "Videos")
+            ],
+            researchTopics:[
+              new ResearchTopic(
+                "Democratizing data-driven systems",
+                "This project focuses on three key aspects of data system democratization: enhancing usability of data systems for non-experts and experts, providing explanation frameworks to enable understanding of system behavior, and achieving trust and fairness in machine learning.",
+                "glyphicon glyphicon-user"
+              ),
+              new ResearchTopic(
+                "Data structures for scalable computing",
+                "This project focuses on advancing the theory and practice of compact, dynamic, and scalable data structures to tackle the challenges of modern data analyses pipelines. We work on filters, hash tables, trees,  succinct, and write-optimized data structures.",
+                "glyphicon glyphicon-cog"
+              ),
+              new ResearchTopic(
+                "Large-scale indexing raw genomics data",
+                "This project focuses on building scalable data processing pipelines for quickly indexing and searching through tera-bytes of raw genomic, transcriptomic, and metagenomics data.",
+                "glyphicon glyphicon-fire"
+              ),
+              new ResearchTopic(
+                "Efficient parallel graph processing",
+                "This project focuses on building highly parallel data structures and algorithms for efficiently processing static, streaming, and dynamic graphs. This project further explores using hardware accelerators such as GPUs for massively parallel processing of dynamic graphs.",
+                "glyphicon glyphicon-wrench"
+              ),
+              new ResearchTopic(
+                "Persistent Data Summaries",
+                "This project builds summaries for massive data arriving over time, which are small space, efficient to build and query, and amenable to data analysis. Moreover, they can be queried with respect to a time window for retrospective analysis. ",
+                "glyphicon glyphicon-stats"
+              ),
+              new ResearchTopic(
+                "Data Sketching:",
+                "We design and implement sketch data structures which are compressed representations of data with guaranteed trade-offs between the space and the accuracy of queries. Our group has designs sketches for quantiles, multi-dimensional data, frequent items, shape-fitting, trajectories data, and many more. ",
+                "glyphicon glyphicon-hdd"
+              ),
+              new ResearchTopic(
+                "Spatial Exposome Data",
+                "CEDaR is be an open exposomic data resource that can be used by researchers across disciplines to increase understanding of the environment and health. Sources of environmental exposure data are sparse, inconsistent, and rarely linked to individuals, making research complicated and difficult. Through CEDaR, we provide a single platform containing cleaned and standardized environmental exposure measures that can be used independently or to create holistic measures of the exposome.",
+                "glyphicon glyphicon-globe"
+              ),
+              new ResearchTopic(
+                "Data Systems on Modern Hardware",
+                "This project exploits modern compute hardware such as GPUs, FPGAs and storage hardware such as PMEMs,HBMs for accelerating data systems. Our group designs new algorithmic techniques to model the performance of new hardware and then analyzes data systems in the light of the new algorithmic models to accelerate them.",
+                "glyphicon glyphicon-cog"
               )
             ],
             currentStudents: [
