@@ -1012,45 +1012,17 @@
       <div class="container">
         <h3 class="tittle">Activities</h3>
         <div class="row">
-          <div class="col-md-4">
-            <!-- <div style="width:48%; float: left; height: 300px"> -->
-              <div style="width:48%;float: left;height: 300px;display: block;max-width: 99%;/* max-height: 95px; */width: auto;height: auto;/* padding-left: 40px; *//* text-align: center; */margin: auto;">
-                <a href="https://drive.google.com/file/d/14FlvuK7Idi_6waNrtZmLhndC257KpN7z/view?usp=sharing">
-                  <img src="images/NWDS2024.JPG" style="/* height:400px; */display: block;max-width: 100%;/* max-height: 95px; */width: auto;height: auto;">
-                </a>
-                 <br>
-                <div style="text-align: center; padding: 10px;">NWDS 2024, Seattle, USA</div>
+          <!-- this for loop iterates the activities defined in the <script> section and shows the image and title for each activity-->
+          <div class="col-md-4" v-for="activity in activities">
+            <div style="width:48%;float: left;height: 300px;display: block;max-width: 99%;width: auto;height: auto;margin: auto;">
+              <a :href="activity.onlineLink">
+                <img :src="activity.localLink" style="display: block;max-width: 100%;width: auto;height: auto;">
+              </a>
+              <br>
+              <div style="text-align: center; padding: 10px;">{{activity.title}}</div>
             </div>
-        </div>
-          <div class="col-md-4">
-            <!-- <div style="width:48%; float: left; height: 300px"> -->
-            <div style="width:48%;float: left;height: 300px;display: block;max-width: 99%;/* max-height: 95px; */width: auto;height: auto;/* padding-left: 40px; *//* text-align: center; */margin: auto;">
-                <a href="https://drive.google.com/file/d/1SZqOQWlq20pk--S6lWheEp2XGYRH9ynH/view?usp=sharing">
-                    <img src="images/SIGMOD2023.jpeg" style="/* height:400px; */display: block;max-width: 100%;/* max-height: 95px; */width: auto;height: auto;">
-                </a>
-                <br>
-                <div style="text-align: center; padding: 10px;">SIGMOD 2023, Seattle, USA</div>
-            </div>
-        </div>
-            <!-- <div class="col-md-4">
-                <div style="width:48%; float: left; height: 300px"> -->
-                  <!-- <div style="width:48%;float: left;height: 300px;display: block;max-width: 99%;/* max-height: 95px; */width: auto;height: auto;/* padding-left: 40px; *//* text-align: center; */margin: auto;">
-                    <img src="images/SIGMOD2023.jpeg" style="/* height:400px; */display: block;max-width: 100%;/* max-height: 95px; */width: auto;height: auto;"> -->
-                    <!-- <br>
-                    <div style="text-align: center; padding: 10px;">SIGMOD 2023, Seattle, USA</div>
-                </div>
-            </div> -->
-            <div class="col-md-4">
-                <!-- <div style="width:48%; float: left; height: 300px"> -->
-                  <div style="width:48%;float: left;height: 300px;display: block;max-width: 99%;/* max-height: 95px; */width: auto;height: auto;/* padding-left: 40px; *//* text-align: center; */margin: auto;">
-                    <a href="https://drive.google.com/file/d/1NPdF1pi6z63cfoOo_2m7rdQ7bzEIcOx2/view?usp=sharing">
-                     <img src="images/dong.jpg" style="/* height:400px; */display: block;max-width: 100%;/* max-height: 95px; */width: auto;height: auto;">
-                     </a>
-                     <br>
-                    <div style="text-align: center; padding: 10px;">Data Science Day, 2019</div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
+          </div>
+        <div class="clearfix"></div>
         </div>
       </div>
     </div>
@@ -1101,6 +1073,14 @@
     </script>
     <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
     <script>
+      class Activity {
+        constructor(localLink, onlineLink, title) {
+          this.localLink = localLink;
+          this.onlineLink = onlineLink;
+          this.title = title
+        }
+      }
+      // We are using Vue.js to render the dynamic elements in the webpage. We use for loops to iterate the elements of the following arrays to render the html to reduce code repeatition
       Vue.createApp({
         data() {
           return {
@@ -1121,7 +1101,7 @@
               { firstName: 'Jack', lastName: 'Shunn', image: 'images/Jack.jpg', study: 'BS', url: 'https://www.linkedin.com/in/jack-shunn-a26997209'},
               { firstName: 'Ang', lastName: 'Li', image: 'images/ang.jpeg', study: 'MS', url: 'https://www.linkedin.com/in/ang-li-097107251/'},
               { firstName: 'Aaditya', lastName: 'Rangarajan', image: 'images/aaditya.JPG', study: 'MS', url: 'https://aaditya2200.notion.site/aaditya2200/Hello-There-bbddaa12a12b48a38c8af9b22be29c82'}
-            ].sort((student1, student2)=> student1.lastName.localeCompare(student2.lastName)),
+            ].sort((student1, student2)=> student1.lastName.localeCompare(student2.lastName)),// sort the names of each student alphabetically based on last name
             videos: [
               { title: '[2023] Prashant Pandey: IcebergHT: High Performance Hash Tables Through Stability and Low Associativity | SIGMOD23', src: 'https://player.vimeo.com/video/829865998?h=5dca57aca6'},
               { title: '[2023] Anna Fariha: Research in Computer Science with a focus on Databases/Data-management research', src: 'https://www.youtube.com/embed/j7MG0PrdGGk'},
@@ -1130,6 +1110,11 @@
               { title: '[2021] Prashant Pandey: Terrace: A Hierarchical Graph Container for Skewed Dynamic Graphs | SIGMOD21', src: 'https://www.youtube.com/embed/O_affhnP_5Q?list=PL3xUNnH4TdbsfndCMn02BqAAgGB0z7cwq'},
               { title: '[2021] Prashant Pandey: Vector Quotient Filters: Overcoming the Time Space Trade Off in Filter Design', src: 'https://www.youtube.com/embed/97aFst6I16o?list=PL3xUNnH4TdbsfndCMn02BqAAgGB0z7cwq'},
               { title: '[2021] Prashant Pandey: Applying Graph Neural Networks to Metagenomics', src: 'https://www.youtube.com/embed/I1hCXFpLlYE'},
+            ],
+            activities: [
+              new Activity("images/NWDS2024.JPG", "https://drive.google.com/file/d/14FlvuK7Idi_6waNrtZmLhndC257KpN7z/view?usp=sharing", "NWDS 2024, Seattle, USA"),
+              new Activity("images/SIGMOD2023.jpeg", "https://drive.google.com/file/d/1SZqOQWlq20pk--S6lWheEp2XGYRH9ynH/view?usp=sharing", "SIGMOD 2023, Seattle, USA"),
+              new Activity("images/dong.jpg", "https://drive.google.com/file/d/1NPdF1pi6z63cfoOo_2m7rdQ7bzEIcOx2/view?usp=sharing", "Data Science Day, 2019")
             ]
           }
         }
