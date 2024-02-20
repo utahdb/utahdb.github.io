@@ -240,7 +240,7 @@ p.location i, p.mail i, p.phone i {
 	display: block;
 	position: absolute;
 	right:15px;
-	top:38px;
+	top:20px;
 	cursor: pointer;
 	}
 	.top-icons {
@@ -727,12 +727,19 @@ border-radius: 100%;
     font-weight:400;
     color: #FF8DAE;
 }
+
+.team-img h3 a{
+	color: cornflowerblue
+}
+
+.team-img h3 :hover{
+    color: #FF8DAE;
+}
 .team-img h4 {
     font-size: 1.1em;
     color: #404359;
 }
 .team-img p {
-  display:none;
     color: #777;
     font-size: 0.85em;
     line-height: 1.8em;
@@ -1026,7 +1033,7 @@ color: #FF8DAE;
 }
 .copy {
     text-align: center;
-    background: #ff8dae;
+    background: #404359;
     padding: 1em 1em;
   }
 .copy p {
@@ -1693,7 +1700,7 @@ color: #FF8DAE;
     display: block;
     position: absolute;
     right: 33px;
-    top: 155px;
+    top: 20px;
     cursor: pointer;
    }
    .top-nav {
@@ -1723,7 +1730,7 @@ color: #FF8DAE;
 		display: block;
 		position: absolute;
 		right: 33px;
-		top: 112px;
+		top: 20px;
 		cursor: pointer;
 	}
 	.about span {
@@ -2011,7 +2018,7 @@ color: #FF8DAE;
 		display: block;
 		position: absolute;
 		right: 15px;
-		top: 90px;
+		top: 20px;
 		cursor: pointer;
 	}
 	.logo {
