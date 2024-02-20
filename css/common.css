@@ -1,0 +1,33 @@
+a {
+    text-decoration: none;
+}
+
+.member {
+    width: 45%;
+    margin: 20px 0px 20px 0px;
+}
+.member div h3 {
+    margin-top: 5px;
+}
+.member div h3 a {
+    margin-top: 5px;
+    color: cornflowerblue;
+}
+.member div img {
+    width: 70%;
+    border-radius: 100%;
+}
+
+/* For medium devices (like tablets) */
+@media (min-width: 768px) {
+    .member {
+        width: 33%;
+    }
+}
+
+/* For large devices (like desktops and laptops) */
+@media (min-width: 992px) {
+    .member {
+        width: 25%;
+    }
+}
