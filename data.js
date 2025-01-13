@@ -65,7 +65,6 @@ newsList = [
         ]
     }
   ]
-  
 
 const allPapers =
     [
@@ -79,8 +78,16 @@ const allPapers =
         },
         {
             "year": 2024,
+            "paper": "Leveraging Structured and Unstructured Data for Tabular Data Cleaning.",
+            "venue": "Data-Centric AI @ IEEE Big Data",
+            "authors": "Pavitra Mehra, El Kindi Rezig",
+            "isDatabaseVenue": true,
+            "confAttribute": "Workshop"
+        },
+        {
+            "year": 2024,
             "paper": "Can Causal DAGs Generate Data-based Explanations of Black-box Models?",
-            "venue": "IEEE Big Data",
+            "venue": "Data-Centric AI @ IEEE Big Data",
             "authors": "Arman Azad, El Kindi Rezig",
             "isDatabaseVenue": true,
             "confAttribute": "Workshop"
@@ -602,19 +609,14 @@ researchTopics = [
     },
     {
         "title": "Data structures for scalable computing",
-        "details": "This project focuses on advancing the theory and practice of compact, dynamic, and scalable data structures to tackle the challenges of modern data analyses pipelines. We work on filters, hash tables, trees, succinct, and write-optimized data structures.",
+        "details": "This project focuses on advancing the theory and practice of compact, dynamic, and scalable data structures to tackle the challenges of modern data analyses pipelines. We work on hash tables, approximate data structures and sampling-enabling data structures.",
         "icon": "bi-gear"
     },
-    {
-        "title": "Large-scale indexing raw genomics data",
-        "details": "This project focuses on building scalable data processing pipelines for quickly indexing and searching through tera-bytes of raw genomic, transcriptomic, and metagenomics data.",
-        "icon": "bi-lock"
-    },
-    {
-        "title": "Efficient parallel graph processing",
-        "details": "This project focuses on building highly parallel data structures and algorithms for efficiently processing static, streaming, and dynamic graphs. This project further explores using hardware accelerators such as GPUs for massively parallel processing of dynamic graphs.",
-        "icon": "bi-wrench"
-    },
+    // {
+    //     "title": "Efficient parallel graph processing",
+    //     "details": "This project focuses on building highly parallel data structures and algorithms for efficiently processing static, streaming, and dynamic graphs. This project further explores using hardware accelerators such as GPUs for massively parallel processing of dynamic graphs.",
+    //     "icon": "bi-wrench"
+    // },
     {
         "title": "Persistent Data Summaries",
         "details": "This project builds summaries for massive data arriving over time, which are small space, efficient to build and query, and amenable to data analysis. Moreover, they can be queried with respect to a time window for retrospective analysis.",
@@ -625,9 +627,14 @@ researchTopics = [
         "details": "We design and implement sketch data structures which are compressed representations of data with guaranteed trade-offs between the space and the accuracy of queries. Our group has designs sketches for quantiles, multi-dimensional data, frequent items, shape-fitting, trajectories data, and many more.",
         "icon": "bi-hdd"
     },
+    // {
+    //     "title": "Spatial Exposome Data",
+    //     "details": "CEDaR is be an open exposomic data resource that can be used by researchers across disciplines to increase understanding of the environment and health. Sources of environmental exposure data are sparse, inconsistent, and rarely linked to individuals, making research complicated and difficult. Through CEDaR, we provide a single platform containing cleaned and standardized environmental exposure measures that can be used independently or to create holistic measures of the exposome.",
+    //     "icon": "bi-globe"
+    // },
     {
-        "title": "Spatial Exposome Data",
-        "details": "CEDaR is be an open exposomic data resource that can be used by researchers across disciplines to increase understanding of the environment and health. Sources of environmental exposure data are sparse, inconsistent, and rarely linked to individuals, making research complicated and difficult. Through CEDaR, we provide a single platform containing cleaned and standardized environmental exposure measures that can be used independently or to create holistic measures of the exposome.",
+        "title": "Spatial Data Analysis",
+        "details": "Managing and analyzing large spatial data.  We focus on aspects including spatial anomaly detection, human mobility tracking and modeling.  A current thrust is integrating numerous sources of human mobility data into a single foundation model which can be used to understand human movement at a macro (city-sized) scale.",
         "icon": "bi-globe"
     },
     {
@@ -640,7 +647,7 @@ researchTopics = [
 currentStudents = [
     { firstName: 'Anirudh', lastName: 'Kamath', image: 'images/anirudh.jpg', study: 'PhD', url: "https://www.linkedin.com/in/anirudhk98/" },
     { firstName: 'Gazi Abdur', lastName: 'Rakib', image: 'images/rakib.png', study: 'PhD', url: "https://sites.google.com/view/gaziabdurrakib/" },
-    { firstName: 'Hamid', lastName: 'Shafieasl', image: 'images/hamid.jpeg', study: 'PhD', url: "https://scholar.google.com/citations?user=fiP4N3oAAAAJ&hl=en" },
+    { firstName: 'Hamid', lastName: 'Shafieasl', image: 'images/hamid.jpg', study: 'PhD', url: "https://hamidmath.github.io/index.html" },
     { firstName: 'Chetan', lastName: 'Bajaj', image: 'images/Chetan.jpg', study: 'PhD', url: "https://www.linkedin.com/in/chetanbajaj22/" },
     { firstName: 'Meysam', lastName: 'Alishahi', image: 'images/Meysam.png', study: 'PhD', url: "https://scholar.google.com/citations?user=U2kMt0sAAAAJ" },
     { firstName: 'Arman', lastName: 'Ashkari', image: 'images/Arman.jpg', study: 'PhD', url: 'https://armanashkari.github.io/' },
