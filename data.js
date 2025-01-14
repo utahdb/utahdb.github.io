@@ -1,6 +1,14 @@
 // this file contains all variable data
-
 newsList = [
+    {
+        "news": "DAIS workshop led by Anna Fariha was accepted to ICDE 2025.",
+        "links": [
+            {
+                text: 'DAIS workshop',
+                link: 'https://dais-workshop-icde.github.io/'
+            }
+        ]
+    },
     {
         "news": "We are again running a Data Science & AI Day on Fri, Jan 24 in the Union Ballroom of the University of Utah.",
         "links": [
@@ -23,7 +31,7 @@ newsList = [
         "news": "Prof. Anna Fariha was recognized as one of the distinguished PC members at SIGMOD 2024.",
         "links": [
             {
-                text: '',
+                text: 'distinguished PC members',
                 link: "https://2024.sigmod.org/sigmod_awards.shtml"
             }
         ]
@@ -32,7 +40,7 @@ newsList = [
         "news": "Prof. Prashant Pandey and Prof. Anna Fariha won two One Utah Data Science Hub Seed Grant Awards.",
         "links": [
             {
-                text: '',
+                text: 'One Utah Data Science Hub Seed Grant Awards',
                 link: "https://www.research.utah.edu/one-utah-data-science-hub/"
             }
         ]
@@ -41,7 +49,7 @@ newsList = [
         "news": "Prof. Jeff M. Phillips received an NSF Award on Integrating and Learning on Spatial Data via Multi-Agent Simulation.",
         "links": [
             {
-                text: '',
+                text: 'NSF Award',
                 link: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2311954"
             }
         ]
@@ -50,7 +58,7 @@ newsList = [
         "news": "Prof. Anna Fariha was recognized as one of the distinguished PC members at SIGMOD 2023.",
         "links": [
             {
-                text: '',
+                text: 'distinguished PC members ',
                 link: "https://sigmod.org/sigmod-distinguished-aes-and-pcs/"
             }
         ]
@@ -59,12 +67,12 @@ newsList = [
         "news": "Workshop proposal led by Prof. El Kindi Rezig has been accepted to VLDB 2023. The workshop (Poly) focuses on recent advances in polystore and data lake management systems. The workshop will take place on September 1st, 2023 at VLDB in Vancouver, Canada.",
         "links": [
             {
-                text: '',
+                text: 'Poly',
                 link: "https://sites.google.com/view/vldb-workshop-poly23"
             }
         ]
     }
-  ]
+]
 
 const allPapers =
     [
