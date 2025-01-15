@@ -657,7 +657,7 @@ videos = [
     },
     {
         title: '[2023] Anna Fariha: Blame the Data, not the System: How Data Constraints can Help Explain Causes of Data-system Malfunction | NWDS 2023',
-        src: 'https://www.youtube.com/embed/bS2xyRNww9w'
+        src: 'https://www.youtube.com/embed/xgB3xJ-PpQ4'
     },
     {
         title: '[2022] El Kindi Rezig: Examples are All You Need: Iterative Data Discovery by Example in Data Lakes | CIDR 2022',
@@ -673,7 +673,7 @@ videos = [
     },
     {
         title: '[2020] Anna Fariha: SuDocu: Summarizing Documents by Example (best demo runner-up) | VLDB 2020',
-        src: 'https://www.youtube.com/watch?v=pDdMK4uyICM'
+        src: 'https://www.youtube.com/embed/pDdMK4uyICM'
     },
 ]
 
