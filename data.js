@@ -648,6 +648,8 @@ currentStudents = [
     { firstName: 'Whanhee', lastName: 'Cho', image: 'images/Whanhee.jpg', study: 'PhD', url: 'https://www.linkedin.com/in/whanhee-cho-139818282' },
     { firstName: 'Peter', lastName: 'Jacobs', image: 'images/Peter.png', study: 'PhD', url: 'https://www.linkedin.com/in/peter-jacobs-857a1a138' },
     { firstName: 'Mir Mahathir', lastName: 'Mohammad', image: 'images/Mir.jpg', study: 'PhD', url: 'https://www.linkedin.com/in/mir-mahathir-mohammad-59bb671a5/' },
+    { firstName: 'Aritra', lastName: 'Mazumder', image: 'images/aritra.jpg', study: 'PhD', url: 'https://www.linkedin.com/in/aritramazumder/'},
+    { firstName: 'Shamit', lastName: 'Fatin', image: 'images/samit.jpg', study: 'PhD', url: 'https://shamit187.github.io/'}
 ]
 
 videos = [

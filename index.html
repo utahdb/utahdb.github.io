@@ -235,8 +235,12 @@
         <div class="row justify-content-start">
           <div class="text-center member" v-for="student in currentStudents">
             <div>
-              <img :src="student.image" style="border-radius: 100%;" alt=""/>
-              <h3><a :href="student.url" target="_blank">{{student.firstName}} {{student.lastName}} ({{student.study}})</a></h3>
+              <img :src="student.image" class="student-image" alt=""/>
+              <h3>
+                <a :href="student.url" target="_blank">
+                  {{student.firstName}} {{student.lastName}} ({{student.study}})
+                </a>
+              </h3>
             </div>
           </div>
         </div>
