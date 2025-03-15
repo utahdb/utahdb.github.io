@@ -80,7 +80,7 @@ const allPapers =
         {
             "year": 2024,
             "paper": "Can Causal DAGs Generate Data-based Explanations of Black-box Models?",
-            "venue": "IEEE Big Data",
+            "venue": "IEEE BigData",
             "authors": "Arman Azad, El Kindi Rezig",
             "isDatabaseVenue": true,
             "confAttribute": "Workshop"
@@ -130,7 +130,7 @@ const allPapers =
             "paper": "Sketching Multidimensional Time Series for Fast Discord Mining.",
             "venue": "IEEE BigData",
             "authors": "Chin-Chia Michael Yeh, Yan Zheng, Menghai Pan, Huiyuan Chen, Zhongfang Zhuang, Junpeng Wang, Liang Wang, Wei Zhang, Jeff M. Phillips, and Eamonn Keogh",
-            "isDatabaseVenue": false,
+            "isDatabaseVenue": true,
             "confAttribute": "None"
         },
         {
