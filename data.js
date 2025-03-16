@@ -69,6 +69,22 @@ newsList = [
 
 const allPapers =
     [
+        // {
+        //     "year": 9999,
+        //     "paper": "(not specified)",
+        //     "venue": "(not specified)",
+        //     "authors": "(not specified)",
+        //     "isDatabaseVenue": true,
+        //     "confAttribute": "(not specified)"
+        // },
+        {
+            "year": 2025,
+            "paper": "Zombie Hashing: Reanimating Tombstones in Graveyard",
+            "venue": "SIGMOD",
+            "authors": "Benwei Shi, Yuvaraj Chesetti, Jeff M. Phillips, and Prashant Pandey",
+            "isDatabaseVenue": true,
+            "confAttribute": "None"
+        },
         {
             "year": 2025,
             "paper": "DataMorpher: Automatic Data Transformation Using LLM-based Zero-Shot Code Generation.",
@@ -78,10 +94,42 @@ const allPapers =
             "confAttribute": "Demo"
         },
         {
+            "year": 2025,
+            "paper": "ChARLES: Change-Aware Recovery of Latent Evolution Semantics in Relational Data.",
+            "venue": "SIGMOD",
+            "authors": "Shiyi He, Alexandra Meliou, Anna Fariha",
+            "isDatabaseVenue": true,
+            "confAttribute": "Demo"
+        },
+        {
+            "year": 2025,
+            "paper": "CausalExplain: Causal Explanations of Black-box Models with Training Data Subsets.",
+            "venue": "SIGMOD",
+            "authors": "Arman Ashkari, El Kindi Rezig",
+            "isDatabaseVenue": true,
+            "confAttribute": "Demo"
+        },
+        {
+            "year": 2025,
+            "paper": "SeerCuts: Explainable Attribute Discretization",
+            "venue": "SIGMOD",
+            "authors": "Eugenie Lai, Inbal Croitoru, Noam Bitton, Ariel Shalem, Brit Youngmann, Sainyam Galhotra, El Kindi Rezig, Michael Cafarella",
+            "isDatabaseVenue": true,
+            "confAttribute": "Demo"
+        },
+        {
+            "year": 2024,
+            "paper": "Leveraging Structured and Unstructured Data for Tabular Data Cleaning.",
+            "venue": "Data-Centric AI Workshop @ IEEE BigData",
+            "authors": "Pavitra Mehra, El Kindi Rezig",
+            "isDatabaseVenue": true,
+            "confAttribute": "Workshop"
+        },
+        {
             "year": 2024,
             "paper": "Can Causal DAGs Generate Data-based Explanations of Black-box Models?",
             "venue": "IEEE BigData",
-            "authors": "Arman Azad, El Kindi Rezig",
+            "authors": "Arman Ashkari, El Kindi Rezig",
             "isDatabaseVenue": true,
             "confAttribute": "Workshop"
         },
