@@ -688,7 +688,7 @@ researchTopics = [
 currentStudents = [
     { firstName: 'Anirudh', lastName: 'Kamath', image: 'images/anirudh.jpg', study: 'MS', url: "https://www.linkedin.com/in/anirudhk98/" },
     { firstName: 'Gazi Abdur', lastName: 'Rakib', image: 'images/rakib.png', study: 'PhD', url: "https://sites.google.com/view/gaziabdurrakib/" },
-    { firstName: 'Hamid', lastName: 'Shafieasl', image: 'images/hamid.jpeg', study: 'PhD', url: "https://scholar.google.com/citations?user=fiP4N3oAAAAJ&hl=en" },
+    { firstName: 'Hamid', lastName: 'Shafieasl', image: 'images/hamid.jpg', study: 'PhD', url: "https://scholar.google.com/citations?user=fiP4N3oAAAAJ&hl=en" },
     { firstName: 'Chetan', lastName: 'Bajaj', image: 'images/Chetan.jpg', study: 'PhD', url: "https://www.linkedin.com/in/chetanbajaj22/" },
     { firstName: 'Meysam', lastName: 'Alishahi', image: 'images/Meysam.png', study: 'PhD', url: "https://scholar.google.com/citations?user=U2kMt0sAAAAJ" },
     { firstName: 'Arman', lastName: 'Ashkari', image: 'images/Arman.jpg', study: 'PhD', url: 'https://armanashkari.github.io/' },
