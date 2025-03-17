@@ -120,7 +120,7 @@ const allPapers =
         {
             "year": 2024,
             "paper": "Leveraging Structured and Unstructured Data for Tabular Data Cleaning.",
-            "venue": "IEEE BigData",
+            "venue": "DCAI@ IEEE BigData",
             "authors": "Pavitra Mehra, El Kindi Rezig",
             "isDatabaseVenue": true,
             "confAttribute": "Workshop"
@@ -128,7 +128,7 @@ const allPapers =
         {
             "year": 2024,
             "paper": "Can Causal DAGs Generate Data-based Explanations of Black-box Models?",
-            "venue": "IEEE BigData",
+            "venue": "DCAI@ IEEE BigData",
             "authors": "Arman Ashkari, El Kindi Rezig",
             "isDatabaseVenue": true,
             "confAttribute": "Workshop"
