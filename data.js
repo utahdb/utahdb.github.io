@@ -120,7 +120,7 @@ const allPapers =
         {
             "year": 2024,
             "paper": "Leveraging Structured and Unstructured Data for Tabular Data Cleaning.",
-            "venue": "Data-Centric AI Workshop @ IEEE BigData",
+            "venue": "IEEE BigData",
             "authors": "Pavitra Mehra, El Kindi Rezig",
             "isDatabaseVenue": true,
             "confAttribute": "Workshop"
