@@ -617,23 +617,34 @@ const allPapers =
 
 const activeFaculties = [
     {
+        "name": "Anna Fariha",
+		"note": "",
+        "field": "Data systems usability, Data summarization, Trusted machine learning, Explainable AI, Data exploration and user interfaces, Data quality, Data cleaning, Data debugging, Responsible data management, Data fairness",
+        "picture": "images/annafariha.jpg",
+        "profileLink": "https://afariha.github.io/"
+    },
+    {
         "name": "Jeff M Phillips",
+		"note": "",
         "field": "Algorithms for Big Data Analytics: Geometric Data Analysis, Computational Geometry, Coresets and Sketches, Handling Uncertainty, Data Mining, Databases, Machine Learning, Spatial Statistics.",
         "picture": "images/jeff.jpeg",
         "profileLink": "https://www.cs.utah.edu/~jeffp/"
     },
     {
         "name": "El Kindi Rezig",
-        "field": "Data preparation, data discovery, data debugging, data integration, user interfaces, information extraction, data quality, data cleaning, and database usability",
+		"note": "",
+        "field": "Data preparation, Data discovery, Data debugging, Data integration, User interfaces, Information extraction, Data quality, Data cleaning, Database usability",
         "picture": "images/elkindi.jpeg",
         "profileLink": "https://elkindi.github.io/"
     },
     {
-        "name": "Anna Fariha",
-        "field": "Data systems usability, Data summarization, Trusted machine learning, Explainable AI, Data exploration and user interfaces, Data quality, Data cleaning, Data debugging, Responsible data management, Data fairness",
-        "picture": "images/annafariha.jpg",
-        "profileLink": "https://afariha.github.io/"
+        "name": "Fuheng Zhao",
+		"note": "Starting from Fall 2026",
+        "field": "Data summarization, Approximate query, Machine learning for data system, NL2SQL, Key-value stores, Data privacy and security",
+        "picture": "images/fuheng.jpg",
+        "profileLink": "https://zhaofuheng.github.io/"
     }
+
 ]
 
 const bannerImages = [

@@ -143,23 +143,25 @@
     </div>
     <!--end-about-->
     <!-- team -->
-    <div class="team" id="faculty">
-      <div class="container">
-        <h3 class="tittle">Faculty</h3>
-        <div class="row justify-content-center">
-          <div v-for="faculty in activeFaculties" class="text-center member">
-            <div>
-              <img :src="faculty.picture" alt=""/>
-              <h3 style="font-weight:bold"><a :href="faculty.profileLink"
-                target="_blank">{{faculty.name}}</a></h3>
-              <p style="display:block">
-                {{faculty.field}}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+	<div class="team" id="faculty">
+	  <div class="container">
+	    <h3 class="tittle">Faculty</h3>
+	    <div class="row justify-content-center">
+	      <div v-for="faculty in activeFaculties" class="text-center member">
+	        <div>
+	          <img :src="faculty.picture" alt=""/>
+	          <h3 style="font-weight:bold">
+	            <a :href="faculty.profileLink" target="_blank">{{ faculty.name }}</a>
+	          </h3>
+	          <h5 v-if="faculty.note">[{{ faculty.note }}]</h5>
+	          <p style="display:block">
+	            {{ faculty.field }}
+	          </p>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
     <!-- team -->
     <!--/research-->
     <div class="services" id="research">
