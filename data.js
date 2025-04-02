@@ -697,17 +697,17 @@ researchTopics = [
 ]
 
 currentStudents = [
-    { firstName: 'Anirudh', lastName: 'Kamath', image: 'images/anirudh.jpg', study: 'PhD', url: "https://www.linkedin.com/in/anirudhk98/" },
+    { firstName: 'Anirudh', lastName: 'Kamath', image: 'images/anirudh.jpg', study: 'PhD', url: "https://anirudhkamath.github.io/" },
     { firstName: 'Gazi Abdur', lastName: 'Rakib', image: 'images/rakib.png', study: 'PhD', url: "https://sites.google.com/view/gaziabdurrakib/" },
     { firstName: 'Hamid', lastName: 'Shafieasl', image: 'images/hamid.jpg', study: 'PhD', url: "https://scholar.google.com/citations?user=fiP4N3oAAAAJ&hl=en" },
     // { firstName: 'Chetan', lastName: 'Bajaj', image: 'images/Chetan.jpg', study: 'PhD', url: "https://www.linkedin.com/in/chetanbajaj22/" },
     { firstName: 'Meysam', lastName: 'Alishahi', image: 'images/Meysam.png', study: 'PhD', url: "https://scholar.google.com/citations?user=U2kMt0sAAAAJ" },
     { firstName: 'Arman', lastName: 'Ashkari', image: 'images/Arman.jpg', study: 'PhD', url: 'https://armanashkari.github.io/' },
     { firstName: 'Foad', lastName: 'Namjoo', image: 'images/foad.jpg', study: 'PhD', url: 'https://www.linkedin.com/in/foadnamjoo/' },
-    { firstName: 'Whanhee', lastName: 'Cho', image: 'images/Whanhee.jpg', study: 'PhD', url: 'https://www.linkedin.com/in/whanhee-cho-139818282' },
+    { firstName: 'Whanhee', lastName: 'Cho', image: 'images/Whanhee.jpg', study: 'PhD', url: 'https://whnhch.github.io/' },
     { firstName: 'Peter', lastName: 'Jacobs', image: 'images/Peter.png', study: 'PhD', url: 'https://www.linkedin.com/in/peter-jacobs-857a1a138' },
-    { firstName: 'Mir Mahathir', lastName: 'Mohammad', image: 'images/Mir.jpg', study: 'PhD', url: 'https://www.linkedin.com/in/mir-mahathir-mohammad-59bb671a5/' },
-    { firstName: 'Aritra', lastName: 'Mazumder', image: 'images/aritra.jpg', study: 'PhD', url: 'https://www.linkedin.com/in/aritramazumder/'},
+    { firstName: 'Mir Mahathir', lastName: 'Mohammad', image: 'images/Mir.jpg', study: 'PhD', url: 'https://www.mirmahathir.com/' },
+    { firstName: 'Aritra', lastName: 'Mazumder', image: 'images/aritra.jpg', study: 'PhD', url: 'https://aritra741.github.io/'},
     { firstName: 'Shamit', lastName: 'Fatin', image: 'images/samit.jpg', study: 'PhD', url: 'https://shamit187.github.io/'}
 ]
 
