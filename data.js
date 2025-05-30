@@ -77,6 +77,14 @@ const allPapers =
         //     "isDatabaseVenue": true,
         //     "confAttribute": "(not specified)"
         // },
+	{
+            "year": 2025,
+            "paper": "Challenges in Using Conversational AI for Data Science",
+            "venue": "HILDA@SIGMOD",
+            "authors": "Bhavya Chopra, Ananya Singha, Anna Fariha, Sumit Gulwani, Chris Parnin, Ashish Tiwari, Austin Z. Henley",
+            "isDatabaseVenue": true,
+            "confAttribute": "Workshop"
+        },
         {
             "year": 2025,
             "paper": "Zombie Hashing: Reanimating Tombstones in Graveyard",
