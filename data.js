@@ -77,7 +77,7 @@ const allPapers =
         //     "isDatabaseVenue": true,
         //     "confAttribute": "(not specified)"
         // },
-	{
+		{
             "year": 2025,
             "paper": "Challenges in Using Conversational AI for Data Science",
             "venue": "HILDA@SIGMOD",
@@ -662,6 +662,16 @@ const bannerImages = [
 ]
 
 researchTopics = [
+	{
+		"title": "Data understanding",
+		"details": "This project aims to bridge the gap between raw data and meaningful insights, empowering users to better understand how data changes and why certain disparities emerge. It includes summarizing how data evolves over time and providing causal explanations for disparities between two groups within a dataset.",
+		"icon": "bi-person"
+	},
+	{
+		"title": "Recommendation systems for data-management tasks",
+		"details": "This project develops recommendation systems for complex data-management tasks. Examples include data summarization using pivot tables, data wrangling, dataset discovery and search. Techniques include approximation algorithms and agentic AI.",
+		"icon": "bi-person"
+	},
     {
         "title": "Democratizing data-driven systems",
         "details": "This project focuses on three key aspects of data system democratization: enhancing usability of data systems for non-experts and experts, providing explanation frameworks to enable understanding of system behavior, and achieving trust and fairness in machine learning.",
