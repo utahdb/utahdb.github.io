@@ -648,6 +648,7 @@ researchTopics = [
 ]
 
 currentStudents = [
+    { firstName: 'Rabeya', lastName: 'Hossain', image: 'images/anon_female.png', study: 'PhD', url: "" },
     { firstName: 'Anirudh', lastName: 'Kamath', image: 'images/anirudh.jpg', study: 'PhD', url: "https://anirudhkamath.github.io/" },
     { firstName: 'Gazi Abdur', lastName: 'Rakib', image: 'images/rakib.png', study: 'PhD', url: "https://sites.google.com/view/gaziabdurrakib/" },
     { firstName: 'Hamid', lastName: 'Shafieasl', image: 'images/hamid.jpg', study: 'PhD', url: "https://scholar.google.com/citations?user=fiP4N3oAAAAJ&hl=en" },
