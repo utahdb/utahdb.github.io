@@ -1,72 +1,5 @@
 // this file contains all variable data
 
-newsList = [
-    {
-        "news": "We are again running a Data Science & AI Day on Fri, Jan 24 in the Union Ballroom of the University of Utah.",
-        "links": [
-            {
-                text: 'Data Science & AI Day',
-                link: "https://datascience.utah.edu/events/2025/data-science-day/"
-            }
-        ]
-    },
-    {
-        "news": "Prof. Jeff M. Phillips and Prof. El Kindi Rezig received CosmicAI award (2024).",
-        "links": [
-            {
-                text: 'CosmicAI',
-                link: "https://www.price.utah.edu/2024/09/18/u-researchers-join-new-nsf-simons-cosmicai-institute"
-            }
-        ]
-    },
-    {
-        "news": "Prof. Anna Fariha was recognized as one of the distinguished PC members at SIGMOD 2024.",
-        "links": [
-            {
-                text: '',
-                link: "https://2024.sigmod.org/sigmod_awards.shtml"
-            }
-        ]
-    },
-    {
-        "news": "Prof. Prashant Pandey and Prof. Anna Fariha won two One Utah Data Science Hub Seed Grant Awards.",
-        "links": [
-            {
-                text: '',
-                link: "https://www.research.utah.edu/one-utah-data-science-hub/"
-            }
-        ]
-    },
-    {
-        "news": "Prof. Jeff M. Phillips received an NSF Award on Integrating and Learning on Spatial Data via Multi-Agent Simulation.",
-        "links": [
-            {
-                text: '',
-                link: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2311954"
-            }
-        ]
-    },
-    {
-        "news": "Prof. Anna Fariha was recognized as one of the distinguished PC members at SIGMOD 2023.",
-        "links": [
-            {
-                text: '',
-                link: "https://sigmod.org/sigmod-distinguished-aes-and-pcs/"
-            }
-        ]
-    },
-    {
-        "news": "Workshop proposal led by Prof. El Kindi Rezig has been accepted to VLDB 2023. The workshop (Poly) focuses on recent advances in polystore and data lake management systems. The workshop will take place on September 1st, 2023 at VLDB in Vancouver, Canada.",
-        "links": [
-            {
-                text: '',
-                link: "https://sites.google.com/view/vldb-workshop-poly23"
-            }
-        ]
-    }
-  ]
-  
-
 const allPapers =
     [
         // {
@@ -718,7 +651,6 @@ currentStudents = [
     { firstName: 'Anirudh', lastName: 'Kamath', image: 'images/anirudh.jpg', study: 'PhD', url: "https://anirudhkamath.github.io/" },
     { firstName: 'Gazi Abdur', lastName: 'Rakib', image: 'images/rakib.png', study: 'PhD', url: "https://sites.google.com/view/gaziabdurrakib/" },
     { firstName: 'Hamid', lastName: 'Shafieasl', image: 'images/hamid.jpg', study: 'PhD', url: "https://scholar.google.com/citations?user=fiP4N3oAAAAJ&hl=en" },
-    // { firstName: 'Chetan', lastName: 'Bajaj', image: 'images/Chetan.jpg', study: 'PhD', url: "https://www.linkedin.com/in/chetanbajaj22/" },
     { firstName: 'Meysam', lastName: 'Alishahi', image: 'images/Meysam.png', study: 'PhD', url: "https://scholar.google.com/citations?user=U2kMt0sAAAAJ" },
     { firstName: 'Arman', lastName: 'Ashkari', image: 'images/Arman.jpg', study: 'PhD', url: 'https://armanashkari.github.io/' },
     { firstName: 'Foad', lastName: 'Namjoo', image: 'images/foad.jpg', study: 'PhD', url: 'https://www.linkedin.com/in/foadnamjoo/' },

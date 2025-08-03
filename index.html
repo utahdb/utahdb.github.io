@@ -206,7 +206,9 @@
       <div class="container">
         <h3 class="tittle">Recent News</h3>
         <ul>
-	        <li> Prof. Anna Fariha received <custom-link href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2346555">POWDER-ENS Grant</custom-link> as a co-PI.
+	      <li> Prof. Anna Fariha received a <custom-link href="https://stena.utah.edu/">Stena Center for Financial Technology Seed Grant</custom-link>.
+          </li>
+	      <li> Prof. Anna Fariha received <custom-link href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2346555">POWDER-ENS Grant</custom-link> as a co-PI.
           </li>
           <li> Workshop proposal led by Prof. Anna Fariha has been accepted to ICDE 2025. The workshop (<custom-link  href="https://dais-workshop-icde.github.io/" >DAIS</custom-link>) focuses on recent advances in Data-AI Systems.
           </li>
@@ -262,53 +264,127 @@
     </div>
     </div>
 
-    <!-- Activities -->
-    <div class="py-5 bg-light" id="activities">
-      <div class="container">
-        <h3 class="tittle">Activities</h3>
-        <div class="row">
-          <!-- this for loop iterates the activities defined in the <script> section and shows the image and title for each activity-->
-          <div class="col-md-4" v-for="(activity, activityIndex) in activities">
-            <div style="width:48%;float: left;height: 300px;display: block;max-width: 99%;width: auto;height: auto;margin: auto;">
-              <button type="button" class="btn" data-bs-toggle="modal" :data-bs-target="`#activityModal${activityIndex}`">
-                <img :src="activity.localLink" style="display: block;max-width: 100%;width: auto;height: auto;">
-              </button>
-              <br>
-              <div style="text-align: center; padding: 10px;">{{activity.title}}</div>
-              <div class="modal fade" :id="`activityModal${activityIndex}`" tabindex="-1" :aria-labelledby="`activityModalLabel${activityIndex}`" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" :id="`activityModalLabel${activityIndex}`">{{activity.title}}</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <img :src="activity.localLink" style="max-width: 100%;width: 100%;height: auto;">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+	<!-- Activities -->
+	<div class="py-5 bg-light" id="activities">
+	  <div class="container">
+	    <h3 class="tittle">Activities</h3>
+	    <div class="row g-4">
+	      <div class="col-md-4" v-for="(activity, activityIndex) in activities" :key="activityIndex">
+	        <div class="card h-100 text-center">
+	          <button
+	            type="button"
+	            class="btn p-0"
+	            data-bs-toggle="modal"
+	            :data-bs-target="`#activityModal${activityIndex}`"
+	            style="display: block; width: 100%; padding: 0; border: none; background: none;"
+	          >
+	            <div
+	              style="
+	                width: 100%;
+	                aspect-ratio: 3 / 2;
+	                overflow: hidden;
+	                border-radius: 8px;
+	                background-color: #f8f9fa;
+	              "
+	            >
+	              <img
+	                :src="activity.localLink"
+	                alt="Activity Image"
+	                style="
+	                  width: 100%;
+	                  height: 100%;
+	                  object-fit: cover;
+	                  display: block;
+	                "
+	              >
+	            </div>
+	          </button>
+	          <div class="card-body">
+	            <h5 class="card-title">{{ activity.title }}</h5>
+	          </div>
+	        </div>
 
-    <!-- Videos -->
-    <div class="team" id="videos">
-      <div class="container" >
-        <h3 class="tittle">Videos</h3>
-        <div class="row">
-          <div class="col-md-4" v-for="video in videos">
-            <iframe width="300" height="150" style="display:block; margin:auto;" :src="video.src" 
-            title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div style="text-align: center; font-size: 15px; padding: 10px">{{video.title}}</div>
-          </div>
-        </div>
-      <div class="clearfix"></div>
-      </div>
-    </div>
+	        <!-- Modal -->
+	        <div
+	          class="modal fade"
+	          :id="`activityModal${activityIndex}`"
+	          tabindex="-1"
+	          :aria-labelledby="`activityModalLabel${activityIndex}`"
+	          aria-hidden="true"
+	        >
+	          <div class="modal-dialog modal-lg modal-dialog-centered">
+	            <div class="modal-content">
+	              <div class="modal-header">
+	                <h5
+	                  class="modal-title"
+	                  :id="`activityModalLabel${activityIndex}`"
+	                >
+	                  {{ activity.title }}
+	                </h5>
+	                <button
+	                  type="button"
+	                  class="btn-close"
+	                  data-bs-dismiss="modal"
+	                  aria-label="Close"
+	                ></button>
+	              </div>
+	              <div class="modal-body">
+	                <img
+	                  :src="activity.localLink"
+	                  alt="Modal Image"
+	                  style="max-width: 100%; width: 100%; height: auto;"
+	                >
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+
+
+	<!-- Videos -->
+	<div class="team py-5 bg-light" id="videos">
+	  <div class="container">
+	    <h3 class="tittle">Videos</h3>
+	    <div class="row g-4">
+	      <div class="col-md-4" v-for="(video, videoIndex) in videos" :key="videoIndex">
+	        <div class="card h-100 text-center">
+	          <div
+	            style="
+	              width: 100%;
+	              aspect-ratio: 16 / 9;
+	              overflow: hidden;
+	              border-radius: 8px;
+	              background-color: #000;
+	            "
+	          >
+	            <iframe
+	              :src="video.src"
+	              title="YouTube video player"
+	              frameborder="0"
+	              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+	              allowfullscreen
+	              style="
+	                width: 100%;
+	                height: 100%;
+	                border: none;
+	                display: block;
+	              "
+	            ></iframe>
+	          </div>
+	          <div class="card-body">
+	            <h5 class="card-title">{{ video.title }}</h5>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+    
 
     <div class="copy">
       <p>&copy; {{getCurrentYear}} University of Utah. All Rights Reserved</p>
