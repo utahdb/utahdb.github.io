@@ -690,23 +690,23 @@ videos = [
 
 activities = [
     {
-        "localLink": "images/SIGMOD_2025_1.JPG",
-        "onlineLink": "images/SIGMOD_2025_1.JPG",
+        "localLink": "images/SIGMOD_2025_1.jpg",
+        "onlineLink": "images/SIGMOD_2025_1.jpg",
         "title": "SIGMOD 2025, Berlin, Germany"
     },
     {
-        "localLink": "images/SIGMOD_2025_2.JPG",
-        "onlineLink": "images/SIGMOD_2025_2.JPG",
+        "localLink": "images/SIGMOD_2025_2.jpg",
+        "onlineLink": "images/SIGMOD_2025_2.jpg",
         "title": "SIGMOD 2025, Berlin, Germany"
     },
     {
-        "localLink": "images/SIGMOD_2025_3.JPG",
-        "onlineLink": "images/SIGMOD_2025_3.JPG",
+        "localLink": "images/SIGMOD_2025_3.jpg",
+        "onlineLink": "images/SIGMOD_2025_3.jpg",
         "title": "SIGMOD 2025, Berlin, Germany"
     },
     {
-        "localLink": "images/NWDS2024.JPG",
-        "onlineLink": "images/NWDS2024.JPG",
+        "localLink": "images/NWDS2024.jpg",
+        "onlineLink": "images/NWDS2024.jpg",
         "title": "NWDS 2024, Seattle, USA"
     },
     {
