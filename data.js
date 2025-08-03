@@ -591,7 +591,8 @@ const activeFaculties = [
 const bannerImages = [
     "images/1.png",
     "images/2.jpg",
-    "images/3.jpeg"
+    "images/3.jpeg",
+    "images/4.jpg"
 ]
 
 researchTopics = [
