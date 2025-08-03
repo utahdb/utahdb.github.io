@@ -682,16 +682,16 @@ researchTopics = [
         "details": "This project focuses on advancing the theory and practice of compact, dynamic, and scalable data structures to tackle the challenges of modern data analyses pipelines. We work on filters, hash tables, trees, succinct, and write-optimized data structures.",
         "icon": "bi-gear"
     },
-    {
-        "title": "Large-scale indexing raw genomics data",
-        "details": "This project focuses on building scalable data processing pipelines for quickly indexing and searching through tera-bytes of raw genomic, transcriptomic, and metagenomics data.",
-        "icon": "bi-lock"
-    },
-    {
-        "title": "Efficient parallel graph processing",
-        "details": "This project focuses on building highly parallel data structures and algorithms for efficiently processing static, streaming, and dynamic graphs. This project further explores using hardware accelerators such as GPUs for massively parallel processing of dynamic graphs.",
-        "icon": "bi-wrench"
-    },
+    // {
+    //     "title": "Large-scale indexing raw genomics data",
+    //     "details": "This project focuses on building scalable data processing pipelines for quickly indexing and searching through tera-bytes of raw genomic, transcriptomic, and metagenomics data.",
+    //     "icon": "bi-lock"
+    // },
+    // {
+    //     "title": "Efficient parallel graph processing",
+    //     "details": "This project focuses on building highly parallel data structures and algorithms for efficiently processing static, streaming, and dynamic graphs. This project further explores using hardware accelerators such as GPUs for massively parallel processing of dynamic graphs.",
+    //     "icon": "bi-wrench"
+    // },
     {
         "title": "Persistent Data Summaries",
         "details": "This project builds summaries for massive data arriving over time, which are small space, efficient to build and query, and amenable to data analysis. Moreover, they can be queried with respect to a time window for retrospective analysis.",
@@ -757,6 +757,21 @@ videos = [
 ]
 
 activities = [
+    {
+        "localLink": "images/SIGMOD_2025_1.JPG",
+        "onlineLink": "images/SIGMOD_2025_1.JPG",
+        "title": "SIGMOD 2025, Berlin, Germany"
+    },
+    {
+        "localLink": "images/SIGMOD_2025_2.JPG",
+        "onlineLink": "images/SIGMOD_2025_2.JPG",
+        "title": "SIGMOD 2025, Berlin, Germany"
+    },
+    {
+        "localLink": "images/SIGMOD_2025_3.JPG",
+        "onlineLink": "images/SIGMOD_2025_3.JPG",
+        "title": "SIGMOD 2025, Berlin, Germany"
+    },
     {
         "localLink": "images/NWDS2024.JPG",
         "onlineLink": "images/NWDS2024.JPG",
