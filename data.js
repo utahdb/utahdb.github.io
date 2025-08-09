@@ -28,8 +28,7 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper:
-      "Buckaroo: A Direct Manipulation Visual Data Wranglerntations to Sort Tables",
+    paper: "Buckaroo: A Direct Manipulation Visual Data Wrangler",
     venue: "VLDB",
     authors: "Annabelle Warner, Andrew McNutt, Paul Rosen, El Kindi Rezig",
     isDatabaseVenue: true,
