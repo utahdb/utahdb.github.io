@@ -707,13 +707,23 @@ researchTopics = [
     title: "Recommendation systems for data-management tasks",
     details:
       "This project develops recommendation systems for complex data-management tasks. Examples include data summarization using pivot tables, data wrangling, dataset discovery and search. Techniques include approximation algorithms and agentic AI.",
-    icon: "bi-person",
+    icon: "bi-stars",
   },
   {
     title: "Democratizing data-driven systems",
     details:
       "This project focuses on three key aspects of data system democratization: enhancing usability of data systems for non-experts and experts, providing explanation frameworks to enable understanding of system behavior, and achieving trust and fairness in machine learning.",
-    icon: "bi-person",
+    icon: "bi-diagram-3",
+  },
+  {
+    title: "Data debugging",
+    details: "We develop systems that enable users to diagnose and fix data issues in complex, data-intensive pipelines. Our focus is on scenarios where the data originates from black-box machine learning models, and we equip users with explanations that reveal why these models produce the outputs they do.",
+    icon: "bi-bug"
+  },
+  {
+    title: "Data discovery",
+    details: "We build data discovery systems whose job is to identify, understand, and connect relevant datasets across diverse and often disparate sources. By automating the search for joinable and related data, data discovery empowers analysts to uncover hidden connections, enrich their datasets, and accelerate insights without exhaustive manual exploration.",
+    icon: "bi-search"
   },
   {
     title: "Data structures for scalable computing",
@@ -721,16 +731,6 @@ researchTopics = [
       "This project focuses on advancing the theory and practice of compact, dynamic, and scalable data structures to tackle the challenges of modern data analyses pipelines. We work on filters, hash tables, trees, succinct, and write-optimized data structures.",
     icon: "bi-gear",
   },
-  // {
-  //     "title": "Large-scale indexing raw genomics data",
-  //     "details": "This project focuses on building scalable data processing pipelines for quickly indexing and searching through tera-bytes of raw genomic, transcriptomic, and metagenomics data.",
-  //     "icon": "bi-lock"
-  // },
-  // {
-  //     "title": "Efficient parallel graph processing",
-  //     "details": "This project focuses on building highly parallel data structures and algorithms for efficiently processing static, streaming, and dynamic graphs. This project further explores using hardware accelerators such as GPUs for massively parallel processing of dynamic graphs.",
-  //     "icon": "bi-wrench"
-  // },
   {
     title: "Persistent Data Summaries",
     details:
@@ -761,9 +761,9 @@ currentStudents = [
   {
     firstName: "Rabeya",
     lastName: "Hossain",
-    image: "images/anon_female.png",
+    image: "images/rabeya.jpg",
     study: "PhD",
-    url: "",
+    url: "https://github.com/Rabeya-hossain",
   },
   {
     firstName: "Anirudh",
