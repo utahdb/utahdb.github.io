@@ -6,7 +6,7 @@ const allPapers = [
   //     "paper": "(not specified)",
   //     "venue": "(not specified)",
   //     "authors": "(not specified)",
-  //     "isDatabaseVenue": true,
+  //     "isDatabaseVenue": true, // Note: SIGMOD, VLDB, ICDE, EDBT, ICDT, PODS, CIDR, IEEE BigData, TKDE, VLDBJ, TKDD, TODS, SIGKDD --- These are DataBase Venues.
   //     "confAttribute": "(not specified)"
   // },
   {
