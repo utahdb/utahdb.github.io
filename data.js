@@ -732,25 +732,25 @@ researchTopics = [
     icon: "bi-gear",
   },
   {
-    title: "Persistent Data Summaries",
+    title: "Persistent data summaries",
     details:
       "This project builds summaries for massive data arriving over time, which are small space, efficient to build and query, and amenable to data analysis. Moreover, they can be queried with respect to a time window for retrospective analysis.",
     icon: "bi-bar-chart",
   },
   {
-    title: "Data Sketching",
+    title: "Data sketching",
     details:
       "We design and implement sketch data structures which are compressed representations of data with guaranteed trade-offs between the space and the accuracy of queries. Our group has designs sketches for quantiles, multi-dimensional data, frequent items, shape-fitting, trajectories data, and many more.",
     icon: "bi-hdd",
   },
   {
-    title: "Spatial Exposome Data",
+    title: "Spatial exposome data",
     details:
       "CEDaR is be an open exposomic data resource that can be used by researchers across disciplines to increase understanding of the environment and health. Sources of environmental exposure data are sparse, inconsistent, and rarely linked to individuals, making research complicated and difficult. Through CEDaR, we provide a single platform containing cleaned and standardized environmental exposure measures that can be used independently or to create holistic measures of the exposome.",
     icon: "bi-globe",
   },
   {
-    title: "Data Systems on Modern Hardware",
+    title: "Data systems on modern hardware",
     details:
       "This project exploits modern compute hardware such as GPUs, FPGAs and storage hardware such as PMEMs, HBMs for accelerating data systems. Our group designs new algorithmic techniques to model the performance of new hardware and then analyzes data systems in the light of the new algorithmic models to accelerate them.",
     icon: "bi-gear",
