@@ -11,7 +11,8 @@ const allPapers = [
   // },
   {
     year: 2025,
-    paper: "Hybrid Querying Over Relational Databases and Large Language Models",
+    paper:
+      "Hybrid Querying Over Relational Databases and Large Language Models",
     venue: "CIDR",
     authors: "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi",
     isDatabaseVenue: true,
@@ -36,9 +37,11 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "Sphinteract: Resolving Ambiguities in NL2SQL through User Interaction",
+    paper:
+      "Sphinteract: Resolving Ambiguities in NL2SQL through User Interaction",
     venue: "VLDB",
-    authors: "Fuheng Zhao, Shaleen Deep, Fotis Psallidas, Avrilia Floratou, Divyakant Agrawal, Amr El Abbadi",
+    authors:
+      "Fuheng Zhao, Shaleen Deep, Fotis Psallidas, Avrilia Floratou, Divyakant Agrawal, Amr El Abbadi",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -99,17 +102,21 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "The SpaceSaving± Family of Algorithms for Data Streams with Bounded Deletions",
+    paper:
+      "The SpaceSaving± Family of Algorithms for Data Streams with Bounded Deletions",
     venue: "ICDE",
-    authors: "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi, Claire Mathieu, Ahmed Metwally, Michel de Rougemont",
+    authors:
+      "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi, Claire Mathieu, Ahmed Metwally, Michel de Rougemont",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
   {
     year: 2025,
-    paper: "Autumn: A Scalable Read Optimized LSM-tree based Key-Value Stores with Fast Point and Range Read Speed",
+    paper:
+      "Autumn: A Scalable Read Optimized LSM-tree based Key-Value Stores with Fast Point and Range Read Speed",
     venue: "ICDE",
-    authors: "Fuheng Zhao, Zach Miller, Leron Reznikov, Divyakant Agrawal, Amr El Abbadi",
+    authors:
+      "Fuheng Zhao, Zach Miller, Leron Reznikov, Divyakant Agrawal, Amr El Abbadi",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -144,7 +151,8 @@ const allPapers = [
     year: 2024,
     paper: "NL2SQL is a solved problem... not!",
     venue: "CIDR",
-    authors: "Avrilia Floratou, Fotis Psallidas, Fuheng Zhao, Shaleen Deep, Gunther Hagleither, Wangda Tan, Joyce Cahoon, Rana Alotaibi, Jordan Henkel, Abhik Singla, Alex Van Grootel, Brandon Chow, Kai Deng, Katherine Lin, Marcos Campos, K Venkatesh Emani, Vivek Pandit, Victor Shnayder, Wenjing Wang, Carlo Curino",
+    authors:
+      "Avrilia Floratou, Fotis Psallidas, Fuheng Zhao, Shaleen Deep, Gunther Hagleither, Wangda Tan, Joyce Cahoon, Rana Alotaibi, Jordan Henkel, Abhik Singla, Alex Van Grootel, Brandon Chow, Kai Deng, Katherine Lin, Marcos Campos, K Venkatesh Emani, Vivek Pandit, Victor Shnayder, Wenjing Wang, Carlo Curino",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -216,7 +224,8 @@ const allPapers = [
     year: 2023,
     paper: "Panakos: Chasing the Tails for Multidimensional Data Streams",
     venue: "VLDB",
-    authors: "Fuheng Zhao, Punnal Ismail Khan, Divyakant Agrawal, Amr El Abbadi, Arpit Gupta, Zaoxing Liu",
+    authors:
+      "Fuheng Zhao, Punnal Ismail Khan, Divyakant Agrawal, Amr El Abbadi, Arpit Gupta, Zaoxing Liu",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -306,7 +315,8 @@ const allPapers = [
   },
   {
     year: 2022,
-    paper: "SpaceSaving±: An Optimal Algorithm for Frequency Estimation and Frequent items in the Bounded Deletion Model",
+    paper:
+      "SpaceSaving±: An Optimal Algorithm for Frequency Estimation and Frequent items in the Bounded Deletion Model",
     venue: "VLDB",
     authors: "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi, Ahmed Metwally",
     isDatabaseVenue: true,
@@ -314,9 +324,11 @@ const allPapers = [
   },
   {
     year: 2022,
-    paper: "Differentially private linear sketches: Efficient implementations and applications",
+    paper:
+      "Differentially private linear sketches: Efficient implementations and applications",
     venue: "NeurIPS",
-    authors: "Fuheng Zhao, Dan Qiao, Rachel Redberg, Divyakant Agrawal, Amr El Abbadi, Yu-Xiang Wang",
+    authors:
+      "Fuheng Zhao, Dan Qiao, Rachel Redberg, Divyakant Agrawal, Amr El Abbadi, Yu-Xiang Wang",
     isDatabaseVenue: false,
     confAttribute: "None",
   },
@@ -360,7 +372,8 @@ const allPapers = [
     year: 2021,
     paper: "KLL± approximate quantile sketches over dynamic datasets",
     venue: "VLDB",
-    authors: "Fuheng Zhao, Sujaya Maiyya, Ryan Wiener, Divyakant Agrawal, Amr El Abbadi",
+    authors:
+      "Fuheng Zhao, Sujaya Maiyya, Ryan Wiener, Divyakant Agrawal, Amr El Abbadi",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -789,13 +802,15 @@ researchTopics = [
   },
   {
     title: "Data debugging",
-    details: "We develop systems that enable users to diagnose and fix data issues in complex, data-intensive pipelines. Our focus is on scenarios where the data originates from black-box machine learning models, and we equip users with explanations that reveal why these models produce the outputs they do.",
-    icon: "bi-bug"
+    details:
+      "We develop systems that enable users to diagnose and fix data issues in complex, data-intensive pipelines. Our focus is on scenarios where the data originates from black-box machine learning models, and we equip users with explanations that reveal why these models produce the outputs they do.",
+    icon: "bi-bug",
   },
   {
     title: "Data discovery",
-    details: "We build data discovery systems whose job is to identify, understand, and connect relevant datasets across diverse and often disparate sources. By automating the search for joinable and related data, data discovery empowers analysts to uncover hidden connections, enrich their datasets, and accelerate insights without exhaustive manual exploration.",
-    icon: "bi-search"
+    details:
+      "We build data discovery systems whose job is to identify, understand, and connect relevant datasets across diverse and often disparate sources. By automating the search for joinable and related data, data discovery empowers analysts to uncover hidden connections, enrich their datasets, and accelerate insights without exhaustive manual exploration.",
+    icon: "bi-search",
   },
   {
     title: "Data structures for scalable computing",
@@ -978,7 +993,7 @@ activities = [
 alumni = [
   {
     name: "Peter Jacobs",
-    status: "Postdoc, University of Wisconsin",
+    status: "PhD 2025, Postdoc at University of Wisconsin",
     link: "https://www.linkedin.com/in/peter-jacobs-857a1a138",
   },
   {
