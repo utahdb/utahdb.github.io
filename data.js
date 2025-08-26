@@ -6,9 +6,17 @@ const allPapers = [
   //     "paper": "(not specified)",
   //     "venue": "(not specified)",
   //     "authors": "(not specified)",
-  //     "isDatabaseVenue": true,
+  //     "isDatabaseVenue": true, // Note: SIGMOD, VLDB, ICDE, EDBT, ICDT, PODS, CIDR, IEEE BigData, TKDE, VLDBJ, TKDD, TODS, SIGKDD --- These are DataBase Venues.
   //     "confAttribute": "(not specified)"
   // },
+  {
+    year: 2025,
+    paper: "Hybrid Querying Over Relational Databases and Large Language Models",
+    venue: "CIDR",
+    authors: "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
   {
     year: 2025,
     paper: "LORY: Location-aware Data Discovery from Data Lakes",
@@ -25,6 +33,14 @@ const allPapers = [
     authors: "Akash Khatri, Mahathir Mohammad, El Kindi Rezig",
     isDatabaseVenue: true,
     confAttribute: "Demo",
+  },
+  {
+    year: 2025,
+    paper: "Sphinteract: Resolving Ambiguities in NL2SQL through User Interaction",
+    venue: "VLDB",
+    authors: "Fuheng Zhao, Shaleen Deep, Fotis Psallidas, Avrilia Floratou, Divyakant Agrawal, Amr El Abbadi",
+    isDatabaseVenue: true,
+    confAttribute: "None",
   },
   {
     year: 2025,
@@ -83,6 +99,22 @@ const allPapers = [
   },
   {
     year: 2025,
+    paper: "The SpaceSaving± Family of Algorithms for Data Streams with Bounded Deletions",
+    venue: "ICDE",
+    authors: "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi, Claire Mathieu, Ahmed Metwally, Michel de Rougemont",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
+  {
+    year: 2025,
+    paper: "Autumn: A Scalable Read Optimized LSM-tree based Key-Value Stores with Fast Point and Range Read Speed",
+    venue: "ICDE",
+    authors: "Fuheng Zhao, Zach Miller, Leron Reznikov, Divyakant Agrawal, Amr El Abbadi",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
+  {
+    year: 2025,
     paper:
       "ChARLES: Change-Aware Recovery of Latent Evolution Semantics in Relational Data.",
     venue: "SIGMOD",
@@ -107,6 +139,14 @@ const allPapers = [
       "Eugenie Lai, Inbal Croitoru, Noam Bitton, Ariel Shalem, Brit Youngmann, Sainyam Galhotra, El Kindi Rezig, Michael Cafarella",
     isDatabaseVenue: true,
     confAttribute: "Demo",
+  },
+  {
+    year: 2024,
+    paper: "NL2SQL is a solved problem... not!",
+    venue: "CIDR",
+    authors: "Avrilia Floratou, Fotis Psallidas, Fuheng Zhao, Shaleen Deep, Gunther Hagleither, Wangda Tan, Joyce Cahoon, Rana Alotaibi, Jordan Henkel, Abhik Singla, Alex Van Grootel, Brandon Chow, Kai Deng, Katherine Lin, Marcos Campos, K Venkatesh Emani, Vivek Pandit, Victor Shnayder, Wenjing Wang, Carlo Curino",
+    isDatabaseVenue: true,
+    confAttribute: "None",
   },
   {
     year: 2024,
@@ -170,6 +210,14 @@ const allPapers = [
     venue: "EMNLP",
     authors: "Soohyeong Kim, Whanhee Cho, Minji Kim, Yong Suk Choi",
     isDatabaseVenue: false,
+    confAttribute: "None",
+  },
+  {
+    year: 2023,
+    paper: "Panakos: Chasing the Tails for Multidimensional Data Streams",
+    venue: "VLDB",
+    authors: "Fuheng Zhao, Punnal Ismail Khan, Divyakant Agrawal, Amr El Abbadi, Arpit Gupta, Zaoxing Liu",
+    isDatabaseVenue: true,
     confAttribute: "None",
   },
   {
@@ -257,6 +305,22 @@ const allPapers = [
     confAttribute: "None",
   },
   {
+    year: 2022,
+    paper: "SpaceSaving±: An Optimal Algorithm for Frequency Estimation and Frequent items in the Bounded Deletion Model",
+    venue: "VLDB",
+    authors: "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi, Ahmed Metwally",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
+  {
+    year: 2022,
+    paper: "Differentially private linear sketches: Efficient implementations and applications",
+    venue: "NeurIPS",
+    authors: "Fuheng Zhao, Dan Qiao, Rachel Redberg, Divyakant Agrawal, Amr El Abbadi, Yu-Xiang Wang",
+    isDatabaseVenue: false,
+    confAttribute: "None",
+  },
+  {
     year: 2021,
     paper: "Spatial Independent Range Sampling.",
     venue: "SIGMOD",
@@ -289,6 +353,14 @@ const allPapers = [
     venue: "VLDB",
     authors:
       "El Kindi Rezig, Mourad Ouzzani, Walid G. Aref, Ahmed K. Elmagarmid, Ahmed R. Mahmood, Michael Stonebraker",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
+  {
+    year: 2021,
+    paper: "KLL± approximate quantile sketches over dynamic datasets",
+    venue: "VLDB",
+    authors: "Fuheng Zhao, Sujaya Maiyya, Ryan Wiener, Divyakant Agrawal, Amr El Abbadi",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -707,13 +779,23 @@ researchTopics = [
     title: "Recommendation systems for data-management tasks",
     details:
       "This project develops recommendation systems for complex data-management tasks. Examples include data summarization using pivot tables, data wrangling, dataset discovery and search. Techniques include approximation algorithms and agentic AI.",
-    icon: "bi-person",
+    icon: "bi-stars",
   },
   {
     title: "Democratizing data-driven systems",
     details:
       "This project focuses on three key aspects of data system democratization: enhancing usability of data systems for non-experts and experts, providing explanation frameworks to enable understanding of system behavior, and achieving trust and fairness in machine learning.",
-    icon: "bi-person",
+    icon: "bi-diagram-3",
+  },
+  {
+    title: "Data debugging",
+    details: "We develop systems that enable users to diagnose and fix data issues in complex, data-intensive pipelines. Our focus is on scenarios where the data originates from black-box machine learning models, and we equip users with explanations that reveal why these models produce the outputs they do.",
+    icon: "bi-bug"
+  },
+  {
+    title: "Data discovery",
+    details: "We build data discovery systems whose job is to identify, understand, and connect relevant datasets across diverse and often disparate sources. By automating the search for joinable and related data, data discovery empowers analysts to uncover hidden connections, enrich their datasets, and accelerate insights without exhaustive manual exploration.",
+    icon: "bi-search"
   },
   {
     title: "Data structures for scalable computing",
@@ -721,36 +803,26 @@ researchTopics = [
       "This project focuses on advancing the theory and practice of compact, dynamic, and scalable data structures to tackle the challenges of modern data analyses pipelines. We work on filters, hash tables, trees, succinct, and write-optimized data structures.",
     icon: "bi-gear",
   },
-  // {
-  //     "title": "Large-scale indexing raw genomics data",
-  //     "details": "This project focuses on building scalable data processing pipelines for quickly indexing and searching through tera-bytes of raw genomic, transcriptomic, and metagenomics data.",
-  //     "icon": "bi-lock"
-  // },
-  // {
-  //     "title": "Efficient parallel graph processing",
-  //     "details": "This project focuses on building highly parallel data structures and algorithms for efficiently processing static, streaming, and dynamic graphs. This project further explores using hardware accelerators such as GPUs for massively parallel processing of dynamic graphs.",
-  //     "icon": "bi-wrench"
-  // },
   {
-    title: "Persistent Data Summaries",
+    title: "Persistent data summaries",
     details:
       "This project builds summaries for massive data arriving over time, which are small space, efficient to build and query, and amenable to data analysis. Moreover, they can be queried with respect to a time window for retrospective analysis.",
     icon: "bi-bar-chart",
   },
   {
-    title: "Data Sketching",
+    title: "Data sketching",
     details:
       "We design and implement sketch data structures which are compressed representations of data with guaranteed trade-offs between the space and the accuracy of queries. Our group has designs sketches for quantiles, multi-dimensional data, frequent items, shape-fitting, trajectories data, and many more.",
     icon: "bi-hdd",
   },
   {
-    title: "Spatial Exposome Data",
+    title: "Spatial exposome data",
     details:
       "CEDaR is be an open exposomic data resource that can be used by researchers across disciplines to increase understanding of the environment and health. Sources of environmental exposure data are sparse, inconsistent, and rarely linked to individuals, making research complicated and difficult. Through CEDaR, we provide a single platform containing cleaned and standardized environmental exposure measures that can be used independently or to create holistic measures of the exposome.",
     icon: "bi-globe",
   },
   {
-    title: "Data Systems on Modern Hardware",
+    title: "Data systems on modern hardware",
     details:
       "This project exploits modern compute hardware such as GPUs, FPGAs and storage hardware such as PMEMs, HBMs for accelerating data systems. Our group designs new algorithmic techniques to model the performance of new hardware and then analyzes data systems in the light of the new algorithmic models to accelerate them.",
     icon: "bi-gear",
@@ -761,9 +833,9 @@ currentStudents = [
   {
     firstName: "Rabeya",
     lastName: "Hossain",
-    image: "images/anon_female.png",
+    image: "images/rabeya.jpg",
     study: "PhD",
-    url: "",
+    url: "https://github.com/Rabeya-hossain",
   },
   {
     firstName: "Anirudh",
