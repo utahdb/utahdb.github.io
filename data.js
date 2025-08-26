@@ -815,13 +815,6 @@ currentStudents = [
     url: "https://whnhch.github.io/",
   },
   {
-    firstName: "Peter",
-    lastName: "Jacobs",
-    image: "images/Peter.png",
-    study: "PhD",
-    url: "https://www.linkedin.com/in/peter-jacobs-857a1a138",
-  },
-  {
     firstName: "Mir Mahathir",
     lastName: "Mohammad",
     image: "images/Mir.jpg",
@@ -911,6 +904,11 @@ activities = [
 ];
 
 alumni = [
+  {
+    name: "Peter Jacobs",
+    status: "Postdoc, University of Wisconsin",
+    link: "https://www.linkedin.com/in/peter-jacobs-857a1a138",
+  },
   {
     name: "Mingxuan Han",
     link: "https://www.linkedin.com/in/mingxuan-han-111a462b/",
