@@ -994,7 +994,7 @@ alumni = [
   {
     name: "Peter Jacobs",
     status: "PhD 2025, Postdoc at University of Wisconsin",
-    link: "https://www.linkedin.com/in/peter-jacobs-857a1a138",
+    link: "https://jacobs269.github.io/",
   },
   {
     name: "Mingxuan Han",
