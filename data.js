@@ -915,13 +915,13 @@ currentStudents = [
     study: "PhD",
     url: "https://aritra741.github.io/",
   },
-  {
-    firstName: "Remy",
-    lastName: "Ogasawara",
-    image: "images/remy.jpg",
-    study: "PhD",
-    url: "https://www.linkedin.com/in/remy-ogasawara/",
-  },
+  // {
+  //   firstName: "Remy",
+  //   lastName: "Ogasawara",
+  //   image: "images/remy.jpg",
+  //   study: "PhD",
+  //   url: "https://www.linkedin.com/in/remy-ogasawara/",
+  // },
   {
     firstName: "Shamit",
     lastName: "Fatin",
