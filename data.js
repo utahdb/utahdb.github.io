@@ -392,6 +392,7 @@ const allPapers = [
     authors:
       "Anna Fariha, Ashish Tiwari, Arjun Radhakrishna, Sumit Gulwani, Alexandra Meliou",
     isDatabaseVenue: true,
+	award: "Most Comprehensively Reproduced Paper",
     confAttribute: "None",
   },
   {
@@ -478,6 +479,7 @@ const allPapers = [
     venue: "VLDB",
     authors: "Anna Fariha, Matteo Brucato, Peter J. Haas, Alexandra Meliou",
     isDatabaseVenue: true,
+	award: "Best Demo Runner-up",
     confAttribute: "Demo",
   },
   {
