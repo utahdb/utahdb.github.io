@@ -26,6 +26,23 @@ const allPapers = [
     confAttribute: "None",
   },
   {
+    year: 2026,
+    paper: "Qualitative Join Discovery in Data Lakes using Examples",
+    venue: "SIGMOD",
+    authors: "Mahathir Mohammad, El Kindi Rezig",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
+  {
+    year: 2026,
+    paper: "Stress-Testing Causal Claims via Cardinality Repairs",
+    venue: "SIGMOD",
+    authors:
+      "Yarden Gabbay, Haoquan Guan, Shaull Almagor, El Kindi Rezig, Brit Youngmann, Babak Salimi",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
+  {
     year: 2025,
     paper:
       "Hybrid Querying Over Relational Databases and Large Language Models",
