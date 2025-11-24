@@ -10,6 +10,22 @@ const allPapers = [
   //     "confAttribute": "(not specified)"
   // },
   {
+    year: 2026,
+    paper: "Data-Semantics-Aware Recommendation of Diverse Pivot Tables",
+    venue: "SIGMOD",
+    authors: "Whanhee Cho, Anna Fariha",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
+  {
+    year: 2026,
+    paper: "Causal Explanations for Disparate Trends: Where and Why?",
+    venue: "SIGMOD",
+    authors: "Tal Blau, Brit Youngmann, Anna Fariha, Yuval Moskovitch",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
+  {
     year: 2025,
     paper:
       "Hybrid Querying Over Relational Databases and Large Language Models",
