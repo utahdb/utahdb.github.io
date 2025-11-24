@@ -7,11 +7,11 @@ computed:{
     papersGroupedByYear: function(){
         const groupedByYear = {};
         this.allPapers.forEach(entry => {
-          const { year, paper, venue, authors, isDatabaseVenue, confAttribute } = entry;
+          const { year, paper, venue, authors, isDatabaseVenue, confAttribute, award } = entry;
           if (!groupedByYear[year]) {
             groupedByYear[year] = { year, papers: [] };
           }
-          groupedByYear[year].papers.push({ paper, venue, authors, isDatabaseVenue, confAttribute });
+          groupedByYear[year].papers.push({ paper, venue, authors, isDatabaseVenue, confAttribute, award });
         });
         return Object.values(groupedByYear).sort((a, b) => b.year - a.year);
       }

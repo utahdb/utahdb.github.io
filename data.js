@@ -7,7 +7,8 @@ const allPapers = [
   //     "venue": "(not specified)",
   //     "authors": "(not specified)",
   //     "isDatabaseVenue": true, // Note: SIGMOD, VLDB, ICDE, EDBT, ICDT, PODS, CIDR, IEEE BigData, TKDE, VLDBJ, TKDD, TODS, SIGKDD --- These are DataBase Venues.
-  //     "confAttribute": "(not specified)"
+  //     "confAttribute": "(not specified)",
+  //     "award": "Best Paper Award" // Optional: Add this field to display a trophy icon and award name next to the paper title
   // },
   {
     year: 2026,
@@ -58,6 +59,7 @@ const allPapers = [
     authors: "El Kindi Rezig, Walid G. Aref",
     isDatabaseVenue: false,
     confAttribute: "None",
+    award: "Best Vision Paper",
   },
   {
     year: 2025,

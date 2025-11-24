@@ -194,6 +194,10 @@
             <li v-for="paperInfo in groupedPapers['papers']"><span style="padding: 4px;" :style="{ backgroundColor: paperInfo.isDatabaseVenue ? 'lightpink' : 'lightblue' }">{{paperInfo["venue"]}}</span> 
               {{paperInfo["authors"]}}:<br/>
               <span v-if="paperInfo['confAttribute'] !== 'None'" style="background-color: aqua;padding: 1px;border: 1px solid mediumblue;font-size: x-small;vertical-align: middle; margin-right: 4px;">{{paperInfo['confAttribute']}}</span>
+              <span v-if="paperInfo['award']" style="color: #ffd700; margin-right: 4px;" :title="paperInfo['award']">
+                <i class="bi bi-trophy-fill"></i>
+                <span style="color: #ffd700; font-size: 0.9em; margin-left: 2px;">{{paperInfo['award']}}</span>
+              </span>
               <span style="color:darkolivegreen">{{paperInfo["paper"]}}</span>
             </li>
           </ul>
