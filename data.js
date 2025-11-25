@@ -62,7 +62,7 @@ const allPapers = [
   {
     year: 2025,
     paper: "LORY: Location-aware Data Discovery from Data Lakes",
-    venue: "ACM SIGSPATIAL",
+    venue: "SIGSPATIAL",
     authors: "El Kindi Rezig, Walid G. Aref",
     isDatabaseVenue: false,
     confAttribute: "None",
