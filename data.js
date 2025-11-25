@@ -13,7 +13,7 @@ const allPapers = [
   
   {
     year: 2026,
-    paper: "Data-Semantics-Aware Recommendation of Diverse Pivot Tables",
+    paper: "Data-Semantics-Aware Recommendation of Diverse Pivot Tables.",
     venue: "SIGMOD",
     authors: "Whanhee Cho, Anna Fariha",
     isDatabaseVenue: true,
@@ -29,7 +29,7 @@ const allPapers = [
   },
   {
     year: 2026,
-    paper: "Qualitative Join Discovery in Data Lakes using Examples",
+    paper: "Qualitative Join Discovery in Data Lakes using Examples.",
     venue: "SIGMOD",
     authors: "Mahathir Mohammad, El Kindi Rezig",
     isDatabaseVenue: true,
@@ -37,7 +37,7 @@ const allPapers = [
   },
   {
     year: 2026,
-    paper: "Stress-Testing Causal Claims via Cardinality Repairs",
+    paper: "Stress-Testing Causal Claims via Cardinality Repairs.",
     venue: "SIGMOD",
     authors: "Yarden Gabbay, Haoquan Guan, Shaull Almagor, El Kindi Rezig, Brit Youngmann, Babak Salimi",
     isDatabaseVenue: true,
@@ -45,7 +45,7 @@ const allPapers = [
   },
   {
     year: 2026,
-    paper: "Towards Scalable Visual Data Wrangling via Direct Manipulation",
+    paper: "Towards Scalable Visual Data Wrangling via Direct Manipulation.",
     venue: "CIDR",
     authors: "El Kindi Rezig, Mir Mahathir Mohammad, Nicolas Baret, Ricardo Mayerhofer, Andrew McNutt, Paul Rosen",
     isDatabaseVenue: true,
@@ -53,7 +53,7 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "Hybrid Querying Over Relational Databases and Large Language Models",
+    paper: "Hybrid Querying Over Relational Databases and Large Language Models.",
     venue: "CIDR",
     authors: "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi",
     isDatabaseVenue: true,
@@ -61,7 +61,7 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "LORY: Location-aware Data Discovery from Data Lakes",
+    paper: "LORY: Location-aware Data Discovery from Data Lakes.",
     venue: "SIGSPATIAL",
     authors: "El Kindi Rezig, Walid G. Aref",
     isDatabaseVenue: false,
@@ -70,7 +70,7 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "Sort it Like You Mean It: Discovering Semantically Interesting Attribute Augmentations to Sort Tables",
+    paper: "Sort it Like You Mean It: Discovering Semantically Interesting Attribute Augmentations to Sort Tables.",
     venue: "VLDB",
     authors: "Akash Khatri, Mahathir Mohammad, El Kindi Rezig",
     isDatabaseVenue: true,
@@ -78,7 +78,7 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "Sphinteract: Resolving Ambiguities in NL2SQL through User Interaction",
+    paper: "Sphinteract: Resolving Ambiguities in NL2SQL through User Interaction.",
     venue: "VLDB",
     authors: "Fuheng Zhao, Shaleen Deep, Fotis Psallidas, Avrilia Floratou, Divyakant Agrawal, Amr El Abbadi",
     isDatabaseVenue: true,
@@ -86,7 +86,7 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "Buckaroo: A Direct Manipulation Visual Data Wrangler",
+    paper: "Buckaroo: A Direct Manipulation Visual Data Wrangler.",
     venue: "VLDB",
     authors: "Annabelle Warner, Andrew McNutt, Paul Rosen, El Kindi Rezig",
     isDatabaseVenue: true,
@@ -94,7 +94,7 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "Enhancing Urban Paratransit Reliability: A Spatial-Temporal and Causal Analysis of Service Inefficiencies",
+    paper: "Enhancing Urban Paratransit Reliability: A Spatial-Temporal and Causal Analysis of Service Inefficiencies.",
     venue: "ASCE Journal of Urban Planning and Development",
     authors: "Arman Malekloo, Xiaoyue Cathy Liu, Nikola Markovic, Chenxi Liu, Jeff Phillips",
     isDatabaseVenue: false,
@@ -102,7 +102,7 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "Robust High-Dimensional Mean Estimation With Low Data Size, an Empirical Study",
+    paper: "Robust High-Dimensional Mean Estimation With Low Data Size, an Empirical Study.",
     venue: "TMLR",
     authors: "Cullen Anderson, Jeff M. Phillips",
     isDatabaseVenue: false,
@@ -110,7 +110,7 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "Challenges in Using Conversational AI for Data Science",
+    paper: "Challenges in Using Conversational AI for Data Science.",
     venue: "HILDA@SIGMOD",
     authors: "Bhavya Chopra, Ananya Singha, Anna Fariha, Sumit Gulwani, Chris Parnin, Ashish Tiwari, Austin Z. Henley",
     isDatabaseVenue: true,
@@ -118,7 +118,7 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "Zombie Hashing: Reanimating Tombstones in Graveyard",
+    paper: "Zombie Hashing: Reanimating Tombstones in Graveyard.",
     venue: "SIGMOD",
     authors: "Benwei Shi, Yuvaraj Chesetti, Jeff M. Phillips, Prashant Pandey",
     isDatabaseVenue: true,
@@ -134,7 +134,7 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "The SpaceSaving± Family of Algorithms for Data Streams with Bounded Deletions",
+    paper: "The SpaceSaving± Family of Algorithms for Data Streams with Bounded Deletions.",
     venue: "ICDE",
     authors: "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi, Claire Mathieu, Ahmed Metwally, Michel de Rougemont",
     isDatabaseVenue: true,
@@ -142,7 +142,7 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "Autumn: A Scalable Read Optimized LSM-tree based Key-Value Stores with Fast Point and Range Read Speed",
+    paper: "Autumn: A Scalable Read Optimized LSM-tree based Key-Value Stores with Fast Point and Range Read Speed.",
     venue: "ICDE",
     authors: "Fuheng Zhao, Zach Miller, Leron Reznikov, Divyakant Agrawal, Amr El Abbadi",
     isDatabaseVenue: true,
@@ -166,7 +166,7 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "SeerCuts: Explainable Attribute Discretization",
+    paper: "SeerCuts: Explainable Attribute Discretization.",
     venue: "SIGMOD",
     authors: "Eugenie Lai, Inbal Croitoru, Noam Bitton, Ariel Shalem, Brit Youngmann, Sainyam Galhotra, El Kindi Rezig, Michael Cafarella",
     isDatabaseVenue: true,
@@ -238,7 +238,7 @@ const allPapers = [
   },
   {
     year: 2023,
-    paper: "Panakos: Chasing the Tails for Multidimensional Data Streams",
+    paper: "Panakos: Chasing the Tails for Multidimensional Data Streams.",
     venue: "VLDB",
     authors: "Fuheng Zhao, Punnal Ismail Khan, Divyakant Agrawal, Amr El Abbadi, Arpit Gupta, Zaoxing Liu",
     isDatabaseVenue: true,
@@ -318,7 +318,7 @@ const allPapers = [
   },
   {
     year: 2022,
-    paper: "SpaceSaving±: An Optimal Algorithm for Frequency Estimation and Frequent items in the Bounded Deletion Model",
+    paper: "SpaceSaving±: An Optimal Algorithm for Frequency Estimation and Frequent items in the Bounded Deletion Model.",
     venue: "VLDB",
     authors: "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi, Ahmed Metwally",
     isDatabaseVenue: true,
@@ -326,7 +326,7 @@ const allPapers = [
   },
   {
     year: 2022,
-    paper: "Differentially private linear sketches: Efficient implementations and applications",
+    paper: "Differentially private linear sketches: Efficient implementations and applications.",
     venue: "NeurIPS",
     authors: "Fuheng Zhao, Dan Qiao, Rachel Redberg, Divyakant Agrawal, Amr El Abbadi, Yu-Xiang Wang",
     isDatabaseVenue: false,
@@ -367,7 +367,7 @@ const allPapers = [
   },
   {
     year: 2021,
-    paper: "KLL± approximate quantile sketches over dynamic datasets",
+    paper: "KLL± approximate quantile sketches over dynamic datasets.",
     venue: "VLDB",
     authors: "Fuheng Zhao, Sujaya Maiyya, Ryan Wiener, Divyakant Agrawal, Amr El Abbadi",
     isDatabaseVenue: true,
