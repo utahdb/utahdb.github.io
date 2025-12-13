@@ -192,13 +192,14 @@
           </div>
           <ul>	
             <li v-for="paperInfo in groupedPapers['papers']">
-              <span style="padding: 4px;" :style="{ backgroundColor: paperInfo.isDatabaseVenue ? 'lightpink' : 'lightblue' }">{{paperInfo["venue"]}}</span>
+              <span style="padding: 4px;" :style="{ backgroundColor: paperInfo.isDatabaseVenue ? 'lightpink' : 'lightblue' }">{{paperInfo["venue"]}}</span>				
+              <span style="color:darkolivegreen; padding-left:5px">{{paperInfo["paper"]}}</span>
               <span v-if="paperInfo['award']" style="padding: 4px; background-color: #fff3cd; color: #856404; border: 1px solid #ffc107; margin-left: 4px;">
                 <i class="bi bi-trophy-fill"></i> {{paperInfo['award']}}
               </span>
-              {{paperInfo["authors"]}}:<br/>
+			  <br/>
               <span v-if="paperInfo['confAttribute'] !== 'None'" style="background-color: aqua;padding: 1px;border: 1px solid mediumblue;font-size: x-small;vertical-align: middle; margin-right: 4px;">{{paperInfo['confAttribute']}}</span>
-              <span style="color:darkolivegreen">{{paperInfo["paper"]}}</span>
+              {{paperInfo["authors"]}}
             </li>
           </ul>
         </div>
@@ -210,7 +211,7 @@
       <div class="container">
         <h3 class="tittle">Recent News</h3>
         <ul>
-          <li> Prof. El Kindi Rezig won Best <span style="color: #16bd5f; font-weight: bold;">Vision Paper</span> Award at SIGSPATIAL 2025.
+          <li> Prof. El Kindi Rezig won the <custom-link href="https://www.sigspatial.org/people/award-recipients/">Best Vision Paper Award</custom-link> at SIGSPATIAL 2025.
           </li>
 	      <li> Prof. Anna Fariha received a <custom-link href="https://stena.utah.edu/">Stena Center for Financial Technology Seed Grant</custom-link>.
           </li>
