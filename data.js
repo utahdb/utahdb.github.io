@@ -1001,6 +1001,11 @@ videos = [
 
 activities = [
   {
+    localLink: "images/escape_room_2025.jpeg",
+    onlineLink: "images/escape_room_2025.jpeg",
+    title: "Escape Room Activity 2025",
+  },
+  {
     localLink: "images/SIGMOD_2025_1.jpg",
     onlineLink: "images/SIGMOD_2025_1.jpg",
     title: "SIGMOD 2025, Berlin, Germany",
