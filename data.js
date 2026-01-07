@@ -10,6 +10,15 @@ const allPapers = [
   //     "confAttribute": "None", // Note: Put "Demo" if it is a demo paper, put "Workshop" if it is a workshop paper.
   //     "award": "Best Paper Award" // Optional: Add this field to display a trophy icon and award name next to the paper title
   // },
+
+  {
+    year: 2026,
+    paper: "Example-Driven Semantic-Similarity-Aware Query Intent Discovery: Empowering Users to Cross the SQL Barrier Through Query by Example.",
+    venue: "Information Systems",
+    authors: "Anna Fariha, Lucy Cousins, Narges Mahyar, Alexandra Meliou",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
   
   {
     year: 2026,
