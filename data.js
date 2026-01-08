@@ -13,6 +13,16 @@ const allPapers = [
 
   {
     year: 2026,
+    paper:
+      "Example-Driven Semantic-Similarity-Aware Query Intent Discovery: Empowering Users to Cross the SQL Barrier Through Query by Example.",
+    venue: "Information Systems",
+    authors: "Anna Fariha, Lucy Cousins, Narges Mahyar, Alexandra Meliou",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
+
+  {
+    year: 2026,
     paper: "Data-Semantics-Aware Recommendation of Diverse Pivot Tables.",
     venue: "SIGMOD",
     authors: "Whanhee Cho, Anna Fariha",
