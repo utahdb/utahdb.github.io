@@ -974,7 +974,7 @@ currentStudents = [
   {
     firstName: "Jacob",
     lastName: "Ormsby",
-    image: "images/jacob.jpg",
+    image: "images/jacob.jpeg",
     study: "PhD",
     url: "",
   },
