@@ -10,7 +10,7 @@ const allPapers = [
   //     "confAttribute": "None", // Note: Put "Demo" if it is a demo paper, put "Workshop" if it is a workshop paper.
   //     "award": "Best Paper Award" // Optional: Add this field to display a trophy icon and award name next to the paper title
   // },
-  
+
   {
     year: 2026,
     paper: "Data-Semantics-Aware Recommendation of Diverse Pivot Tables.",
@@ -39,7 +39,8 @@ const allPapers = [
     year: 2026,
     paper: "Stress-Testing Causal Claims via Cardinality Repairs.",
     venue: "SIGMOD",
-    authors: "Yarden Gabbay, Haoquan Guan, Shaull Almagor, El Kindi Rezig, Brit Youngmann, Babak Salimi",
+    authors:
+      "Yarden Gabbay, Haoquan Guan, Shaull Almagor, El Kindi Rezig, Brit Youngmann, Babak Salimi",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -47,13 +48,15 @@ const allPapers = [
     year: 2026,
     paper: "Towards Scalable Visual Data Wrangling via Direct Manipulation.",
     venue: "CIDR",
-    authors: "El Kindi Rezig, Mir Mahathir Mohammad, Nicolas Baret, Ricardo Mayerhofer, Andrew McNutt, Paul Rosen",
+    authors:
+      "El Kindi Rezig, Mir Mahathir Mohammad, Nicolas Baret, Ricardo Mayerhofer, Andrew McNutt, Paul Rosen",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
   {
     year: 2025,
-    paper: "Hybrid Querying Over Relational Databases and Large Language Models.",
+    paper:
+      "Hybrid Querying Over Relational Databases and Large Language Models.",
     venue: "CIDR",
     authors: "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi",
     isDatabaseVenue: true,
@@ -70,7 +73,8 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "Sort it Like You Mean It: Discovering Semantically Interesting Attribute Augmentations to Sort Tables.",
+    paper:
+      "Sort it Like You Mean It: Discovering Semantically Interesting Attribute Augmentations to Sort Tables.",
     venue: "VLDB",
     authors: "Akash Khatri, Mahathir Mohammad, El Kindi Rezig",
     isDatabaseVenue: true,
@@ -78,9 +82,11 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "Sphinteract: Resolving Ambiguities in NL2SQL through User Interaction.",
+    paper:
+      "Sphinteract: Resolving Ambiguities in NL2SQL through User Interaction.",
     venue: "VLDB",
-    authors: "Fuheng Zhao, Shaleen Deep, Fotis Psallidas, Avrilia Floratou, Divyakant Agrawal, Amr El Abbadi",
+    authors:
+      "Fuheng Zhao, Shaleen Deep, Fotis Psallidas, Avrilia Floratou, Divyakant Agrawal, Amr El Abbadi",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -94,15 +100,18 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "Enhancing Urban Paratransit Reliability: A Spatial-Temporal and Causal Analysis of Service Inefficiencies.",
+    paper:
+      "Enhancing Urban Paratransit Reliability: A Spatial-Temporal and Causal Analysis of Service Inefficiencies.",
     venue: "ASCE Journal of Urban Planning and Development",
-    authors: "Arman Malekloo, Xiaoyue Cathy Liu, Nikola Markovic, Chenxi Liu, Jeff Phillips",
+    authors:
+      "Arman Malekloo, Xiaoyue Cathy Liu, Nikola Markovic, Chenxi Liu, Jeff Phillips",
     isDatabaseVenue: false,
     confAttribute: "None",
   },
   {
     year: 2025,
-    paper: "Robust High-Dimensional Mean Estimation With Low Data Size, an Empirical Study.",
+    paper:
+      "Robust High-Dimensional Mean Estimation With Low Data Size, an Empirical Study.",
     venue: "TMLR",
     authors: "Cullen Anderson, Jeff M. Phillips",
     isDatabaseVenue: false,
@@ -112,7 +121,8 @@ const allPapers = [
     year: 2025,
     paper: "Challenges in Using Conversational AI for Data Science.",
     venue: "HILDA@SIGMOD",
-    authors: "Bhavya Chopra, Ananya Singha, Anna Fariha, Sumit Gulwani, Chris Parnin, Ashish Tiwari, Austin Z. Henley",
+    authors:
+      "Bhavya Chopra, Ananya Singha, Anna Fariha, Sumit Gulwani, Chris Parnin, Ashish Tiwari, Austin Z. Henley",
     isDatabaseVenue: true,
     confAttribute: "Workshop",
   },
@@ -126,31 +136,38 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "DataMorpher: Automatic Data Transformation Using LLM-based Zero-Shot Code Generation.",
+    paper:
+      "DataMorpher: Automatic Data Transformation Using LLM-based Zero-Shot Code Generation.",
     venue: "ICDE",
-    authors: "Ankita Sharma, Jaykumar Tandel, Xuanmao Li, Lanjun Wang, Anna Fariha, Liang Zhang, Syed Arsalan Ahmed Naqvi, Irbaz Bin Riaz, Lei Cao, Jia Zou",
+    authors:
+      "Ankita Sharma, Jaykumar Tandel, Xuanmao Li, Lanjun Wang, Anna Fariha, Liang Zhang, Syed Arsalan Ahmed Naqvi, Irbaz Bin Riaz, Lei Cao, Jia Zou",
     isDatabaseVenue: true,
     confAttribute: "Demo",
   },
   {
     year: 2025,
-    paper: "The SpaceSaving± Family of Algorithms for Data Streams with Bounded Deletions.",
+    paper:
+      "The SpaceSaving± Family of Algorithms for Data Streams with Bounded Deletions.",
     venue: "ICDE",
-    authors: "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi, Claire Mathieu, Ahmed Metwally, Michel de Rougemont",
+    authors:
+      "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi, Claire Mathieu, Ahmed Metwally, Michel de Rougemont",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
   {
     year: 2025,
-    paper: "Autumn: A Scalable Read Optimized LSM-tree based Key-Value Stores with Fast Point and Range Read Speed.",
+    paper:
+      "Autumn: A Scalable Read Optimized LSM-tree based Key-Value Stores with Fast Point and Range Read Speed.",
     venue: "ICDE",
-    authors: "Fuheng Zhao, Zach Miller, Leron Reznikov, Divyakant Agrawal, Amr El Abbadi",
+    authors:
+      "Fuheng Zhao, Zach Miller, Leron Reznikov, Divyakant Agrawal, Amr El Abbadi",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
   {
     year: 2025,
-    paper: "ChARLES: Change-Aware Recovery of Latent Evolution Semantics in Relational Data.",
+    paper:
+      "ChARLES: Change-Aware Recovery of Latent Evolution Semantics in Relational Data.",
     venue: "SIGMOD",
     authors: "Shiyi He, Alexandra Meliou, Anna Fariha",
     isDatabaseVenue: true,
@@ -158,7 +175,8 @@ const allPapers = [
   },
   {
     year: 2025,
-    paper: "CausalExplain: Causal Explanations of Black-box Models with Training Data Subsets.",
+    paper:
+      "CausalExplain: Causal Explanations of Black-box Models with Training Data Subsets.",
     venue: "SIGMOD",
     authors: "Arman Ashkari, El Kindi Rezig",
     isDatabaseVenue: true,
@@ -168,7 +186,8 @@ const allPapers = [
     year: 2025,
     paper: "SeerCuts: Explainable Attribute Discretization.",
     venue: "SIGMOD",
-    authors: "Eugenie Lai, Inbal Croitoru, Noam Bitton, Ariel Shalem, Brit Youngmann, Sainyam Galhotra, El Kindi Rezig, Michael Cafarella",
+    authors:
+      "Eugenie Lai, Inbal Croitoru, Noam Bitton, Ariel Shalem, Brit Youngmann, Sainyam Galhotra, El Kindi Rezig, Michael Cafarella",
     isDatabaseVenue: true,
     confAttribute: "Demo",
   },
@@ -176,13 +195,15 @@ const allPapers = [
     year: 2024,
     paper: "NL2SQL is a solved problem... not!",
     venue: "CIDR",
-    authors: "Avrilia Floratou, Fotis Psallidas, Fuheng Zhao, Shaleen Deep, Gunther Hagleither, Wangda Tan, Joyce Cahoon, Rana Alotaibi, Jordan Henkel, Abhik Singla, Alex Van Grootel, Brandon Chow, Kai Deng, Katherine Lin, Marcos Campos, K Venkatesh Emani, Vivek Pandit, Victor Shnayder, Wenjing Wang, Carlo Curino",
+    authors:
+      "Avrilia Floratou, Fotis Psallidas, Fuheng Zhao, Shaleen Deep, Gunther Hagleither, Wangda Tan, Joyce Cahoon, Rana Alotaibi, Jordan Henkel, Abhik Singla, Alex Van Grootel, Brandon Chow, Kai Deng, Katherine Lin, Marcos Campos, K Venkatesh Emani, Vivek Pandit, Victor Shnayder, Wenjing Wang, Carlo Curino",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
   {
     year: 2024,
-    paper: "Leveraging Structured and Unstructured Data for Tabular Data Cleaning.",
+    paper:
+      "Leveraging Structured and Unstructured Data for Tabular Data Cleaning.",
     venue: "DCAI@ IEEE BigData",
     authors: "Pavitra Mehra, El Kindi Rezig",
     isDatabaseVenue: true,
@@ -190,7 +211,8 @@ const allPapers = [
   },
   {
     year: 2024,
-    paper: "Can Causal DAGs Generate Data-based Explanations of Black-box Models?",
+    paper:
+      "Can Causal DAGs Generate Data-based Explanations of Black-box Models?",
     venue: "DCAI@ IEEE BigData",
     authors: "Arman Ashkari, El Kindi Rezig",
     isDatabaseVenue: true,
@@ -208,29 +230,35 @@ const allPapers = [
     year: 2024,
     paper: "Rapidash: Efficient Detection of Constraint Violations.",
     venue: "VLDB",
-    authors: "Zifan Liu, Shaleen Deep, Anna Fariha, Fotis Psallidas, Ashish Tiwari, Avrilia Floratou",
+    authors:
+      "Zifan Liu, Shaleen Deep, Anna Fariha, Fotis Psallidas, Ashish Tiwari, Avrilia Floratou",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
   {
     year: 2024,
-    paper: "Mitigating Exploitation Bias in Learning to Rank with an Uncertainty-aware Empirical Bayes Approach.",
+    paper:
+      "Mitigating Exploitation Bias in Learning to Rank with an Uncertainty-aware Empirical Bayes Approach.",
     venue: "WWW",
-    authors: "Tao Yang, Cuize Han, Chen Luo, Parth Gupta, Jeff M. Phillips, Qingyao Ai",
+    authors:
+      "Tao Yang, Cuize Han, Chen Luo, Parth Gupta, Jeff M. Phillips, Qingyao Ai",
     isDatabaseVenue: false,
     confAttribute: "None",
   },
   {
     year: 2024,
-    paper: "Investigating Student Mistakes in Introductory Data Science Programming.",
+    paper:
+      "Investigating Student Mistakes in Introductory Data Science Programming.",
     venue: "SIGCSE",
-    authors: "Anjali Singh, Anna Fariha, Christopher Brooks, Gustavo Soares, Austin Henley, Ashish Tiwari, Chethan M, Heeryung Choi, Sumit Gulwani",
+    authors:
+      "Anjali Singh, Anna Fariha, Christopher Brooks, Gustavo Soares, Austin Henley, Ashish Tiwari, Chethan M, Heeryung Choi, Sumit Gulwani",
     isDatabaseVenue: false,
     confAttribute: "None",
   },
   {
     year: 2024,
-    paper: "Bidirectional Masked Self-attention and N-gram Span Attention for Constituency Parsing.",
+    paper:
+      "Bidirectional Masked Self-attention and N-gram Span Attention for Constituency Parsing.",
     venue: "EMNLP",
     authors: "Soohyeong Kim, Whanhee Cho, Minji Kim, Yong Suk Choi",
     isDatabaseVenue: false,
@@ -240,7 +268,8 @@ const allPapers = [
     year: 2023,
     paper: "Panakos: Chasing the Tails for Multidimensional Data Streams.",
     venue: "VLDB",
-    authors: "Fuheng Zhao, Punnal Ismail Khan, Divyakant Agrawal, Amr El Abbadi, Arpit Gupta, Zaoxing Liu",
+    authors:
+      "Fuheng Zhao, Punnal Ismail Khan, Divyakant Agrawal, Amr El Abbadi, Arpit Gupta, Zaoxing Liu",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -248,7 +277,8 @@ const allPapers = [
     year: 2023,
     paper: "Sketching Multidimensional Time Series for Fast Discord Mining.",
     venue: "IEEE BigData",
-    authors: "Chin-Chia Michael Yeh, Yan Zheng, Menghai Pan, Huiyuan Chen, Zhongfang Zhuang, Junpeng Wang, Liang Wang, Wei Zhang, Jeff M. Phillips, Eamonn Keogh",
+    authors:
+      "Chin-Chia Michael Yeh, Yan Zheng, Menghai Pan, Huiyuan Chen, Zhongfang Zhuang, Junpeng Wang, Liang Wang, Wei Zhang, Jeff M. Phillips, Eamonn Keogh",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -256,7 +286,8 @@ const allPapers = [
     year: 2023,
     paper: "CoWrangler: Recommender System for Data-Wrangling Scripts.",
     venue: "SIGMOD",
-    authors: "Bhavya Chopra, Anna Fariha, Sumit Gulwani, Austin Z. Henley, Daniel Perelman, Mohammad Raza, Sherry Shi, Danny Simmons, Ashish Tiwari",
+    authors:
+      "Bhavya Chopra, Anna Fariha, Sumit Gulwani, Austin Z. Henley, Daniel Perelman, Mohammad Raza, Sherry Shi, Danny Simmons, Ashish Tiwari",
     isDatabaseVenue: true,
     confAttribute: "Demo",
   },
@@ -270,9 +301,11 @@ const allPapers = [
   },
   {
     year: 2023,
-    paper: "Eastwood-Tidy: C Linting for Automated Code Style Assessment in Programming Courses.",
+    paper:
+      "Eastwood-Tidy: C Linting for Automated Code Style Assessment in Programming Courses.",
     venue: "SIGCSE",
-    authors: "Rowan Hart, Brian Hays, Connor McMillin, El Kindi Rezig, Gustavo Rodriguez-Rivera, Jeffrey A. Turkstra",
+    authors:
+      "Rowan Hart, Brian Hays, Connor McMillin, El Kindi Rezig, Gustavo Rodriguez-Rivera, Jeffrey A. Turkstra",
     isDatabaseVenue: false,
     confAttribute: "None",
   },
@@ -280,31 +313,38 @@ const allPapers = [
     year: 2022,
     paper: "DataPrism: Exposing Disconnect between Data and Systems.",
     venue: "SIGMOD",
-    authors: "Sainyam Galhotra, Anna Fariha, Raoni Lourenço, Juliana Freire, Alexandra Meliou, Divesh Srivastava",
+    authors:
+      "Sainyam Galhotra, Anna Fariha, Raoni Lourenço, Juliana Freire, Alexandra Meliou, Divesh Srivastava",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
   {
     year: 2022,
-    paper: "Through the Data Management Lens: Experimental Analysis and Evaluation of Fair Classification.",
+    paper:
+      "Through the Data Management Lens: Experimental Analysis and Evaluation of Fair Classification.",
     venue: "SIGMOD",
-    authors: "Maliha Tashfia Islam, Anna Fariha, Alexandra Meliou, Babak Salimi",
+    authors:
+      "Maliha Tashfia Islam, Anna Fariha, Alexandra Meliou, Babak Salimi",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
   {
     year: 2022,
-    paper: "Examples are All You Need: Iterative Data Discovery by Example in Data Lakes.",
+    paper:
+      "Examples are All You Need: Iterative Data Discovery by Example in Data Lakes.",
     venue: "CIDR",
-    authors: "El Kindi Rezig, Anshul Bhandari, Anna Fariha, Benjamin Price, Allan Vanterpool, Andrew Bowne, Lindsey McEvoy, Vijay Gadepally",
+    authors:
+      "El Kindi Rezig, Anshul Bhandari, Anna Fariha, Benjamin Price, Allan Vanterpool, Andrew Bowne, Lindsey McEvoy, Vijay Gadepally",
     isDatabaseVenue: true,
     confAttribute: "Abstract",
   },
   {
     year: 2022,
-    paper: "A Survey of Data Challenges Across a Modernizing Bureaucracy: A New Perspective on Examining Old Government Problems.",
+    paper:
+      "A Survey of Data Challenges Across a Modernizing Bureaucracy: A New Perspective on Examining Old Government Problems.",
     venue: "Poly/DMAH@VLDB",
-    authors: "Andrew Bowne, Lindsey McEvoy, Dhruv Gupta, Cameron Brown, Vijay Gadepally, El Kindi Rezig",
+    authors:
+      "Andrew Bowne, Lindsey McEvoy, Dhruv Gupta, Cameron Brown, Vijay Gadepally, El Kindi Rezig",
     isDatabaseVenue: true,
     confAttribute: "Workshop",
   },
@@ -312,13 +352,15 @@ const allPapers = [
     year: 2022,
     paper: "Efficient Oblivious Query Processing for Range and kNN Queries.",
     venue: "TKDE",
-    authors: "Zhao Chang, Dong Xie, Feifei Li, Jeff M. Phillips, Rajeev Balasubramonian",
+    authors:
+      "Zhao Chang, Dong Xie, Feifei Li, Jeff M. Phillips, Rajeev Balasubramonian",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
   {
     year: 2022,
-    paper: "SpaceSaving±: An Optimal Algorithm for Frequency Estimation and Frequent items in the Bounded Deletion Model.",
+    paper:
+      "SpaceSaving±: An Optimal Algorithm for Frequency Estimation and Frequent items in the Bounded Deletion Model.",
     venue: "VLDB",
     authors: "Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi, Ahmed Metwally",
     isDatabaseVenue: true,
@@ -326,9 +368,11 @@ const allPapers = [
   },
   {
     year: 2022,
-    paper: "Differentially private linear sketches: Efficient implementations and applications.",
+    paper:
+      "Differentially private linear sketches: Efficient implementations and applications.",
     venue: "NeurIPS",
-    authors: "Fuheng Zhao, Dan Qiao, Rachel Redberg, Divyakant Agrawal, Amr El Abbadi, Yu-Xiang Wang",
+    authors:
+      "Fuheng Zhao, Dan Qiao, Rachel Redberg, Divyakant Agrawal, Amr El Abbadi, Yu-Xiang Wang",
     isDatabaseVenue: false,
     confAttribute: "None",
   },
@@ -344,24 +388,28 @@ const allPapers = [
     year: 2021,
     paper: "At-the-time and Back-in-time Persistent Sketches.",
     venue: "SIGMOD",
-    authors: "Benwei Shi, Zhuoyue Zhao, Yanqing Peng, Feifei Li, Jeff M. Phillips",
+    authors:
+      "Benwei Shi, Zhuoyue Zhao, Yanqing Peng, Feifei Li, Jeff M. Phillips",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
   {
     year: 2021,
-    paper: "Conformance Constraint Discovery: Measuring Trust in Data-Driven Systems.",
+    paper:
+      "Conformance Constraint Discovery: Measuring Trust in Data-Driven Systems.",
     venue: "SIGMOD",
-    authors: "Anna Fariha, Ashish Tiwari, Arjun Radhakrishna, Sumit Gulwani, Alexandra Meliou",
+    authors:
+      "Anna Fariha, Ashish Tiwari, Arjun Radhakrishna, Sumit Gulwani, Alexandra Meliou",
     isDatabaseVenue: true,
-	award: "Most Comprehensively Reproduced Paper",
+    award: "Most Comprehensively Reproduced Paper",
     confAttribute: "None",
   },
   {
     year: 2021,
     paper: "Horizon: Scalable Dependency-driven Data Cleaning.",
     venue: "VLDB",
-    authors: "El Kindi Rezig, Mourad Ouzzani, Walid G. Aref, Ahmed K. Elmagarmid, Ahmed R. Mahmood, Michael Stonebraker",
+    authors:
+      "El Kindi Rezig, Mourad Ouzzani, Walid G. Aref, Ahmed K. Elmagarmid, Ahmed R. Mahmood, Michael Stonebraker",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -369,15 +417,18 @@ const allPapers = [
     year: 2021,
     paper: "KLL± approximate quantile sketches over dynamic datasets.",
     venue: "VLDB",
-    authors: "Fuheng Zhao, Sujaya Maiyya, Ryan Wiener, Divyakant Agrawal, Amr El Abbadi",
+    authors:
+      "Fuheng Zhao, Sujaya Maiyya, Ryan Wiener, Divyakant Agrawal, Amr El Abbadi",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
   {
     year: 2021,
-    paper: "CoCo: Interactive Exploration of Conformance Constraints for Data Understanding and Data Cleaning.",
+    paper:
+      "CoCo: Interactive Exploration of Conformance Constraints for Data Understanding and Data Cleaning.",
     venue: "SIGMOD",
-    authors: "Anna Fariha, Ashish Tiwari, Alexandra Meliou, Arjun Radhakrishna, Sumit Gulwani",
+    authors:
+      "Anna Fariha, Ashish Tiwari, Alexandra Meliou, Arjun Radhakrishna, Sumit Gulwani",
     isDatabaseVenue: true,
     confAttribute: "Demo",
   },
@@ -385,7 +436,8 @@ const allPapers = [
     year: 2021,
     paper: "DICE: Data Discovery by Example.",
     venue: "VLDB",
-    authors: "El Kindi Rezig, Anshul Bhandari, Anna Fariha, Benjamin Price, Allan Vanterpool, Vijay Gadepally, Michael Stonebraker",
+    authors:
+      "El Kindi Rezig, Anshul Bhandari, Anna Fariha, Benjamin Price, Allan Vanterpool, Vijay Gadepally, Michael Stonebraker",
     isDatabaseVenue: true,
     confAttribute: "Demo",
   },
@@ -399,7 +451,8 @@ const allPapers = [
   },
   {
     year: 2021,
-    paper: "Data Cleaning in the Era of Data Science: Challenges and Opportunities.",
+    paper:
+      "Data Cleaning in the Era of Data Science: Challenges and Opportunities.",
     venue: "CIDR",
     authors: "El Kindi Rezig",
     isDatabaseVenue: true,
@@ -435,14 +488,15 @@ const allPapers = [
     venue: "VLDB",
     authors: "Anna Fariha, Matteo Brucato, Peter J. Haas, Alexandra Meliou",
     isDatabaseVenue: true,
-	award: "Best Demo Runner-up",
+    award: "Best Demo Runner-up",
     confAttribute: "Demo",
   },
   {
     year: 2020,
     paper: "Debugging Large-Scale Data Science Pipelines using Dagger.",
     venue: "VLDB",
-    authors: "El Kindi Rezig, Ashrita Brahmaroutu, Nesime Tatbul, Mourad Ouzzani, Nan Tang, Timothy G. Mattson, Samuel Madden, Michael Stonebraker",
+    authors:
+      "El Kindi Rezig, Ashrita Brahmaroutu, Nesime Tatbul, Mourad Ouzzani, Nan Tang, Timothy G. Mattson, Samuel Madden, Michael Stonebraker",
     isDatabaseVenue: true,
     confAttribute: "Demo",
   },
@@ -450,7 +504,8 @@ const allPapers = [
     year: 2020,
     paper: "Dagger: A Data (not code) Debugger.",
     venue: "CIDR",
-    authors: "El Kindi Rezig, Lei Cao, Giovanni Simonini, Maxime Schoemans, Samuel Madden, Nan Tang, Mourad Ouzzani, Michael Stonebraker",
+    authors:
+      "El Kindi Rezig, Lei Cao, Giovanni Simonini, Maxime Schoemans, Samuel Madden, Nan Tang, Mourad Ouzzani, Michael Stonebraker",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -466,13 +521,15 @@ const allPapers = [
     year: 2020,
     paper: "Towards Data Discovery by Example.",
     venue: "Poly/DMAH@VLDB",
-    authors: "El Kindi Rezig, Allan Vanterpool, Vijay Gadepally, Benjamin Price, Michael J. Cafarella, Michael Stonebraker",
+    authors:
+      "El Kindi Rezig, Allan Vanterpool, Vijay Gadepally, Benjamin Price, Michael J. Cafarella, Michael Stonebraker",
     isDatabaseVenue: true,
     confAttribute: "Workshop",
   },
   {
     year: 2019,
-    paper: "Example-Driven Query Intent Discovery: Abductive Reasoning using Semantic Similarity.",
+    paper:
+      "Example-Driven Query Intent Discovery: Abductive Reasoning using Semantic Similarity.",
     venue: "VLDB",
     authors: "Anna Fariha, Alexandra Meliou",
     isDatabaseVenue: true,
@@ -482,15 +539,18 @@ const allPapers = [
     year: 2019,
     paper: "Towards an End-to-End Human-Centric Data Cleaning Framework.",
     venue: "HILDA@SIGMOD",
-    authors: "El Kindi Rezig, Mourad Ouzzani, Ahmed K. Elmagarmid, Walid G. Aref, Michael Stonebraker",
+    authors:
+      "El Kindi Rezig, Mourad Ouzzani, Ahmed K. Elmagarmid, Walid G. Aref, Michael Stonebraker",
     isDatabaseVenue: true,
     confAttribute: "Workshop",
   },
   {
     year: 2019,
-    paper: "Data Civilizer 2.0: A Holistic Framework for Data Preparation and Analytics.",
+    paper:
+      "Data Civilizer 2.0: A Holistic Framework for Data Preparation and Analytics.",
     venue: "VLDB",
-    authors: "El Kindi Rezig, Lei Cao, Michael Stonebraker, Giovanni Simonini, Wenbo Tao, Samuel Madden, Mourad Ouzzani, Nan Tang, Ahmed K. Elmagarmid",
+    authors:
+      "El Kindi Rezig, Lei Cao, Michael Stonebraker, Giovanni Simonini, Wenbo Tao, Samuel Madden, Mourad Ouzzani, Nan Tang, Ahmed K. Elmagarmid",
     isDatabaseVenue: true,
     confAttribute: "Demo",
   },
@@ -520,7 +580,8 @@ const allPapers = [
   },
   {
     year: 2018,
-    paper: "Improved Bounds on Information Dissemination by Manhattan Random Waypoint Model.",
+    paper:
+      "Improved Bounds on Information Dissemination by Manhattan Random Waypoint Model.",
     venue: "SIGSPATIAL",
     authors: "Aria Rezaei, Jie Gao, Jeff M. Phillips, Csaba D. Toth",
     isDatabaseVenue: false,
@@ -570,7 +631,8 @@ const allPapers = [
     year: 2016,
     paper: "ORLF: A flexible framework for online record linkage and fusion.",
     venue: "ICDE",
-    authors: "El Kindi Rezig, Eduard C. Dragut, Mourad Ouzzani, Ahmed K. Elmagarmid, Walid G. Aref",
+    authors:
+      "El Kindi Rezig, Eduard C. Dragut, Mourad Ouzzani, Ahmed K. Elmagarmid, Walid G. Aref",
     isDatabaseVenue: true,
     confAttribute: "Demo",
   },
@@ -578,7 +640,8 @@ const allPapers = [
     year: 2016,
     paper: "Scalable Spatial Scan Statistics through Sampling.",
     venue: "SIGSPATIAL",
-    authors: "Michael Matheny, Raghvendra Singh, Kaiqiang Wang, Liang Zhang and Jeff M. Phillips",
+    authors:
+      "Michael Matheny, Raghvendra Singh, Kaiqiang Wang, Liang Zhang and Jeff M. Phillips",
     isDatabaseVenue: false,
     confAttribute: "None",
   },
@@ -586,13 +649,15 @@ const allPapers = [
     year: 2016,
     paper: "Frequent Directions: Simple and Deterministic Matrix Sketching.",
     venue: "SIAM Journal of Computing",
-    authors: "Mina Ghashami, Edo Liberty, Jeff M. Phillips and David P. Woodruff",
+    authors:
+      "Mina Ghashami, Edo Liberty, Jeff M. Phillips and David P. Woodruff",
     isDatabaseVenue: false,
     confAttribute: "None",
   },
   {
     year: 2015,
-    paper: "L_infity Error and Bandwidth Selection for Kernel Density Estimates of Large Data.",
+    paper:
+      "L_infity Error and Bandwidth Selection for Kernel Density Estimates of Large Data.",
     venue: "SIGKDD",
     authors: "Yan Zheng and Jeff M. Phillips",
     isDatabaseVenue: true,
@@ -602,7 +667,8 @@ const allPapers = [
     year: 2015,
     paper: "Tornado: A Distributed Spatio-Textual Stream Processing System.",
     venue: "VLDB",
-    authors: "Ahmed R. Mahmood, Ahmed M. Aly, Thamir Qadah, El Kindi Rezig, Anas Daghistani, Amgad Madkour, Ahmed S. Abdelhamid, Mohamed S. Hassan, Walid G. Aref, Saleh M. Basalamah",
+    authors:
+      "Ahmed R. Mahmood, Ahmed M. Aly, Thamir Qadah, El Kindi Rezig, Anas Daghistani, Amgad Madkour, Ahmed S. Abdelhamid, Mohamed S. Hassan, Walid G. Aref, Saleh M. Basalamah",
     isDatabaseVenue: true,
     confAttribute: "Demo",
   },
@@ -610,7 +676,8 @@ const allPapers = [
     year: 2015,
     paper: "Query-time record linkage and fusion over Web databases.",
     venue: "ICDE",
-    authors: "El Kindi Rezig, Eduard C. Dragut, Mourad Ouzzani, Ahmed K. Elmagarmid",
+    authors:
+      "El Kindi Rezig, Eduard C. Dragut, Mourad Ouzzani, Ahmed K. Elmagarmid",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -634,7 +701,8 @@ const allPapers = [
     year: 2013,
     paper: "Nearest Neighbor Searching Under Uncertainty II.",
     venue: "PODS",
-    authors: "Pankaj K. Agarwal, Boris Aronov, Sariel Har-Peled, Jeff M. Phillips, Ke Yi, Wuzhou Zhang",
+    authors:
+      "Pankaj K. Agarwal, Boris Aronov, Sariel Har-Peled, Jeff M. Phillips, Ke Yi, Wuzhou Zhang",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -658,7 +726,8 @@ const allPapers = [
     year: 2012,
     paper: "Mergeable Summaries.",
     venue: "TODS",
-    authors: "Pankaj K. Agarwal, Graham Cormode, Zengfeng Huang, Jeff M. Phillips, Zhewei Wei, Ke Yi",
+    authors:
+      "Pankaj K. Agarwal, Graham Cormode, Zengfeng Huang, Jeff M. Phillips, Zhewei Wei, Ke Yi",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -674,7 +743,8 @@ const allPapers = [
     year: 2011,
     paper: "(Approximate) Uncertain Skylines.",
     venue: "ICDT",
-    authors: "Peyman Afshani, Pankaj K. Agarwal, Lars Arge, Kasper Green Larsen, Jeff M. Phillips",
+    authors:
+      "Peyman Afshani, Pankaj K. Agarwal, Lars Arge, Kasper Green Larsen, Jeff M. Phillips",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -682,7 +752,8 @@ const allPapers = [
     year: 2011,
     paper: "U-MAP: a system for usage-based schema matching and mapping.",
     venue: "SIGMOD",
-    authors: "Hazem Elmeleegy, Jaewoo Lee, El Kindi Rezig, Mourad Ouzzani, Ahmed K. Elmagarmid",
+    authors:
+      "Hazem Elmeleegy, Jaewoo Lee, El Kindi Rezig, Mourad Ouzzani, Ahmed K. Elmagarmid",
     isDatabaseVenue: true,
     confAttribute: "Demo",
   },
@@ -696,7 +767,8 @@ const allPapers = [
   },
   {
     year: 2010,
-    paper: "Value-Based Notification Conditions in Large-Scale Publish/Subscribe Systems.",
+    paper:
+      "Value-Based Notification Conditions in Large-Scale Publish/Subscribe Systems.",
     venue: "VLDB",
     authors: "Badrish Chandramouli, Jeff M. Phillips, Jun Yang",
     isDatabaseVenue: true,
@@ -706,7 +778,8 @@ const allPapers = [
     year: 2010,
     paper: "Spatial Scan Statistics: Approximations and Performance Study.",
     venue: "SIGKDD",
-    authors: "Deepak Agarwal, Andrew McGregor, Jeff M. Phillips, Suresh Venkatasubramanian, Zhengyuan Zhu",
+    authors:
+      "Deepak Agarwal, Andrew McGregor, Jeff M. Phillips, Suresh Venkatasubramanian, Zhengyuan Zhu",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
@@ -716,28 +789,32 @@ const activeFaculties = [
   {
     name: "Anna Fariha",
     note: "",
-    field: "Data systems usability, Data summarization, Trusted machine learning, Explainable AI, Data exploration and user interfaces, Data quality, Data cleaning, Data debugging, Responsible data management, Data fairness",
+    field:
+      "Data systems usability, Data summarization, Trusted machine learning, Explainable AI, Data exploration and user interfaces, Data quality, Data cleaning, Data debugging, Responsible data management, Data fairness",
     picture: "images/annafariha.jpg",
     profileLink: "https://afariha.github.io/",
   },
   {
     name: "Jeff M Phillips",
     note: "",
-    field: "Algorithms for Big Data Analytics: Geometric Data Analysis, Computational Geometry, Coresets and Sketches, Handling Uncertainty, Data Mining, Databases, Machine Learning, Spatial Statistics.",
+    field:
+      "Algorithms for Big Data Analytics: Geometric Data Analysis, Computational Geometry, Coresets and Sketches, Handling Uncertainty, Data Mining, Databases, Machine Learning, Spatial Statistics.",
     picture: "images/jeff.jpeg",
     profileLink: "https://www.cs.utah.edu/~jeffp/",
   },
   {
     name: "El Kindi Rezig",
     note: "",
-    field: "Data preparation, Data discovery, Data debugging, Data integration, User interfaces, Information extraction, Data quality, Data cleaning, Database usability",
+    field:
+      "Data preparation, Data discovery, Data debugging, Data integration, User interfaces, Information extraction, Data quality, Data cleaning, Database usability",
     picture: "images/elkindi.jpeg",
     profileLink: "https://elkindi.github.io/",
   },
   {
     name: "Fuheng Zhao",
     note: "Starting from Fall 2026",
-    field: "Data summarization, Approximate query, Machine learning for data system, NL2SQL, Key-value stores, Data privacy and security",
+    field:
+      "Data summarization, Approximate query, Machine learning for data system, NL2SQL, Key-value stores, Data privacy and security",
     picture: "images/fuheng.jpg",
     profileLink: "https://zhaofuheng.github.io/",
   },
@@ -753,52 +830,62 @@ const bannerImages = [
 researchTopics = [
   {
     title: "Data understanding",
-    details: "This project aims to bridge the gap between raw data and meaningful insights, empowering users to better understand how data changes and why certain disparities emerge. It includes summarizing how data evolves over time and providing causal explanations for disparities between two groups within a dataset.",
+    details:
+      "This project aims to bridge the gap between raw data and meaningful insights, empowering users to better understand how data changes and why certain disparities emerge. It includes summarizing how data evolves over time and providing causal explanations for disparities between two groups within a dataset.",
     icon: "bi-person",
   },
   {
     title: "Recommendation systems for data-management tasks",
-    details: "This project develops recommendation systems for complex data-management tasks. Examples include data summarization using pivot tables, data wrangling, dataset discovery and search. Techniques include approximation algorithms and agentic AI.",
+    details:
+      "This project develops recommendation systems for complex data-management tasks. Examples include data summarization using pivot tables, data wrangling, dataset discovery and search. Techniques include approximation algorithms and agentic AI.",
     icon: "bi-stars",
   },
   {
     title: "Democratizing data-driven systems",
-    details: "This project focuses on three key aspects of data system democratization: enhancing usability of data systems for non-experts and experts, providing explanation frameworks to enable understanding of system behavior, and achieving trust and fairness in machine learning.",
+    details:
+      "This project focuses on three key aspects of data system democratization: enhancing usability of data systems for non-experts and experts, providing explanation frameworks to enable understanding of system behavior, and achieving trust and fairness in machine learning.",
     icon: "bi-diagram-3",
   },
   {
     title: "Data debugging",
-    details: "We develop systems that enable users to diagnose and fix data issues in complex, data-intensive pipelines. Our focus is on scenarios where the data originates from black-box machine learning models, and we equip users with explanations that reveal why these models produce the outputs they do.",
+    details:
+      "We develop systems that enable users to diagnose and fix data issues in complex, data-intensive pipelines. Our focus is on scenarios where the data originates from black-box machine learning models, and we equip users with explanations that reveal why these models produce the outputs they do.",
     icon: "bi-bug",
   },
   {
     title: "Data discovery",
-    details: "We build data discovery systems whose job is to identify, understand, and connect relevant datasets across diverse and often disparate sources. By automating the search for joinable and related data, data discovery empowers analysts to uncover hidden connections, enrich their datasets, and accelerate insights without exhaustive manual exploration.",
+    details:
+      "We build data discovery systems whose job is to identify, understand, and connect relevant datasets across diverse and often disparate sources. By automating the search for joinable and related data, data discovery empowers analysts to uncover hidden connections, enrich their datasets, and accelerate insights without exhaustive manual exploration.",
     icon: "bi-search",
   },
   {
     title: "Data structures for scalable computing",
-    details: "This project focuses on advancing the theory and practice of compact, dynamic, and scalable data structures to tackle the challenges of modern data analyses pipelines. We work on filters, hash tables, trees, succinct, and write-optimized data structures.",
+    details:
+      "This project focuses on advancing the theory and practice of compact, dynamic, and scalable data structures to tackle the challenges of modern data analyses pipelines. We work on filters, hash tables, trees, succinct, and write-optimized data structures.",
     icon: "bi-gear",
   },
   {
     title: "Persistent data summaries",
-    details: "This project builds summaries for massive data arriving over time, which are small space, efficient to build and query, and amenable to data analysis. Moreover, they can be queried with respect to a time window for retrospective analysis.",
+    details:
+      "This project builds summaries for massive data arriving over time, which are small space, efficient to build and query, and amenable to data analysis. Moreover, they can be queried with respect to a time window for retrospective analysis.",
     icon: "bi-bar-chart",
   },
   {
     title: "Data sketching",
-    details: "We design and implement sketch data structures which are compressed representations of data with guaranteed trade-offs between the space and the accuracy of queries. Our group has designs sketches for quantiles, multi-dimensional data, frequent items, shape-fitting, trajectories data, and many more.",
+    details:
+      "We design and implement sketch data structures which are compressed representations of data with guaranteed trade-offs between the space and the accuracy of queries. Our group has designs sketches for quantiles, multi-dimensional data, frequent items, shape-fitting, trajectories data, and many more.",
     icon: "bi-hdd",
   },
   {
     title: "Spatial exposome data",
-    details: "CEDaR is be an open exposomic data resource that can be used by researchers across disciplines to increase understanding of the environment and health. Sources of environmental exposure data are sparse, inconsistent, and rarely linked to individuals, making research complicated and difficult. Through CEDaR, we provide a single platform containing cleaned and standardized environmental exposure measures that can be used independently or to create holistic measures of the exposome.",
+    details:
+      "CEDaR is be an open exposomic data resource that can be used by researchers across disciplines to increase understanding of the environment and health. Sources of environmental exposure data are sparse, inconsistent, and rarely linked to individuals, making research complicated and difficult. Through CEDaR, we provide a single platform containing cleaned and standardized environmental exposure measures that can be used independently or to create holistic measures of the exposome.",
     icon: "bi-globe",
   },
   {
     title: "Data systems on modern hardware",
-    details: "This project exploits modern compute hardware such as GPUs, FPGAs and storage hardware such as PMEMs, HBMs for accelerating data systems. Our group designs new algorithmic techniques to model the performance of new hardware and then analyzes data systems in the light of the new algorithmic models to accelerate them.",
+    details:
+      "This project exploits modern compute hardware such as GPUs, FPGAs and storage hardware such as PMEMs, HBMs for accelerating data systems. Our group designs new algorithmic techniques to model the performance of new hardware and then analyzes data systems in the light of the new algorithmic models to accelerate them.",
     icon: "bi-gear",
   },
 ];
@@ -875,6 +962,13 @@ currentStudents = [
     url: "https://aritra741.github.io/",
   },
   {
+    firstName: "Jacob",
+    lastName: "Ormsby",
+    image: "images/jacob.jpg",
+    study: "PhD",
+    url: "",
+  },
+  {
     firstName: "Remy",
     lastName: "Ogasawara",
     image: "images/remy.JPG",
@@ -892,27 +986,33 @@ currentStudents = [
 
 videos = [
   {
-    title: "[2023] Anna Fariha: Research in Computer Science with a focus on Databases/Data-management research",
+    title:
+      "[2023] Anna Fariha: Research in Computer Science with a focus on Databases/Data-management research",
     src: "https://www.youtube.com/embed/j7MG0PrdGGk",
   },
   {
-    title: "[2023] Anna Fariha: Blame the Data, not the System: How Data Constraints can Help Explain Causes of Data-system Malfunction | NWDS 2023",
+    title:
+      "[2023] Anna Fariha: Blame the Data, not the System: How Data Constraints can Help Explain Causes of Data-system Malfunction | NWDS 2023",
     src: "https://www.youtube.com/embed/xgB3xJ-PpQ4",
   },
   {
-    title: "[2022] El Kindi Rezig: Examples are All You Need: Iterative Data Discovery by Example in Data Lakes | CIDR 2022",
+    title:
+      "[2022] El Kindi Rezig: Examples are All You Need: Iterative Data Discovery by Example in Data Lakes | CIDR 2022",
     src: "https://www.youtube.com/embed/2k5Z7MxqdeY",
   },
   {
-    title: "[2021] Anna Fariha: Enhancing Usability and Explainability of Data Systems | University of Pennsylvania",
+    title:
+      "[2021] Anna Fariha: Enhancing Usability and Explainability of Data Systems | University of Pennsylvania",
     src: "https://player.vimeo.com/video/519247627?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
   },
   {
-    title: "[2021] Anna Fariha: Conformance Constraints Discovery: Measuring Trust in Data-Driven Systems | SIGMOD 2021",
+    title:
+      "[2021] Anna Fariha: Conformance Constraints Discovery: Measuring Trust in Data-Driven Systems | SIGMOD 2021",
     src: "https://www.youtube.com/embed/bS2xyRNww9w",
   },
   {
-    title: "[2020] Anna Fariha: SuDocu: Summarizing Documents by Example (best demo runner-up) | VLDB 2020",
+    title:
+      "[2020] Anna Fariha: SuDocu: Summarizing Documents by Example (best demo runner-up) | VLDB 2020",
     src: "https://www.youtube.com/embed/pDdMK4uyICM",
   },
 ];
