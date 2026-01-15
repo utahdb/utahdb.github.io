@@ -10,7 +10,15 @@ const allPapers = [
   //     "confAttribute": "None", // Note: Put "Demo" if it is a demo paper, put "Workshop" if it is a workshop paper.
   //     "award": "Best Paper Award" // Optional: Add this field to display a trophy icon and award name next to the paper title
   // },
-
+  {
+    year: 2026,
+    paper:
+      "On Breaking the Scalability Barrier in Data Cleaning [Lightning talk abstract]",
+    venue: "ICDE",
+    authors: "El Kindi Rezig",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
   {
     year: 2026,
     paper:
