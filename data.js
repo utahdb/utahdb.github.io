@@ -12,12 +12,11 @@ const allPapers = [
   // },
   {
     year: 2026,
-    paper:
-      "On Breaking the Scalability Barrier in Data Cleaning [Lightning talk abstract]",
+    paper: "On Breaking the Scalability Barrier in Data Cleaning",
     venue: "ICDE",
     authors: "El Kindi Rezig",
     isDatabaseVenue: true,
-    confAttribute: "None",
+    confAttribute: "Lightning talk abstract",
   },
   {
     year: 2026,
