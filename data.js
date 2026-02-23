@@ -14,7 +14,7 @@ const allPapers = [
     year: 2026,
     paper: "Interpretable Attribute Discretization",
     venue: "SIGMOD",
-    authors: "Lai, Eugenie, Inbal Croitoru, Brit Youngmann, Sainyam Galhotra, El Kindi Rezig, and Michael Cafarella",
+    authors: "Lai Eugenie, Inbal Croitoru, Brit Youngmann, Sainyam Galhotra, El Kindi Rezig, and Michael Cafarella",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
