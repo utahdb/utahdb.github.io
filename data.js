@@ -12,6 +12,14 @@ const allPapers = [
   // },
   {
     year: 2026,
+    paper: "Interpretable Attribute Discretization",
+    venue: "SIGMOD",
+    authors: "Lai, Eugenie, Inbal Croitoru, Brit Youngmann, Sainyam Galhotra, El Kindi Rezig, and Michael Cafarella",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
+  {
+    year: 2026,
     paper: "On Breaking the Scalability Barrier in Data Cleaning",
     venue: "ICDE",
     authors: "El Kindi Rezig",
