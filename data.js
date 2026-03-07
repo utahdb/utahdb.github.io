@@ -12,6 +12,14 @@ const allPapers = [
   // },
   {
     year: 2026,
+    paper: "SAGE: Adaptive Recommendation of Spreadsheet Pivot Tables",
+    venue: "SIGMOD",
+    authors: "Whanhee Cho, Shamit Fatin, Anna Fariha",
+    isDatabaseVenue: true,
+    confAttribute: "Demo",
+  },
+  {
+    year: 2026,
     paper: "Interpretable Attribute Discretization",
     venue: "SIGMOD",
     authors: "Lai Eugenie, Inbal Croitoru, Brit Youngmann, Sainyam Galhotra, El Kindi Rezig, and Michael Cafarella",
