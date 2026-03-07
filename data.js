@@ -12,6 +12,14 @@ const allPapers = [
   // },
   {
     year: 2026,
+    paper: "ExDis: Causal Explanations for Disparate Trends",
+    venue: "SIGMOD",
+    authors: "Tal Blau, Brit Youngmann, Anna Fariha, Yuval Moskovitch",
+    isDatabaseVenue: true,
+    confAttribute: "Demo",
+  },
+  {
+    year: 2026,
     paper: "SAGE: Adaptive Recommendation of Spreadsheet Pivot Tables",
     venue: "SIGMOD",
     authors: "Whanhee Cho, Shamit Fatin, Anna Fariha",
