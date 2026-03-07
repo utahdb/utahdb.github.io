@@ -12,6 +12,22 @@ const allPapers = [
   // },
   {
     year: 2026,
+    paper: "Intent-aware Join Discovery using Natural Language",
+    venue: "SIGMOD",
+    authors: "Mir Mahathir Mohammad, El Kindi Rezig",
+    isDatabaseVenue: true,
+    confAttribute: "Demo",
+  },
+  {
+    year: 2026,
+    paper: "SemDisc: An End-to-End Query-by-Example Semantic Join Discovery System",
+    venue: "SIGMOD",
+    authors: "Mir Mahathir Mohammad, El Kindi Rezig",
+    isDatabaseVenue: true,
+    confAttribute: "Demo",
+  },
+  {
+    year: 2026,
     paper: "ExDis: Causal Explanations for Disparate Trends",
     venue: "SIGMOD",
     authors: "Tal Blau, Brit Youngmann, Anna Fariha, Yuval Moskovitch",
