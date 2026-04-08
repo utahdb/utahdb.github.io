@@ -12,6 +12,26 @@ const allPapers = [
   // },
   {
     year: 2026,
+    paper:
+      "Code-Switching Information Retrieval: Benchmarks, Analysis, and the Limits of Current Retrievers",
+    venue: "ACL",
+    authors:
+      "Qingcheng Zeng, Yuheng Lu, Zeqi Zhou, Heli Qi, Puxuan Yu, Fuheng Zhao, Hitomi Yanaka, Weihao Xuan, Naoto Yokoya",
+    isDatabaseVenue: false,
+    confAttribute: "Findings",
+  },
+  {
+    year: 2026,
+    paper:
+      "PrvTel: Lightweight Models for Private and Accurate Telemetry Data Retention",
+    venue: "NSDI",
+    authors:
+      "Yajie Zhou, Fuheng Zhao, Eric Wang, Ayse Coskun, Divyakant Agrawal, Amr El Abbadi, Zaoxing Liu",
+    isDatabaseVenue: false,
+    confAttribute: "None",
+  },
+  {
+    year: 2026,
     paper: "Intent-aware Join Discovery using Natural Language",
     venue: "SIGMOD",
     authors: "Mir Mahathir Mohammad, El Kindi Rezig",
@@ -20,7 +40,8 @@ const allPapers = [
   },
   {
     year: 2026,
-    paper: "SemDisc: An End-to-End Query-by-Example Semantic Join Discovery System",
+    paper:
+      "SemDisc: An End-to-End Query-by-Example Semantic Join Discovery System",
     venue: "SIGMOD",
     authors: "Mir Mahathir Mohammad, El Kindi Rezig",
     isDatabaseVenue: true,
@@ -46,7 +67,8 @@ const allPapers = [
     year: 2026,
     paper: "Interpretable Attribute Discretization",
     venue: "SIGMOD",
-    authors: "Eugenie Lai, Inbal Croitoru, Brit Youngmann, Sainyam Galhotra, El Kindi Rezig, and Michael Cafarella",
+    authors:
+      "Eugenie Lai, Inbal Croitoru, Brit Youngmann, Sainyam Galhotra, El Kindi Rezig, and Michael Cafarella",
     isDatabaseVenue: true,
     confAttribute: "None",
   },
