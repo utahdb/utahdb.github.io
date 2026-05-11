@@ -13,6 +13,16 @@ const allPapers = [
   {
     year: 2026,
     paper:
+      "The General Expiration Streaming Model: Diameter, k-Center, Counting, Sampling, and Friends",
+    venue: "ICALP",
+    authors:
+      "Lotte Blank, Sergio Cabello, MohammadTaghi Hajiaghayi, Robert Krauthgamer, Sepideh Mahabadi, Andre Nusser, Jeff M. Phillips, Jonas Sauer",
+    isDatabaseVenue: false, // Note: SIGMOD, VLDB, ICDE, EDBT, ICDT, PODS, CIDR, IEEE BigData, TKDE, VLDBJ, TKDD, TODS, SIGKDD --- These are Database Venues.
+    confAttribute: "None",
+  },
+  {
+    year: 2026,
+    paper:
       "Code-Switching Information Retrieval: Benchmarks, Analysis, and the Limits of Current Retrievers",
     venue: "ACL",
     authors:
