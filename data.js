@@ -13,6 +13,52 @@ const allPapers = [
   {
     year: 2026,
     paper:
+      "QuWARTS: Query Workload Aware Relational Table Synthesis from Unstructured Text",
+    venue: "VLDB",
+    authors: "Aritra Mazumder, Whanhee Cho, Anna Fariha",
+    isDatabaseVenue: true,
+    confAttribute: "Demo",
+  },
+  {
+    year: 2026,
+    paper:
+      "AtomSQL: Interactive Disambiguation of NL-to-SQL via User-Guided Atom-Level Alignment",
+    venue: "VLDB",
+    authors: "Aritra Mazumder, Parth Desai, Fuheng Zhao, Anna Fariha",
+    isDatabaseVenue: true,
+    confAttribute: "Demo",
+  },
+  {
+    year: 2026,
+    paper:
+      "LabelScope: Context-Aware Discovery of Label Outliers in Radio Astronomy Signals",
+    venue: "VLDB",
+    authors:
+      "Rabeya Hossain, Brian Mason, Ryan Loomis, Jeff Phillips, El Kindi Rezig",
+    isDatabaseVenue: true,
+    confAttribute: "Demo",
+  },
+  {
+    year: 2026,
+    paper:
+      "SubCure: A System for Stress-Testing Causal Conclusions Using Cardinality Repairs",
+    venue: "VLDB",
+    authors:
+      "Shira Raviv, Ben Hechler, Yarden Gabbay, Haoquan Guan, Shaull Almagor, El Kindi Rezig, Brit Youngmann, Babak Salimi",
+    isDatabaseVenue: true,
+    confAttribute: "Demo",
+  },
+  {
+    year: 2026,
+    paper: "LORY-J: Location-aware Join Discovery from Data Lakes",
+    venue: "VLDB",
+    authors: "Lu Xing, Mir Mahathir Mohammad, Walid G. Aref, El Kindi Rezig",
+    isDatabaseVenue: true,
+    confAttribute: "Demo",
+  },
+  {
+    year: 2026,
+    paper:
       "The General Expiration Streaming Model: Diameter, k-Center, Counting, Sampling, and Friends",
     venue: "ICALP",
     authors:
