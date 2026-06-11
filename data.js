@@ -1154,8 +1154,8 @@ videos = [
 
 activities = [
   {
-    localLink: "images/sigmod2026.jpeg",
-    onlineLink: "images/sigmod2026.jpeg",
+    localLink: "images/sigmod2026.jpg",
+    onlineLink: "images/sigmod2026.jpg",
     title: "SIGMOD 2026, Bengaluru, India",
   },
   {
