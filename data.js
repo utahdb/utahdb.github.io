@@ -1094,7 +1094,7 @@ currentStudents = [
     lastName: "Mazumder",
     image: "images/aritra.jpg",
     study: "PhD",
-    url: "https://aritra741.github.io/",
+    url: "https://aritramazumder.com/",
   },
   {
     firstName: "Jacob",
