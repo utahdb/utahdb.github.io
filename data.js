@@ -13,6 +13,16 @@ const allPapers = [
   {
     year: 2026,
     paper:
+      "CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort",
+    venue: "VLDB",
+    authors:
+      "Riki Otaki, Charles Benello, Fuheng Zhao, Aaron Elmore, Goetz Graefe",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
+  {
+    year: 2026,
+    paper:
       "QuWARTS: Query Workload Aware Relational Table Synthesis from Unstructured Text",
     venue: "VLDB",
     authors: "Aritra Mazumder, Whanhee Cho, Anna Fariha",
