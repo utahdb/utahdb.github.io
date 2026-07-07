@@ -13,6 +13,25 @@ const allPapers = [
   {
     year: 2026,
     paper:
+      "Versatile Sketch-Based Attribute Filtering for Hybrid Vector Search",
+    venue: "TKDE",
+    authors:
+      "Adeel Aslam, Luca Gagliardelli, El Kindi Rezig, George Konstantinidis, Giovanni Simonini",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
+  {
+    year: 2026,
+    paper:
+      "How Wranglers Shape Wrangling: A Technical Dimensions Analysis",
+    venue: "VL/HCC",
+    authors: "Shiyi He, El Kindi Rezig, Paul Rosen, Andrew McNutt",
+    isDatabaseVenue: false,
+    confAttribute: "None",
+  },
+  {
+    year: 2026,
+    paper:
       "CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort",
     venue: "VLDB",
     authors:
