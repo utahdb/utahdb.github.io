@@ -976,7 +976,7 @@ const activeFaculties = [
   },
   {
     name: "Fuheng Zhao",
-    note: "Starting from Fall 2026",
+    note: "",
     field:
       "Data summarization, Approximate query, Machine learning for data system, NL2SQL, Key-value stores, Data privacy and security",
     picture: "images/fuheng.jpg",
