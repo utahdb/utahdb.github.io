@@ -1168,9 +1168,9 @@ currentStudents = [
   {
     firstName: "Kshitij",
     lastName: "Dubey",
-    image: "images/anon.png",
+    image: "images/Kshitij.jpg",
     study: "PhD",
-    url: "",
+    url: "https://kshitij-d.github.io/",
   },
   {
     firstName: "Harshita",
