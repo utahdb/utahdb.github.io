@@ -13,6 +13,25 @@ const allPapers = [
   {
     year: 2026,
     paper:
+      "Sampling for Region-Aggregated Spatial Scan Statistics.",
+    venue: "SIGSPATIAL",
+    authors:
+      "Foad Namjoo, Drew McClelland, Michael Matheny, Jeff M. Phillips",
+    isDatabaseVenue: false,
+    confAttribute: "None",
+  },
+  {
+    year: 2026,
+    paper:
+      "Topological Analysis of Kernel Density Estimates via Uncertainty-Aware Morse Complexes and Coresets.",
+    venue: "IEEE Vis",
+    authors: "Weiran Lyu, Jeff M. Phillips, Bei Wang",
+    isDatabaseVenue: false,
+    confAttribute: "None",
+  },
+  {
+    year: 2026,
+    paper:
       "Versatile Sketch-Based Attribute Filtering for Hybrid Vector Search",
     venue: "TKDE",
     authors:
