@@ -1146,6 +1146,20 @@ currentStudents = [
     study: "PhD",
     url: "https://shamit187.github.io/",
   },
+  {
+    firstName: "Kshitij",
+    lastName: "Dubey",
+    image: "images/anon.png",
+    study: "PhD",
+    url: "",
+  },
+  {
+    firstName: "Harshita",
+    lastName: "Leela",
+    image: "images/anon_female.png",
+    study: "PhD",
+    url: "",
+  },
 ];
 
 videos = [
