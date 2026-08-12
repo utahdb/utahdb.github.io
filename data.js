@@ -1216,6 +1216,11 @@ videos = [
 
 activities = [
   {
+    localLink: "images/summer2026.png",
+    onlineLink: "images/summer2026.png",
+    title: "Lunch and Arcade Games, Summer 2026",
+  },
+  {
     localLink: "images/sigmod2026.jpg",
     onlineLink: "images/sigmod2026.jpg",
     title: "SIGMOD 2026, Bengaluru, India",
