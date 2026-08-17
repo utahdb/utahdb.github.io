@@ -1174,10 +1174,10 @@ currentStudents = [
   },
   {
     firstName: "Harshita",
-    lastName: "Leela",
-    image: "images/anon_female.png",
+    lastName: "Lila",
+    image: "images/harshita.jpg",
     study: "PhD",
-    url: "",
+    url: "https://harshitaleela.github.io/",
   },
 ];
 
