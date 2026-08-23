@@ -13,6 +13,24 @@ const allPapers = [
   {
     year: 2026,
     paper:
+      "AgentCheck: A Reproduce–Intervene–Mitigate Workbench for LLM Agents over MCP",
+    venue: "EMNLP",
+    authors: "Aritra Mazumder, Nusrat Jahan Lia",
+    isDatabaseVenue: false,
+    confAttribute: "Demo",
+  },
+  {
+    year: 2026,
+    paper:
+      "Learning What Not to Forget: Long-Horizon Agent Memory from a Few Kilobytes of Learning",
+    venue: "EMNLP",
+    authors: "Nusrat Jahan Lia, Aritra Mazumder",
+    isDatabaseVenue: false,
+    confAttribute: "Industry",
+  },
+  {
+    year: 2026,
+    paper:
       "Sampling for Region-Aggregated Spatial Scan Statistics.",
     venue: "SIGSPATIAL",
     authors:
