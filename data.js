@@ -1130,13 +1130,6 @@ currentStudents = [
     url: "https://scholar.google.com/citations?user=fiP4N3oAAAAJ&hl=en",
   },
   {
-    firstName: "Arman",
-    lastName: "Ashkari",
-    image: "images/Arman.jpg",
-    study: "PhD",
-    url: "https://armanashkari.github.io/",
-  },
-  {
     firstName: "Foad",
     lastName: "Namjoo",
     image: "images/foad.jpg",
@@ -1163,13 +1156,6 @@ currentStudents = [
     image: "images/aritra.jpg",
     study: "PhD",
     url: "https://aritramazumder.com/",
-  },
-  {
-    firstName: "Jacob",
-    lastName: "Ormsby",
-    image: "images/jacob.jpeg",
-    study: "PhD",
-    url: "",
   },
   {
     firstName: "Remy",
