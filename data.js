@@ -1130,13 +1130,6 @@ currentStudents = [
     url: "https://scholar.google.com/citations?user=fiP4N3oAAAAJ&hl=en",
   },
   {
-    firstName: "Meysam",
-    lastName: "Alishahi",
-    image: "images/Meysam.png",
-    study: "PhD",
-    url: "https://scholar.google.com/citations?user=U2kMt0sAAAAJ",
-  },
-  {
     firstName: "Arman",
     lastName: "Ashkari",
     image: "images/Arman.jpg",
@@ -1290,6 +1283,11 @@ activities = [
 ];
 
 alumni = [
+  {
+    name: "Meysam Alishahi",
+    status: "PhD 2026, Walmart",
+    link: "https://scholar.google.com/citations?user=U2kMt0sAAAAJ",
+  },
   {
     name: "Peter Jacobs",
     status: "PhD 2025, Postdoc at University of Wisconsin",
