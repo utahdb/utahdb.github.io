@@ -30,6 +30,15 @@ const allPapers = [
   },
   {
     year: 2026,
+    paper: "Dual-View Training for Instruction-Following Information Retrieval",
+    venue: "EMNLP",
+    authors:
+      "Qingcheng Zeng, Puxuan Yu, Aman Mehta, Fuheng Zhao, Rajhans Samdani",
+    isDatabaseVenue: false,
+    confAttribute: "None",
+  },
+  {
+    year: 2026,
     paper:
       "Sampling for Region-Aggregated Spatial Scan Statistics.",
     venue: "SIGSPATIAL",
