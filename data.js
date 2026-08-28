@@ -1185,6 +1185,13 @@ currentStudents = [
     study: "PhD",
     url: "https://harshitaleela.github.io/",
   },
+  {
+    firstName: "Daofu",
+    lastName: "Zhang",
+    image: "images/daofu.jpg",
+    study: "PhD",
+    url: "https://www.linkedin.com/in/daofu-zhang-841120340/",
+  },
 ];
 
 videos = [
