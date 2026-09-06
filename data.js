@@ -1229,6 +1229,11 @@ videos = [
 
 activities = [
   {
+    localLink: "images/vldb_2026.jpg",
+    onlineLink: "images/vldb_2026.jpg",
+    title: "VLDB 2026, Boston, Massachussetts",
+  },
+  {
     localLink: "images/summer2026.png",
     onlineLink: "images/summer2026.png",
     title: "Lunch and Arcade Games, Summer 2026",
