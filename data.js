@@ -92,6 +92,7 @@ const allPapers = [
     venue: "VLDB",
     authors: "Aritra Mazumder, Whanhee Cho, Anna Fariha",
     isDatabaseVenue: true,
+    award: "Best Demo Runner-up",
     confAttribute: "Demo",
   },
   {
