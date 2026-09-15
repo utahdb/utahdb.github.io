@@ -51,7 +51,7 @@ const allPapers = [
     year: 2026,
     paper:
       "Topological Analysis of Kernel Density Estimates via Uncertainty-Aware Morse Complexes and Coresets.",
-    venue: "IEEE Vis",
+    venue: "IEEE VIS",
     authors: "Weiran Lyu, Jeff M. Phillips, Bei Wang",
     isDatabaseVenue: false,
     confAttribute: "None",
