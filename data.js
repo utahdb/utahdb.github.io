@@ -1001,7 +1001,7 @@ const activeFaculties = [
     name: "Anna Fariha",
     note: "",
     field:
-      "Data systems usability, Data summarization, Trusted machine learning, Explainable AI, Data exploration and user interfaces, Data quality, Data cleaning, Data debugging, Responsible data management, Data fairness",
+      "Data systems usability, Data summarization, Data exploration, Recommendation for data tasks",
     picture: "images/annafariha.jpg",
     profileLink: "https://afariha.github.io/",
   },
