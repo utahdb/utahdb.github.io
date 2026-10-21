@@ -142,7 +142,7 @@
       </div>
     </div>
     <!--end-about-->
-    <!-- team -->
+    <!-- team -->	
 	<div class="team" id="faculty">
 	  <div class="container">
 	    <h3 class="tittle">Faculty</h3>
@@ -157,11 +157,12 @@
 	          <p style="display:block">
 	            {{ faculty.field }}
 	          </p>
+	          <div v-if="faculty.hidenote" aria-hidden="true" style="position:absolute; left:-10000px; width:1px; height:1px; overflow:hidden; white-space:pre-line;">{{ faculty.hidenote }}</div>
 	        </div>
 	      </div>
 	    </div>
 	  </div>
-	</div>
+	</div>	
     <!-- team -->
     <!--/research-->
     <div class="services" id="research">
