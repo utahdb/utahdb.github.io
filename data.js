@@ -1139,7 +1139,7 @@ currentStudents = [
     lastName: "Namjoo",
     image: "images/foad.jpg",
     study: "PhD",
-    url: "https://www.linkedin.com/in/foadnamjoo/",
+    url: "https://users.cs.utah.edu/~foad27/",
   },
   {
     firstName: "Whanhee",
@@ -1195,7 +1195,7 @@ currentStudents = [
     lastName: "Zhang",
     image: "images/daofu.jpg",
     study: "PhD",
-    url: "https://www.linkedin.com/in/daofu-zhang-841120340/",
+    url: "https://daofuz.github.io/",
   },
 ];
 
