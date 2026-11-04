@@ -1111,7 +1111,7 @@ currentStudents = [
     lastName: "Hossain",
     image: "images/rabeya.jpg",
     study: "PhD",
-    url: "https://github.com/Rabeya-hossain",
+    url: "https://rabeya-hossain.github.io/",
   },
   {
     firstName: "Anirudh",
