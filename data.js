@@ -1197,6 +1197,13 @@ currentStudents = [
     study: "PhD",
     url: "https://daofuz.github.io/",
   },
+  {
+    firstName: "Linlin",
+    lastName: "Wu",
+    image: "images/linlin.jpg",
+    study: "PhD",
+    url: "https://natelie712.github.io/personal_website/",
+  },
 ];
 
 videos = [
