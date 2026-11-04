@@ -11,6 +11,44 @@ const allPapers = [
   //     "award": "Best Paper Award" // Optional: Add this field to display a trophy icon and award name next to the paper title
   // },
   {
+    year: 2027,
+    paper:
+      "FINDER: Studying and Repairing What Test-Time Learning Changes in Deep-Research Agents",
+    venue: "WSDM",
+    authors:
+      "Yinxi Li, Qingcheng Zeng, Weihao Xuan, Heli Qi, Fuheng Zhao, Puxuan Yu, Kaize Ding, Pengyu Nie, Tianyu Liu",
+    isDatabaseVenue: false,
+    confAttribute: "None",
+  },
+  {
+    year: 2026,
+    paper:
+      "AgentCollabBench: Diagnosing When Good Agents Make Bad Collaborators",
+    venue: "NeurIPS",
+    authors:
+      "Aritra Mazumder, Shubhashis Roy Dipta, Nusrat Jahan Lia, Tanzila Khan, Kainat Raisa Hossain, Nehaa Shri, Shubhrangshu Debsarkar, Humayra Tasnim, Gour Gupal Talukder Shawon, Debjoty Mitra, Sumaiya Ahmed Rani, Al Jami Islam Anik, Al Nafeu Khan",
+    isDatabaseVenue: false,
+    confAttribute: "Evaluations and Datasets",
+  },
+  {
+    year: 2026,
+    paper:
+      "Optimizing Computational-Statistical Runtime for Wasserstein Distance Estimation.",
+    venue: "NeurIPS",
+    authors: "Peter Matthew Jacobs, Jeff M. Phillips",
+    isDatabaseVenue: false,
+    confAttribute: "None",
+  },
+  {
+    year: 2026,
+    paper: "Optimal Dimension-Free Sampling for Regularized Classification.",
+    venue: "NeurIPS",
+    authors:
+      "Meysam Alishahi, Alexander Munteanu, Simon Omlor, Jeff M. Phillips",
+    isDatabaseVenue: false,
+    confAttribute: "None",
+  },
+  {
     year: 2026,
     paper:
       "AgentCheck: A Reproduce–Intervene–Mitigate Workbench for LLM Agents over MCP",
