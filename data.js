@@ -13,6 +13,16 @@ const allPapers = [
   {
     year: 2027,
     paper:
+      "Example-Driven Intent Synthesis for Constrained Data Bundle Retrieval: Focused Text Snippet Extraction and Beyond",
+    venue: "VLDB",
+    authors:
+      "Whanhee Cho, Kuangfei Long, Mahmood Jasim, Matteo Brucato, Alexandra Meliou, Peter J. Haas, Anna Fariha",
+    isDatabaseVenue: true,
+    confAttribute: "None",
+  },
+  {
+    year: 2027,
+    paper:
       "FINDER: Studying and Repairing What Test-Time Learning Changes in Deep-Research Agents",
     venue: "WSDM",
     authors:
