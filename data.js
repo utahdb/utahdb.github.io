@@ -1252,6 +1252,13 @@ currentStudents = [
     study: "PhD",
     url: "https://natelie712.github.io/personal_website/",
   },
+  {
+    firstName: "Simón Pedro",
+    lastName: "González",
+    image: "images/simon.jpg",
+    study: "PhD",
+    url: "https://simonpedrogonzalez.github.io/",
+  },
 ];
 
 videos = [
